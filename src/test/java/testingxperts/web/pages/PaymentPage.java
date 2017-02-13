@@ -67,10 +67,7 @@ public class PaymentPage extends HomePage{
 	public static void verifyCreditCardInfoForm() throws Exception{
 		clickPaymentOption(PaymentOptions.CREDIT_CARD);
 		pause(1000);
-		
-		
 	}
-	
 	
 	
 	public static void inputCreditCardNumber(String number) throws Exception{
