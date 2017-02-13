@@ -42,6 +42,7 @@ public class IGP_TC_199 extends KeywordUtil{
 			 		2. Log to report and Logger
 			 		3. Perform Action
 			 		4. Verify Action
+			 		
 			*/
 		
 			//.........Script Start...........................
@@ -97,11 +98,41 @@ public class IGP_TC_199 extends KeywordUtil{
 			verifyStep(PaymentPage.isPaymentPageLoaded(),stepInfo);
 			
 			
-			stepInfo=" Verify by entering credit card number card provider automatically appear.";
+			stepInfo=" Verify By Clicking on Debit card option in the side window should display Debit card form with its options";
+			logStep(stepInfo);
 			
-							
-			String elementSShot=takeScreenshotWebElement(waitForVisibile(By.cssSelector(".payment-block")),"PaymentMethods");
-			HtmlReportUtil.attachScreenshotForInfo(elementSShot);
+			boolean isDisplayed =true;
+			stepInfo="Verify Credit card form fields are displaying";
+			isDisplayed=isWebElementVisible(PaymentPage.inputCreditCardNumber);
+			isDisplayed=isWebElementVisible(PaymentPage.inputCreditCardCCV);
+			isDisplayed=isWebElementVisible(PaymentPage.inputCreditCardNameOnCard);
+			isDisplayed=isWebElementVisible(PaymentPage.ddCreditCardMonth);
+			isDisplayed=isWebElementVisible(PaymentPage.ddCreditCardYear);
+			logStep(stepInfo);
+			verifyStep(
+					isDisplayed,
+					stepInfo);
+					pause(1000);
+			String elementSShot=takeScreenshotWebElement(waitForVisibile(By.cssSelector(".payment-block")),"PaymentMethodsCreditCard");
+			HtmlReportUtil.attachScreenshotForInfo(elementSShot);		
+					
+			PaymentPage.clickPaymentOption(PaymentPage.PaymentOptions.DEBIT_CARD);
+			stepInfo="Verify Debit card form fields are displaying";
+			isDisplayed=isWebElementVisible(PaymentPage.ddDebitCardYear);
+			isDisplayed=isWebElementVisible(PaymentPage.inputDebitCardNumber);
+			isDisplayed=isWebElementVisible(PaymentPage.inputDebitCardCCV);
+			isDisplayed=isWebElementVisible(PaymentPage.inputDebitCardNameOnCard);
+			isDisplayed=isWebElementVisible(PaymentPage.ddDebitCardMonth);
+			isDisplayed=isWebElementVisible(PaymentPage.ddDebitCardYear);
+			logStep(stepInfo);
+			verifyStep(
+					isDisplayed,
+					stepInfo);
+					pause(1000);
+			
+			
+		 elementSShot=takeScreenshotWebElement(waitForVisibile(By.cssSelector(".payment-block")),"PaymentMethodsDebitCard");
+		HtmlReportUtil.attachScreenshotForInfo(elementSShot);
 			
 			
 			getDriver().navigate().back();

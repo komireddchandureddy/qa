@@ -28867,3 +28867,114 @@ Session ID: d0dc92c97a53b75a880d0889e67585f2
 2017-02-10 11:58:45 INFO  - Default suite suite finished at Fri Feb 10 11:58:45 IST 2017
 2017-02-10 11:58:46 INFO  - Test process has ended
 2017-02-10 11:58:46 INFO  - History File created successfully
+2017-02-13 13:24:26 INFO  - 
+
++============================================================================================================================+
+2017-02-13 13:24:26 INFO  - Default suite suite started at Mon Feb 13 13:24:26 IST 2017
+2017-02-13 13:24:26 INFO  - Suite Browser: REST
+2017-02-13 13:24:28 INFO  - +=============Database started=============+
+2017-02-13 13:24:28 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 13:24:28 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 13:24:28 INFO  - +==========================================+
+
+2017-02-13 13:24:28 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 13:24:28 INFO  - Test Started: IGP_TC_URL
+2017-02-13 13:24:28 INFO  - Test description: Test list of given URLs whether they are working or not.
+2017-02-13 13:24:31 INFO  - https://google.com/ - Status code: 200
+2017-02-13 13:24:31 INFO  - Verified url
+2017-02-13 13:24:38 INFO  - https://yahoo.com/ - Status code: 200
+2017-02-13 13:24:38 INFO  - Verified url
+2017-02-13 13:24:38 INFO  - Test list of URL
+2017-02-13 13:24:38 INFO  - SSL peer shut down incorrectly
+2017-02-13 13:24:38 INFO  - Total Time taken in(seconds):10
+2017-02-13 13:24:38 INFO  - TestResults
+2017-02-13 13:24:39 INFO  - Default suite suite finished at Mon Feb 13 13:24:39 IST 2017
+2017-02-13 13:24:40 INFO  - Comparison sheet written successfully
+2017-02-13 13:24:40 INFO  - Data to excel written successfully
+2017-02-13 13:24:40 INFO  - History File created successfully
+2017-02-13 13:50:57 INFO  - 
+
++============================================================================================================================+
+2017-02-13 13:50:57 INFO  - Default suite suite started at Mon Feb 13 13:50:57 IST 2017
+2017-02-13 13:50:57 INFO  - Suite Browser: Chrome
+2017-02-13 13:50:59 INFO  - +=============Database started=============+
+2017-02-13 13:50:59 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 13:50:59 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 13:50:59 INFO  - +==========================================+
+
+2017-02-13 13:50:59 INFO  - Test is started with browser: Chrome
+2017-02-13 13:51:04 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 13:51:04 INFO  - Test Started: IGP_TC_199
+2017-02-13 13:51:04 INFO  - Test description: Credit Card & Debit card:Ensure that if the respective card selection opens expiry date, card number and CVV options.
+2017-02-13 13:51:04 INFO  - Open home page
+2017-02-13 13:51:04 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 13:51:11 INFO  - Open home page
+2017-02-13 13:51:11 INFO  - Select product from best selling
+2017-02-13 13:51:11 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 13:51:15 INFO  - Select product from best selling
+2017-02-13 13:51:15 INFO  - Enter valid Pin code and validate
+2017-02-13 13:51:15 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 13:51:15 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 13:51:15 INFO  - Input pincode:134102
+2017-02-13 13:51:15 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 13:51:18 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 13:51:18 INFO  - Valid Pin code message: Will be delivered today (if ordered within next 5 hours).
+2017-02-13 13:51:18 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 13:51:18 INFO  - Enter valid Pin code and validate
+2017-02-13 13:51:18 INFO  - Buy Now
+2017-02-13 13:51:18 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 13:51:18 INFO  - Buy Now
+2017-02-13 13:51:18 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 13:51:21 INFO  - The page should navigate to cart page
+2017-02-13 13:51:21 INFO  - Place order
+2017-02-13 13:51:21 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 13:51:21 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 13:51:23 INFO  - Click place order
+2017-02-13 13:51:27 INFO  - The user should be navigated to checkout page.
+2017-02-13 13:51:27 INFO  - Login at checkout page
+2017-02-13 13:51:27 INFO  - Login at checkout page
+2017-02-13 13:51:27 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 13:51:27 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 13:51:28 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 13:51:32 INFO  - Login at checkout page
+2017-02-13 13:51:32 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 13:51:32 INFO  - Click Deliver here
+2017-02-13 13:51:32 INFO  - Verify user navigated to Order Summary page
+2017-02-13 13:51:35 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 13:51:35 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 13:51:35 INFO  - Verify user navigated to Order Summary page
+2017-02-13 13:51:35 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 13:51:35 INFO  - Click place order
+2017-02-13 13:51:35 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 13:51:35 INFO  - Verify User should Navigate to Payment page
+2017-02-13 13:51:35 INFO  -  Verify By Clicking on Debit card option in the side window should display Debit card form with its options
+2017-02-13 13:51:35 INFO  - Check Element visible: By.xpath: //*[@id='c-card-form']//input[@name='ccnum']
+2017-02-13 13:51:36 INFO  - Check Element visible: By.xpath: //*[@id='c-card-form']//input[@name='ccvv']
+2017-02-13 13:51:36 INFO  - Check Element visible: By.xpath: //*[@id='c-card-form']//input[@ placeholder='Name on card']
+2017-02-13 13:51:36 INFO  - Check Element visible: By.xpath: //*[@id='c-card-form']//select[@name='ccexpmon']
+2017-02-13 13:51:36 INFO  - Check Element visible: By.xpath: //*[@id='c-card-form']//select[@name='ccexpyr']
+2017-02-13 13:51:36 INFO  - Verify Credit card form fields are displaying
+2017-02-13 13:51:36 INFO  - Verify Credit card form fields are displaying
+2017-02-13 13:51:37 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213135137_PaymentMethodsCreditCard.jpg
+2017-02-13 13:51:37 INFO  - Click: By.xpath: //li[@data-target='debit-card']
+2017-02-13 13:51:38 INFO  - Click Debit card
+2017-02-13 13:51:38 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//select[@name='ccexpyr']
+2017-02-13 13:51:38 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//input[@name='ccnum']
+2017-02-13 13:51:38 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//input[@name='ccvv']
+2017-02-13 13:51:38 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//input[@ placeholder='Name on card']
+2017-02-13 13:51:38 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//select[@name='ccexpmon']
+2017-02-13 13:51:38 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//select[@name='ccexpyr']
+2017-02-13 13:51:38 INFO  - Verify Debit card form fields are displaying
+2017-02-13 13:51:38 INFO  - Verify Debit card form fields are displaying
+2017-02-13 13:51:39 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213135139_PaymentMethodsDebitCard.jpg
+2017-02-13 13:51:39 INFO  - Total Time taken in(seconds):35
+2017-02-13 13:51:40 INFO  - TestResults
+2017-02-13 13:51:40 INFO  - **********TEST FINISHED-> IGP_TC_199-PASS**********
+2017-02-13 13:51:40 INFO  - Test has ended closing browser: Chrome
+2017-02-13 13:51:40 INFO  - Closing Browsers
+2017-02-13 13:51:41 INFO  - Default suite suite finished at Mon Feb 13 13:51:41 IST 2017
+2017-02-13 13:51:42 INFO  - Test process has ended
+2017-02-13 13:51:42 INFO  - History File created successfully

@@ -42,8 +42,6 @@ public class IGP_TC_URL extends KeywordUtil{
 			urlList.add("https://google.com/");
 			urlList.add("https://yahoo.com/");
 			urlList.add("https://igp.com");
-			
-						
 			for(String url : urlList){
 				int statusCode;
 				try {
