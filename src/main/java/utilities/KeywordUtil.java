@@ -253,6 +253,13 @@ public class KeywordUtil extends Utility {
 		WebElement elm = waitForVisibile(locator);
 		return elm.isDisplayed();
 	}
+	
+	public static boolean isWebElementEnable(By locator) {
+		KeywordUtil.lastAction="Check Element visible: " +locator.toString();
+		LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+		WebElement elm = waitForVisibile(locator);
+		return elm.isEnabled();
+	}
 
 	/**
 	 * @param locator

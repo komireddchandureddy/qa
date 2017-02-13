@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42638" started-at="2017-02-13T08:20:59Z" finished-at="2017-02-13T08:21:41Z">
+  <suite name="Default suite" duration-ms="65885" started-at="2017-02-13T14:03:54Z" finished-at="2017-02-13T14:05:00Z">
     <groups>
       <group name="Payment">
-        <method signature="IGP_TC_199.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_199@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_199"/>
+        <method signature="IGP_TC_207.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_207@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_207"/>
       </group> <!-- Payment -->
     </groups>
-    <test name="Default test" duration-ms="42638" started-at="2017-02-13T08:20:59Z" finished-at="2017-02-13T08:21:41Z">
-      <class name="testingxperts.web.tests.IGP_TC_199">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_199@eec5a4a]" name="test" duration-ms="35550" started-at="2017-02-13T13:51:04Z" description="Credit Card &amp; Debit card: Ensure that if the respective card selection opens expiry date, card number and CVV options." finished-at="2017-02-13T13:51:39Z">
+    <test name="Default test" duration-ms="65885" started-at="2017-02-13T14:03:54Z" finished-at="2017-02-13T14:05:00Z">
+      <class name="testingxperts.web.tests.IGP_TC_207">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_207@eec5a4a]" name="test" duration-ms="59179" started-at="2017-02-13T19:33:59Z" description="Net Banking: HDFC Bank -: Ensure that HDFC bank in Net Banking section" finished-at="2017-02-13T19:34:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.IGP_TC_199 -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_207 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

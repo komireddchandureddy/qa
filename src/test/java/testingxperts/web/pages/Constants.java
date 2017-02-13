@@ -13,6 +13,4 @@ public class Constants {
 	public static final String INVALID_COUPEN="ABC00";
 	public static final String MASTER_CARD_NUMBER = "5105105105105100";
 	
-	
-
 }

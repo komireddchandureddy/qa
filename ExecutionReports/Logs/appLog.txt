@@ -28978,3 +28978,1182 @@ Session ID: d0dc92c97a53b75a880d0889e67585f2
 2017-02-13 13:51:41 INFO  - Default suite suite finished at Mon Feb 13 13:51:41 IST 2017
 2017-02-13 13:51:42 INFO  - Test process has ended
 2017-02-13 13:51:42 INFO  - History File created successfully
+2017-02-13 14:09:35 INFO  - 
+
++============================================================================================================================+
+2017-02-13 14:09:35 INFO  - Default suite suite started at Mon Feb 13 14:09:35 IST 2017
+2017-02-13 14:09:35 INFO  - Suite Browser: Chrome
+2017-02-13 14:09:37 INFO  - +=============Database started=============+
+2017-02-13 14:09:37 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 14:09:37 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 14:09:37 INFO  - +==========================================+
+
+2017-02-13 14:09:37 INFO  - Test is started with browser: Chrome
+2017-02-13 14:09:42 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 14:09:42 INFO  - Test Started: IGP_TC_200
+2017-02-13 14:09:42 INFO  - Test description: Debit Card: Card type selection: Ensure that  User able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:09:42 INFO  - Open home page
+2017-02-13 14:09:42 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 14:09:53 INFO  - Open home page
+2017-02-13 14:09:53 INFO  - Select product from best selling
+2017-02-13 14:09:53 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 14:09:57 INFO  - Select product from best selling
+2017-02-13 14:09:57 INFO  - Enter valid Pin code and validate
+2017-02-13 14:09:57 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 14:09:57 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 14:09:57 INFO  - Input pincode:134102
+2017-02-13 14:09:57 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 14:09:59 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 14:09:59 INFO  - Valid Pin code message: Will be delivered today (if ordered within next 4 hours).
+2017-02-13 14:09:59 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 14:09:59 INFO  - Enter valid Pin code and validate
+2017-02-13 14:09:59 INFO  - Buy Now
+2017-02-13 14:09:59 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 14:09:59 INFO  - Buy Now
+2017-02-13 14:09:59 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 14:10:04 INFO  - The page should navigate to cart page
+2017-02-13 14:10:04 INFO  - Place order
+2017-02-13 14:10:04 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 14:10:04 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 14:10:04 INFO  - Click place order
+2017-02-13 14:10:08 INFO  - The user should be navigated to checkout page.
+2017-02-13 14:10:08 INFO  - Login at checkout page
+2017-02-13 14:10:08 INFO  - Login at checkout page
+2017-02-13 14:10:08 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 14:10:08 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 14:10:10 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 14:10:13 INFO  - Login at checkout page
+2017-02-13 14:10:13 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 14:10:14 INFO  - Click Deliver here
+2017-02-13 14:10:14 INFO  - Verify user navigated to Order Summary page
+2017-02-13 14:10:17 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 14:10:17 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 14:10:17 INFO  - Verify user navigated to Order Summary page
+2017-02-13 14:10:17 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 14:10:17 INFO  - Click place order
+2017-02-13 14:10:17 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 14:10:17 INFO  - Verify User should Navigate to Payment page
+2017-02-13 14:10:17 INFO  - Verify User should be able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:10:17 INFO  - Click: By.xpath: //li[@data-target='debit-card']
+2017-02-13 14:10:18 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213141017_IGP_TC_200.jpg
+2017-02-13 14:10:18 INFO  - Verify User should be able to select Card type in dropdown menu of the debit card selection. - Click: By.xpath: //li[@data-target='debit-card']
+2017-02-13 14:10:18 INFO  - unknown error: Element is not clickable at point (271, 325). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir9048_7864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 209dd132e29f2306cbc4e8ee89eb3177
+2017-02-13 14:10:18 INFO  - Total Time taken in(seconds):36
+2017-02-13 14:10:18 INFO  - **********TEST FINISHED-> IGP_TC_200-FAILED**********
+2017-02-13 14:10:18 INFO  - TestResults
+2017-02-13 14:10:19 INFO  - Test has ended closing browser: Chrome
+2017-02-13 14:10:19 INFO  - Closing Browsers
+2017-02-13 14:10:20 INFO  - Default suite suite finished at Mon Feb 13 14:10:20 IST 2017
+2017-02-13 14:10:20 INFO  - Test process has ended
+2017-02-13 14:10:20 INFO  - History File created successfully
+2017-02-13 14:12:07 INFO  - 
+
++============================================================================================================================+
+2017-02-13 14:12:07 INFO  - Default suite suite started at Mon Feb 13 14:12:07 IST 2017
+2017-02-13 14:12:07 INFO  - Suite Browser: Chrome
+2017-02-13 14:12:08 INFO  - +=============Database started=============+
+2017-02-13 14:12:08 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 14:12:08 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 14:12:08 INFO  - +==========================================+
+
+2017-02-13 14:12:08 INFO  - Test is started with browser: Chrome
+2017-02-13 14:12:14 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 14:12:14 INFO  - Test Started: IGP_TC_200
+2017-02-13 14:12:14 INFO  - Test description: Debit Card: Card type selection: Ensure that  User able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:12:14 INFO  - Open home page
+2017-02-13 14:12:14 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 14:12:21 INFO  - Open home page
+2017-02-13 14:12:21 INFO  - Select product from best selling
+2017-02-13 14:12:21 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 14:12:26 INFO  - Select product from best selling
+2017-02-13 14:12:26 INFO  - Enter valid Pin code and validate
+2017-02-13 14:12:26 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 14:12:26 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 14:12:26 INFO  - Input pincode:134102
+2017-02-13 14:12:26 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 14:12:28 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 14:12:28 INFO  - Valid Pin code message: Will be delivered today (if ordered within next 4 hours).
+2017-02-13 14:12:28 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 14:12:28 INFO  - Enter valid Pin code and validate
+2017-02-13 14:12:28 INFO  - Buy Now
+2017-02-13 14:12:28 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 14:12:29 INFO  - Buy Now
+2017-02-13 14:12:29 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 14:12:31 INFO  - The page should navigate to cart page
+2017-02-13 14:12:31 INFO  - Place order
+2017-02-13 14:12:31 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 14:12:32 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 14:12:34 INFO  - Click place order
+2017-02-13 14:12:38 INFO  - The user should be navigated to checkout page.
+2017-02-13 14:12:38 INFO  - Login at checkout page
+2017-02-13 14:12:38 INFO  - Login at checkout page
+2017-02-13 14:12:38 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 14:12:38 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 14:12:39 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 14:12:42 INFO  - Login at checkout page
+2017-02-13 14:12:42 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 14:12:42 INFO  - Click Deliver here
+2017-02-13 14:12:42 INFO  - Verify user navigated to Order Summary page
+2017-02-13 14:12:45 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 14:12:45 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 14:12:46 INFO  - Verify user navigated to Order Summary page
+2017-02-13 14:12:46 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 14:12:46 INFO  - Click place order
+2017-02-13 14:12:49 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 14:12:49 INFO  - Verify User should Navigate to Payment page
+2017-02-13 14:12:49 INFO  - Verify User should be able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:12:49 INFO  - Click: By.xpath: //li[@data-target='debit-card']
+2017-02-13 14:12:49 INFO  - Click Debit card
+2017-02-13 14:12:50 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//select[@name='ccexpyr']
+2017-02-13 14:12:50 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//select[@name='ccexpyr']
+2017-02-13 14:12:50 INFO  - Click: By.xpath: //*[@id='d-card-form']//select[@name='ccexpyr']
+2017-02-13 14:12:50 INFO  - Verify User should be able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:12:51 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213141251_PaymentMethodsCreditCard.jpg
+2017-02-13 14:12:52 INFO  - Total Time taken in(seconds):37
+2017-02-13 14:12:52 INFO  - TestResults
+2017-02-13 14:12:53 INFO  - **********TEST FINISHED-> IGP_TC_200-PASS**********
+2017-02-13 14:12:53 INFO  - Test has ended closing browser: Chrome
+2017-02-13 14:12:53 INFO  - Closing Browsers
+2017-02-13 14:12:54 INFO  - Default suite suite finished at Mon Feb 13 14:12:54 IST 2017
+2017-02-13 14:12:54 INFO  - Test process has ended
+2017-02-13 14:12:54 INFO  - History File created successfully
+2017-02-13 14:13:32 INFO  - 
+
++============================================================================================================================+
+2017-02-13 14:13:32 INFO  - Default suite suite started at Mon Feb 13 14:13:32 IST 2017
+2017-02-13 14:13:32 INFO  - Suite Browser: Chrome
+2017-02-13 14:13:34 INFO  - +=============Database started=============+
+2017-02-13 14:13:34 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 14:13:34 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 14:13:34 INFO  - +==========================================+
+
+2017-02-13 14:13:34 INFO  - Test is started with browser: Chrome
+2017-02-13 14:13:39 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 14:13:39 INFO  - Test Started: IGP_TC_200
+2017-02-13 14:13:39 INFO  - Test description: Debit Card: Card type selection: Ensure that  User able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:13:39 INFO  - Open home page
+2017-02-13 14:13:39 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 14:13:45 INFO  - Open home page
+2017-02-13 14:13:45 INFO  - Select product from best selling
+2017-02-13 14:13:45 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 14:13:49 INFO  - Select product from best selling
+2017-02-13 14:13:49 INFO  - Enter valid Pin code and validate
+2017-02-13 14:13:49 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 14:13:49 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 14:13:49 INFO  - Input pincode:134102
+2017-02-13 14:13:49 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 14:13:51 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 14:13:51 INFO  - Valid Pin code message: Will be delivered today (if ordered within next 4 hours).
+2017-02-13 14:13:51 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 14:13:51 INFO  - Enter valid Pin code and validate
+2017-02-13 14:13:51 INFO  - Buy Now
+2017-02-13 14:13:51 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 14:13:52 INFO  - Buy Now
+2017-02-13 14:13:52 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 14:13:56 INFO  - The page should navigate to cart page
+2017-02-13 14:13:56 INFO  - Place order
+2017-02-13 14:13:56 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 14:13:56 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 14:13:57 INFO  - Click place order
+2017-02-13 14:14:01 INFO  - The user should be navigated to checkout page.
+2017-02-13 14:14:01 INFO  - Login at checkout page
+2017-02-13 14:14:01 INFO  - Login at checkout page
+2017-02-13 14:14:01 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 14:14:01 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 14:14:02 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 14:14:05 INFO  - Login at checkout page
+2017-02-13 14:14:05 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 14:14:05 INFO  - Click Deliver here
+2017-02-13 14:14:05 INFO  - Verify user navigated to Order Summary page
+2017-02-13 14:14:08 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 14:14:08 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 14:14:08 INFO  - Verify user navigated to Order Summary page
+2017-02-13 14:14:08 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 14:14:08 INFO  - Click place order
+2017-02-13 14:14:11 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 14:14:11 INFO  - Verify User should Navigate to Payment page
+2017-02-13 14:14:11 INFO  - Verify User should be able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:14:11 INFO  - Click: By.xpath: //li[@data-target='debit-card']
+2017-02-13 14:14:11 INFO  - Click Debit card
+2017-02-13 14:14:12 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//select[@name='bankcode']
+2017-02-13 14:14:13 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//select[@name='bankcode']
+2017-02-13 14:14:13 INFO  - Click: By.xpath: //*[@id='d-card-form']//select[@name='bankcode']
+2017-02-13 14:14:13 INFO  - Verify User should be able to select Card type in dropdown menu of the debit card selection.
+2017-02-13 14:14:14 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213141414_PaymentMethodsCreditCard.jpg
+2017-02-13 14:14:14 INFO  - Total Time taken in(seconds):35
+2017-02-13 14:14:15 INFO  - TestResults
+2017-02-13 14:14:15 INFO  - **********TEST FINISHED-> IGP_TC_200-PASS**********
+2017-02-13 14:14:15 INFO  - Test has ended closing browser: Chrome
+2017-02-13 14:14:15 INFO  - Closing Browsers
+2017-02-13 14:14:16 INFO  - Default suite suite finished at Mon Feb 13 14:14:16 IST 2017
+2017-02-13 14:14:17 INFO  - Test process has ended
+2017-02-13 14:14:17 INFO  - History File created successfully
+2017-02-13 15:59:28 INFO  - 
+
++============================================================================================================================+
+2017-02-13 15:59:28 INFO  - Default suite suite started at Mon Feb 13 15:59:28 IST 2017
+2017-02-13 15:59:28 INFO  - Suite Browser: Chrome
+2017-02-13 15:59:30 INFO  - +=============Database started=============+
+2017-02-13 15:59:30 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 15:59:30 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 15:59:30 INFO  - +==========================================+
+
+2017-02-13 15:59:30 INFO  - Test is started with browser: Chrome
+2017-02-13 15:59:35 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 15:59:35 INFO  - Test Started: IGP_TC_090
+2017-02-13 15:59:35 INFO  - Test description: Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on 'Buy now'.
+2017-02-13 15:59:35 INFO  - Open home page
+2017-02-13 15:59:35 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 15:59:42 INFO  - Open home page
+2017-02-13 15:59:42 INFO  - Add product into cart.
+2017-02-13 15:59:42 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-02-13 15:59:45 INFO  - Click:FLOWER_AND_CAKE
+2017-02-13 15:59:45 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-02-13 15:59:51 INFO  - Select Item
+2017-02-13 15:59:51 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 15:59:51 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 15:59:51 INFO  - Input pincode
+2017-02-13 15:59:51 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 15:59:54 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-02-13 15:59:55 INFO  - Click: ADD TO CART
+2017-02-13 15:59:55 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-02-13 15:59:55 INFO  - Click cart button
+2017-02-13 15:59:58 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-02-13 15:59:59 INFO  - Add product into cart.
+2017-02-13 15:59:59 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-02-13 16:00:01 INFO  - Buy Now
+2017-02-13 16:00:01 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 16:00:01 INFO  - The page should navigate to order details page
+2017-02-13 16:00:01 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 16:00:08 INFO  - The page should navigate to order details page
+2017-02-13 16:00:08 INFO  - Verify pin update
+2017-02-13 16:00:08 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-02-13 16:00:09 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-02-13 16:00:09 INFO  - Input Text: 143505 - By.xpath: //input[@id='pin-code']
+2017-02-13 16:00:11 INFO  - Click: By.xpath: (//button[text()='Apply'])[position()=2]
+2017-02-13 16:00:13 INFO  - Verify Text Contains: 143505 - By.xpath: //*[@class='c-item-delivery v-center']//span[@class='number']
+2017-02-13 16:00:13 INFO  - Verified text expected "143505" actual "134102" 
+2017-02-13 16:00:13 INFO  - Verify pin update
+2017-02-13 16:00:14 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213160013_IGP_TC_090.jpg
+2017-02-13 16:00:14 INFO  - Verify pin update - Verify Text Contains: 143505 - By.xpath: //*[@class='c-item-delivery v-center']//span[@class='number']
+2017-02-13 16:00:14 INFO  - Varification failed-->Verify pin update
+2017-02-13 16:00:14 INFO  - Total Time taken in(seconds):39
+2017-02-13 16:00:14 INFO  - **********TEST FINISHED-> IGP_TC_090-FAILED**********
+2017-02-13 16:00:14 INFO  - TestResults
+2017-02-13 16:00:15 INFO  - Test has ended closing browser: Chrome
+2017-02-13 16:00:15 INFO  - Closing Browsers
+2017-02-13 16:00:16 INFO  - Default suite suite finished at Mon Feb 13 16:00:16 IST 2017
+2017-02-13 16:00:17 INFO  - Test process has ended
+2017-02-13 16:00:17 INFO  - History File created successfully
+2017-02-13 16:07:20 INFO  - 
+
++============================================================================================================================+
+2017-02-13 16:07:20 INFO  - Default suite suite started at Mon Feb 13 16:07:20 IST 2017
+2017-02-13 16:07:20 INFO  - Suite Browser: Chrome
+2017-02-13 16:07:22 INFO  - +=============Database started=============+
+2017-02-13 16:07:22 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 16:07:22 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 16:07:22 INFO  - +==========================================+
+
+2017-02-13 16:07:22 INFO  - Test is started with browser: Chrome
+2017-02-13 16:07:26 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 16:07:26 INFO  - Test Started: IGP_TC_090
+2017-02-13 16:07:26 INFO  - Test description: Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on 'Buy now'.
+2017-02-13 16:07:26 INFO  - Open home page
+2017-02-13 16:07:26 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 16:07:33 INFO  - Open home page
+2017-02-13 16:07:33 INFO  - Add product into cart.
+2017-02-13 16:07:33 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-02-13 16:07:35 INFO  - Click:FLOWER_AND_CAKE
+2017-02-13 16:07:35 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-02-13 16:07:40 INFO  - Select Item
+2017-02-13 16:07:40 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 16:07:40 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 16:07:40 INFO  - Input pincode
+2017-02-13 16:07:40 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 16:07:43 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-02-13 16:07:44 INFO  - Click: ADD TO CART
+2017-02-13 16:07:44 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-02-13 16:07:44 INFO  - Click cart button
+2017-02-13 16:07:46 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-02-13 16:07:46 INFO  - Add product into cart.
+2017-02-13 16:07:46 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-02-13 16:07:48 INFO  - Buy Now
+2017-02-13 16:07:48 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 16:07:49 INFO  - The page should navigate to order details page
+2017-02-13 16:07:49 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 16:07:53 INFO  - The page should navigate to order details page
+2017-02-13 16:07:53 INFO  - Verify pin update
+2017-02-13 16:07:53 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-02-13 16:07:54 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-02-13 16:07:54 INFO  - Input Text: 143505 - By.xpath: //input[@id='pin-code']
+2017-02-13 16:07:56 INFO  - Click: By.xpath: (//button[text()='Apply'])[position()=2]
+2017-02-13 16:08:00 INFO  - Verify Text Contains: 143505 - By.xpath: //*[@class='c-item-delivery v-center']//span[@class='number']
+2017-02-13 16:08:00 INFO  - Verified text expected "143505" actual "143505" 
+2017-02-13 16:08:00 INFO  - Verify pin update
+2017-02-13 16:08:04 INFO  - Total Time taken in(seconds):37
+2017-02-13 16:08:04 INFO  - TestResults
+2017-02-13 16:08:05 INFO  - **********TEST FINISHED-> IGP_TC_090-PASS**********
+2017-02-13 16:08:05 INFO  - Test has ended closing browser: Chrome
+2017-02-13 16:08:05 INFO  - Closing Browsers
+2017-02-13 16:08:06 INFO  - Default suite suite finished at Mon Feb 13 16:08:06 IST 2017
+2017-02-13 16:08:06 INFO  - Test process has ended
+2017-02-13 16:08:06 INFO  - History File created successfully
+2017-02-13 17:17:40 INFO  - 
+
++============================================================================================================================+
+2017-02-13 17:17:40 INFO  - Default suite suite started at Mon Feb 13 17:17:40 IST 2017
+2017-02-13 17:17:40 INFO  - Suite Browser: Chrome
+2017-02-13 17:17:41 INFO  - +=============Database started=============+
+2017-02-13 17:17:41 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 17:17:41 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 17:17:41 INFO  - +==========================================+
+
+2017-02-13 17:17:41 INFO  - Test is started with browser: Chrome
+2017-02-13 17:17:46 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 17:17:46 INFO  - Test Started: IGP_TC_201
+2017-02-13 17:17:46 INFO  - Test description: Credit Card & Debit card: Card Number field: Ensure  that if the user provides wrong card number it has to give error.
+2017-02-13 17:17:46 INFO  - Open home page
+2017-02-13 17:17:46 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 17:17:53 INFO  - Open home page
+2017-02-13 17:17:53 INFO  - Select product from best selling
+2017-02-13 17:17:53 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 17:17:53 INFO  - Select product from best selling
+2017-02-13 17:17:53 INFO  - Enter valid Pin code and validate
+2017-02-13 17:17:53 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 17:17:59 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 17:17:59 INFO  - Input pincode:134102
+2017-02-13 17:17:59 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 17:18:01 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 17:18:01 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 17:18:01 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 17:18:01 INFO  - Enter valid Pin code and validate
+2017-02-13 17:18:01 INFO  - Buy Now
+2017-02-13 17:18:01 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 17:18:01 INFO  - Buy Now
+2017-02-13 17:18:01 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 17:18:04 INFO  - The page should navigate to cart page
+2017-02-13 17:18:04 INFO  - Place order
+2017-02-13 17:18:04 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 17:18:04 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 17:18:04 INFO  - Click place order
+2017-02-13 17:18:08 INFO  - The user should be navigated to checkout page.
+2017-02-13 17:18:08 INFO  - Login at checkout page
+2017-02-13 17:18:08 INFO  - Login at checkout page
+2017-02-13 17:18:08 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 17:18:08 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 17:18:10 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 17:18:13 INFO  - Login at checkout page
+2017-02-13 17:18:13 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 17:18:13 INFO  - Click Deliver here
+2017-02-13 17:18:13 INFO  - Verify user navigated to Order Summary page
+2017-02-13 17:18:17 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 17:18:17 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 17:18:17 INFO  - Verify user navigated to Order Summary page
+2017-02-13 17:18:17 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 17:18:17 INFO  - Click place order
+2017-02-13 17:18:20 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 17:18:20 INFO  - Verify User should Navigate to Payment page
+2017-02-13 17:18:20 INFO  - Enter invalid debit card number and verify error
+2017-02-13 17:18:20 INFO  - Click: By.xpath: //li[@data-target='debit-card']
+2017-02-13 17:18:20 INFO  - Click Debit card
+2017-02-13 17:18:22 INFO  - Input Text: 1111222233334444 - By.xpath: //*[@id='d-card-form']//input[@name='ccnum']
+2017-02-13 17:18:22 INFO  - Input credit card number: 1111222233334444
+2017-02-13 17:18:22 INFO  - Click: By.xpath: //*[@id='d-card-form']//button[@type='submit']
+2017-02-13 17:18:22 INFO  - Click Make Payment
+2017-02-13 17:18:22 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//input[@name='ccnum'][contains(@class,'error')]
+2017-02-13 17:18:22 INFO  - Enter invalid debit card number and verify error
+2017-02-13 17:18:23 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213171823_PaymentMethodsCreditCard.jpg
+2017-02-13 17:18:24 INFO  - Total Time taken in(seconds):37
+2017-02-13 17:18:24 INFO  - TestResults
+2017-02-13 17:18:25 INFO  - **********TEST FINISHED-> IGP_TC_201-PASS**********
+2017-02-13 17:18:25 INFO  - Test has ended closing browser: Chrome
+2017-02-13 17:18:25 INFO  - Closing Browsers
+2017-02-13 17:18:26 INFO  - Default suite suite finished at Mon Feb 13 17:18:26 IST 2017
+2017-02-13 17:18:26 INFO  - Test process has ended
+2017-02-13 17:18:26 INFO  - History File created successfully
+2017-02-13 17:21:27 INFO  - 
+
++============================================================================================================================+
+2017-02-13 17:21:27 INFO  - Default suite suite started at Mon Feb 13 17:21:27 IST 2017
+2017-02-13 17:21:27 INFO  - Suite Browser: Chrome
+2017-02-13 17:21:29 INFO  - +=============Database started=============+
+2017-02-13 17:21:29 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 17:21:29 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 17:21:29 INFO  - +==========================================+
+
+2017-02-13 17:21:29 INFO  - Test is started with browser: Chrome
+2017-02-13 17:21:34 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 17:21:34 INFO  - Test Started: IGP_TC_201
+2017-02-13 17:21:34 INFO  - Test description: Credit Card & Debit card: Card Number field: Ensure  that if the user provides wrong card number it has to give error.
+2017-02-13 17:21:34 INFO  - Open home page
+2017-02-13 17:21:34 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 17:21:41 INFO  - Open home page
+2017-02-13 17:21:41 INFO  - Select product from best selling
+2017-02-13 17:21:41 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 17:21:45 INFO  - Select product from best selling
+2017-02-13 17:21:45 INFO  - Enter valid Pin code and validate
+2017-02-13 17:21:45 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 17:21:45 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 17:21:45 INFO  - Input pincode:134102
+2017-02-13 17:21:45 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 17:21:47 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 17:21:47 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 17:21:47 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 17:21:47 INFO  - Enter valid Pin code and validate
+2017-02-13 17:21:47 INFO  - Buy Now
+2017-02-13 17:21:47 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 17:21:48 INFO  - Buy Now
+2017-02-13 17:21:48 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 17:21:51 INFO  - The page should navigate to cart page
+2017-02-13 17:21:51 INFO  - Place order
+2017-02-13 17:21:51 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 17:21:51 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 17:21:51 INFO  - Click place order
+2017-02-13 17:21:55 INFO  - The user should be navigated to checkout page.
+2017-02-13 17:21:55 INFO  - Login at checkout page
+2017-02-13 17:21:55 INFO  - Login at checkout page
+2017-02-13 17:21:55 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 17:21:55 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 17:21:56 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 17:22:00 INFO  - Login at checkout page
+2017-02-13 17:22:00 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 17:22:00 INFO  - Click Deliver here
+2017-02-13 17:22:00 INFO  - Verify user navigated to Order Summary page
+2017-02-13 17:22:03 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 17:22:03 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 17:22:03 INFO  - Verify user navigated to Order Summary page
+2017-02-13 17:22:03 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 17:22:03 INFO  - Click place order
+2017-02-13 17:22:06 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 17:22:06 INFO  - Verify User should Navigate to Payment page
+2017-02-13 17:22:06 INFO  - Enter invalid debit card number and verify error
+2017-02-13 17:22:06 INFO  - Click: By.xpath: //li[@data-target='debit-card']
+2017-02-13 17:22:06 INFO  - Click Debit card
+2017-02-13 17:22:17 INFO  - Input credit card number: 1111222233334444
+2017-02-13 17:22:17 INFO  - Click: By.xpath: //*[@id='d-card-form']//button[@type='submit']
+2017-02-13 17:22:17 INFO  - Click Make Payment
+2017-02-13 17:22:17 INFO  - Check Element visible: By.xpath: //*[@id='d-card-form']//input[@name='ccnum'][contains(@class,'error')]
+2017-02-13 17:22:17 INFO  - Enter invalid debit card number and verify error
+2017-02-13 17:22:18 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213172218_PaymentMethodsCreditCard.jpg
+2017-02-13 17:22:19 INFO  - Total Time taken in(seconds):45
+2017-02-13 17:22:20 INFO  - TestResults
+2017-02-13 17:22:20 INFO  - **********TEST FINISHED-> IGP_TC_201-PASS**********
+2017-02-13 17:22:20 INFO  - Test has ended closing browser: Chrome
+2017-02-13 17:22:20 INFO  - Closing Browsers
+2017-02-13 17:22:21 INFO  - Default suite suite finished at Mon Feb 13 17:22:21 IST 2017
+2017-02-13 17:22:22 INFO  - Test process has ended
+2017-02-13 17:22:22 INFO  - History File created successfully
+2017-02-13 18:30:16 INFO  - 
+
++============================================================================================================================+
+2017-02-13 18:30:16 INFO  - Default suite suite started at Mon Feb 13 18:30:16 IST 2017
+2017-02-13 18:30:16 INFO  - Suite Browser: Chrome
+2017-02-13 18:30:18 INFO  - +=============Database started=============+
+2017-02-13 18:30:18 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 18:30:18 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 18:30:18 INFO  - +==========================================+
+
+2017-02-13 18:30:18 INFO  - Test is started with browser: Chrome
+2017-02-13 18:30:23 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 18:30:23 INFO  - Test Started: IGP_TC_206
+2017-02-13 18:30:23 INFO  - Test description: Net Banking: Ensure that Net Banking option in Payment page
+2017-02-13 18:30:23 INFO  - Open home page
+2017-02-13 18:30:23 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 18:30:34 INFO  - Open home page
+2017-02-13 18:30:34 INFO  - Select product from best selling
+2017-02-13 18:30:34 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 18:30:41 INFO  - Select product from best selling
+2017-02-13 18:30:41 INFO  - Enter valid Pin code and validate
+2017-02-13 18:30:41 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 18:30:42 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 18:30:42 INFO  - Input pincode:134102
+2017-02-13 18:30:42 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 18:30:44 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 18:30:44 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 18:30:44 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 18:30:44 INFO  - Enter valid Pin code and validate
+2017-02-13 18:30:44 INFO  - Buy Now
+2017-02-13 18:30:44 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 18:30:45 INFO  - Buy Now
+2017-02-13 18:30:45 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 18:30:51 INFO  - The page should navigate to cart page
+2017-02-13 18:30:51 INFO  - Place order
+2017-02-13 18:30:51 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 18:30:51 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 18:30:53 INFO  - Click place order
+2017-02-13 18:30:58 INFO  - The user should be navigated to checkout page.
+2017-02-13 18:30:58 INFO  - Login at checkout page
+2017-02-13 18:30:58 INFO  - Login at checkout page
+2017-02-13 18:30:58 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 18:30:58 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 18:30:59 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 18:31:05 INFO  - Login at checkout page
+2017-02-13 18:31:05 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 18:31:05 INFO  - Click Deliver here
+2017-02-13 18:31:05 INFO  - Verify user navigated to Order Summary page
+2017-02-13 18:31:08 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 18:31:08 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 18:31:08 INFO  - Verify user navigated to Order Summary page
+2017-02-13 18:31:08 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 18:31:08 INFO  - Click place order
+2017-02-13 18:31:11 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 18:31:11 INFO  - Verify User should Navigate to Payment page
+2017-02-13 18:31:11 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 18:31:11 INFO  - Click Net Banking
+2017-02-13 18:31:12 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 18:31:12 INFO  - Verify net banking option
+2017-02-13 18:31:14 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213183113_PaymentMethodsCreditCard.jpg
+2017-02-13 18:31:14 INFO  - Total Time taken in(seconds):51
+2017-02-13 18:31:14 INFO  - TestResults
+2017-02-13 18:31:15 INFO  - **********TEST FINISHED-> IGP_TC_206-PASS**********
+2017-02-13 18:31:15 INFO  - Test has ended closing browser: Chrome
+2017-02-13 18:31:15 INFO  - Closing Browsers
+2017-02-13 18:31:16 INFO  - Default suite suite finished at Mon Feb 13 18:31:16 IST 2017
+2017-02-13 18:31:17 INFO  - Test process has ended
+2017-02-13 18:31:17 INFO  - History File created successfully
+2017-02-13 18:58:04 INFO  - 
+
++============================================================================================================================+
+2017-02-13 18:58:04 INFO  - Default suite suite started at Mon Feb 13 18:58:04 IST 2017
+2017-02-13 18:58:04 INFO  - Suite Browser: Chrome
+2017-02-13 18:58:06 INFO  - +=============Database started=============+
+2017-02-13 18:58:06 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 18:58:06 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 18:58:06 INFO  - +==========================================+
+
+2017-02-13 18:58:06 INFO  - Test is started with browser: Chrome
+2017-02-13 18:58:11 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 18:58:11 INFO  - Test Started: IGP_TC_207
+2017-02-13 18:58:11 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 18:58:11 INFO  - Open home page
+2017-02-13 18:58:11 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 18:58:19 INFO  - Open home page
+2017-02-13 18:58:19 INFO  - Select product from best selling
+2017-02-13 18:58:19 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 18:58:23 INFO  - Select product from best selling
+2017-02-13 18:58:23 INFO  - Enter valid Pin code and validate
+2017-02-13 18:58:23 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 18:58:23 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 18:58:23 INFO  - Input pincode:134102
+2017-02-13 18:58:23 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 18:58:25 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 18:58:25 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 18:58:25 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 18:58:25 INFO  - Enter valid Pin code and validate
+2017-02-13 18:58:25 INFO  - Buy Now
+2017-02-13 18:58:25 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 18:58:26 INFO  - Buy Now
+2017-02-13 18:58:26 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 18:58:28 INFO  - The page should navigate to cart page
+2017-02-13 18:58:28 INFO  - Place order
+2017-02-13 18:58:28 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 18:58:28 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 18:58:30 INFO  - Click place order
+2017-02-13 18:58:34 INFO  - The user should be navigated to checkout page.
+2017-02-13 18:58:34 INFO  - Login at checkout page
+2017-02-13 18:58:34 INFO  - Login at checkout page
+2017-02-13 18:58:34 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 18:58:34 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 18:58:35 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 18:58:39 INFO  - Login at checkout page
+2017-02-13 18:58:39 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 18:58:39 INFO  - Click Deliver here
+2017-02-13 18:58:39 INFO  - Verify user navigated to Order Summary page
+2017-02-13 18:58:42 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 18:58:42 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 18:58:42 INFO  - Verify user navigated to Order Summary page
+2017-02-13 18:58:42 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 18:58:42 INFO  - Click place order
+2017-02-13 18:58:45 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 18:58:45 INFO  - Verify User should Navigate to Payment page
+2017-02-13 18:58:45 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 18:58:45 INFO  - Click Net Banking
+2017-02-13 18:58:46 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 18:58:46 INFO  - Verify net banking option
+2017-02-13 18:58:47 INFO  - Click: By.xpath: //*[@id='net-banking']//input[contains(@id,'HDF')]
+2017-02-13 18:59:38 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213185937_IGP_TC_207.jpg
+2017-02-13 18:59:38 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page - Click: By.xpath: //*[@id='net-banking']//input[contains(@id,'HDF')]
+2017-02-13 18:59:38 INFO  - Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='net-banking']//input[contains(@id,'HDF')] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir5048_31886}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 29513936d0fcb7dd7cc421fe62921123
+2017-02-13 18:59:38 INFO  - Total Time taken in(seconds):86
+2017-02-13 18:59:38 INFO  - **********TEST FINISHED-> IGP_TC_207-FAILED**********
+2017-02-13 18:59:38 INFO  - TestResults
+2017-02-13 18:59:39 INFO  - Test has ended closing browser: Chrome
+2017-02-13 18:59:39 INFO  - Closing Browsers
+2017-02-13 18:59:40 INFO  - Default suite suite finished at Mon Feb 13 18:59:40 IST 2017
+2017-02-13 18:59:40 INFO  - Test process has ended
+2017-02-13 18:59:40 INFO  - History File created successfully
+2017-02-13 19:03:01 INFO  - 
+
++============================================================================================================================+
+2017-02-13 19:03:01 INFO  - Default suite suite started at Mon Feb 13 19:03:01 IST 2017
+2017-02-13 19:03:01 INFO  - Suite Browser: Chrome
+2017-02-13 19:03:03 INFO  - +=============Database started=============+
+2017-02-13 19:03:03 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 19:03:03 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 19:03:03 INFO  - +==========================================+
+
+2017-02-13 19:03:03 INFO  - Test is started with browser: Chrome
+2017-02-13 19:03:08 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 19:03:08 INFO  - Test Started: IGP_TC_207
+2017-02-13 19:03:08 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 19:03:08 INFO  - Open home page
+2017-02-13 19:03:08 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 19:03:14 INFO  - Open home page
+2017-02-13 19:03:14 INFO  - Select product from best selling
+2017-02-13 19:03:14 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 19:03:14 INFO  - Select product from best selling
+2017-02-13 19:03:14 INFO  - Enter valid Pin code and validate
+2017-02-13 19:03:14 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 19:03:20 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 19:03:20 INFO  - Input pincode:134102
+2017-02-13 19:03:20 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 19:03:22 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:03:22 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 19:03:22 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:03:22 INFO  - Enter valid Pin code and validate
+2017-02-13 19:03:22 INFO  - Buy Now
+2017-02-13 19:03:22 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 19:03:23 INFO  - Buy Now
+2017-02-13 19:03:23 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:03:25 INFO  - The page should navigate to cart page
+2017-02-13 19:03:25 INFO  - Place order
+2017-02-13 19:03:25 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:03:25 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 19:03:25 INFO  - Click place order
+2017-02-13 19:03:29 INFO  - The user should be navigated to checkout page.
+2017-02-13 19:03:29 INFO  - Login at checkout page
+2017-02-13 19:03:29 INFO  - Login at checkout page
+2017-02-13 19:03:29 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 19:03:30 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 19:03:31 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 19:03:34 INFO  - Login at checkout page
+2017-02-13 19:03:34 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 19:03:34 INFO  - Click Deliver here
+2017-02-13 19:03:34 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:03:37 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 19:03:37 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 19:03:37 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:03:37 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 19:03:37 INFO  - Click place order
+2017-02-13 19:03:40 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 19:03:40 INFO  - Verify User should Navigate to Payment page
+2017-02-13 19:03:40 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 19:03:40 INFO  - Click Net Banking
+2017-02-13 19:03:41 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 19:03:41 INFO  - Verify net banking option
+2017-02-13 19:03:43 INFO  - Click: By.xpath: //*[@id='net-banking']//img[contains(@src,'hdfc.png')]
+2017-02-13 19:03:43 INFO  - Click HDFC BANK
+2017-02-13 19:03:43 INFO  - Click: By.xpath: //*[@id='d-card-form']//button[@type='submit']
+2017-02-13 19:04:33 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213190433_IGP_TC_207.jpg
+2017-02-13 19:04:33 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page - Click: By.xpath: //*[@id='d-card-form']//button[@type='submit']
+2017-02-13 19:04:33 INFO  - Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='d-card-form']//button[@type='submit'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir7620_31986}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: eb6fb6d15e4dc39fde92dcad2fc8d311
+2017-02-13 19:04:33 INFO  - Total Time taken in(seconds):85
+2017-02-13 19:04:33 INFO  - **********TEST FINISHED-> IGP_TC_207-FAILED**********
+2017-02-13 19:04:34 INFO  - TestResults
+2017-02-13 19:04:34 INFO  - Test has ended closing browser: Chrome
+2017-02-13 19:04:34 INFO  - Closing Browsers
+2017-02-13 19:04:35 INFO  - Default suite suite finished at Mon Feb 13 19:04:35 IST 2017
+2017-02-13 19:04:36 INFO  - Test process has ended
+2017-02-13 19:04:36 INFO  - History File created successfully
+2017-02-13 19:08:42 INFO  - 
+
++============================================================================================================================+
+2017-02-13 19:08:42 INFO  - Default suite suite started at Mon Feb 13 19:08:42 IST 2017
+2017-02-13 19:08:42 INFO  - Suite Browser: Chrome
+2017-02-13 19:08:44 INFO  - +=============Database started=============+
+2017-02-13 19:08:44 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 19:08:44 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 19:08:44 INFO  - +==========================================+
+
+2017-02-13 19:08:44 INFO  - Test is started with browser: Chrome
+2017-02-13 19:08:49 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 19:08:49 INFO  - Test Started: IGP_TC_207
+2017-02-13 19:08:49 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 19:08:49 INFO  - Open home page
+2017-02-13 19:08:49 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 19:08:56 INFO  - Open home page
+2017-02-13 19:08:56 INFO  - Select product from best selling
+2017-02-13 19:08:56 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 19:08:56 INFO  - Select product from best selling
+2017-02-13 19:08:56 INFO  - Enter valid Pin code and validate
+2017-02-13 19:08:56 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 19:09:02 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 19:09:02 INFO  - Input pincode:134102
+2017-02-13 19:09:02 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 19:09:04 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:09:04 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 19:09:04 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:09:04 INFO  - Enter valid Pin code and validate
+2017-02-13 19:09:04 INFO  - Buy Now
+2017-02-13 19:09:04 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 19:09:04 INFO  - Buy Now
+2017-02-13 19:09:04 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:09:10 INFO  - The page should navigate to cart page
+2017-02-13 19:09:10 INFO  - Place order
+2017-02-13 19:09:10 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:09:10 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 19:09:11 INFO  - Click place order
+2017-02-13 19:09:15 INFO  - The user should be navigated to checkout page.
+2017-02-13 19:09:15 INFO  - Login at checkout page
+2017-02-13 19:09:15 INFO  - Login at checkout page
+2017-02-13 19:09:15 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 19:09:15 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 19:09:16 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 19:09:20 INFO  - Login at checkout page
+2017-02-13 19:09:20 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 19:09:20 INFO  - Click Deliver here
+2017-02-13 19:09:20 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:09:23 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 19:09:23 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 19:09:23 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:09:23 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 19:09:23 INFO  - Click place order
+2017-02-13 19:09:26 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 19:09:26 INFO  - Verify User should Navigate to Payment page
+2017-02-13 19:09:26 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 19:09:26 INFO  - Click Net Banking
+2017-02-13 19:09:27 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 19:09:27 INFO  - Verify net banking option
+2017-02-13 19:09:28 INFO  - Click: By.xpath: //*[@id='net-banking']//img[contains(@src,'hdfc.png')]
+2017-02-13 19:09:28 INFO  - Click HDFC BANK
+2017-02-13 19:09:28 INFO  - Click: By.xpath: //button[@type='submit']
+2017-02-13 19:10:19 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213191019_IGP_TC_207.jpg
+2017-02-13 19:10:19 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page - Click: By.xpath: //button[@type='submit']
+2017-02-13 19:10:19 INFO  - Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type='submit'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir11856_26957}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 914955356f72f96f42fa5c5bf6a2494d
+2017-02-13 19:10:19 INFO  - Total Time taken in(seconds):89
+2017-02-13 19:10:19 INFO  - **********TEST FINISHED-> IGP_TC_207-FAILED**********
+2017-02-13 19:10:19 INFO  - TestResults
+2017-02-13 19:10:20 INFO  - Test has ended closing browser: Chrome
+2017-02-13 19:10:20 INFO  - Closing Browsers
+2017-02-13 19:10:21 INFO  - Default suite suite finished at Mon Feb 13 19:10:21 IST 2017
+2017-02-13 19:10:21 INFO  - Test process has ended
+2017-02-13 19:10:22 INFO  - History File created successfully
+2017-02-13 19:21:11 INFO  - 
+
++============================================================================================================================+
+2017-02-13 19:21:11 INFO  - Default suite suite started at Mon Feb 13 19:21:11 IST 2017
+2017-02-13 19:21:11 INFO  - Suite Browser: Chrome
+2017-02-13 19:21:13 INFO  - +=============Database started=============+
+2017-02-13 19:21:13 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 19:21:13 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 19:21:13 INFO  - +==========================================+
+
+2017-02-13 19:21:13 INFO  - Test is started with browser: Chrome
+2017-02-13 19:21:18 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 19:21:18 INFO  - Test Started: IGP_TC_207
+2017-02-13 19:21:18 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 19:21:18 INFO  - Open home page
+2017-02-13 19:21:18 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 19:21:34 INFO  - Open home page
+2017-02-13 19:21:34 INFO  - Select product from best selling
+2017-02-13 19:21:34 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 19:21:39 INFO  - Select product from best selling
+2017-02-13 19:21:39 INFO  - Enter valid Pin code and validate
+2017-02-13 19:21:39 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 19:21:39 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 19:21:39 INFO  - Input pincode:134102
+2017-02-13 19:21:39 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 19:21:42 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:21:42 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 19:21:42 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:21:42 INFO  - Enter valid Pin code and validate
+2017-02-13 19:21:42 INFO  - Buy Now
+2017-02-13 19:21:42 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 19:21:43 INFO  - Buy Now
+2017-02-13 19:21:43 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:21:48 INFO  - The page should navigate to cart page
+2017-02-13 19:21:48 INFO  - Place order
+2017-02-13 19:21:48 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:21:48 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 19:21:49 INFO  - Click place order
+2017-02-13 19:21:53 INFO  - The user should be navigated to checkout page.
+2017-02-13 19:21:53 INFO  - Login at checkout page
+2017-02-13 19:21:53 INFO  - Login at checkout page
+2017-02-13 19:21:53 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 19:21:53 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 19:21:54 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 19:21:59 INFO  - Login at checkout page
+2017-02-13 19:21:59 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 19:21:59 INFO  - Click Deliver here
+2017-02-13 19:21:59 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:22:02 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 19:22:02 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 19:22:02 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:22:02 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 19:22:03 INFO  - Click place order
+2017-02-13 19:22:06 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 19:22:06 INFO  - Verify User should Navigate to Payment page
+2017-02-13 19:22:06 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 19:22:06 INFO  - Click Net Banking
+2017-02-13 19:22:07 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 19:22:07 INFO  - Verify net banking option
+2017-02-13 19:22:08 INFO  - Click: By.xpath: //*[@id='net-banking']//img[contains(@src,'hdfc.png')]
+2017-02-13 19:22:08 INFO  - Click HDFC BANK
+2017-02-13 19:22:09 INFO  - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:22:11 INFO  - Make a payment using - HDFC BANK
+2017-02-13 19:22:11 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page
+2017-02-13 19:22:12 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213192211_IGP_TC_207.jpg
+2017-02-13 19:22:12 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:22:12 INFO  - Varification failed-->Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page
+2017-02-13 19:22:12 INFO  - Total Time taken in(seconds):54
+2017-02-13 19:22:12 INFO  - **********TEST FINISHED-> IGP_TC_207-FAILED**********
+2017-02-13 19:22:12 INFO  - TestResults
+2017-02-13 19:22:13 INFO  - Test has ended closing browser: Chrome
+2017-02-13 19:22:13 INFO  - Closing Browsers
+2017-02-13 19:22:14 INFO  - Default suite suite finished at Mon Feb 13 19:22:14 IST 2017
+2017-02-13 19:22:14 INFO  - Test process has ended
+2017-02-13 19:22:14 INFO  - History File created successfully
+2017-02-13 19:23:05 INFO  - 
+
++============================================================================================================================+
+2017-02-13 19:23:05 INFO  - Default suite suite started at Mon Feb 13 19:23:05 IST 2017
+2017-02-13 19:23:05 INFO  - Suite Browser: Chrome
+2017-02-13 19:23:07 INFO  - +=============Database started=============+
+2017-02-13 19:23:07 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 19:23:07 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 19:23:07 INFO  - +==========================================+
+
+2017-02-13 19:23:07 INFO  - Test is started with browser: Chrome
+2017-02-13 19:23:12 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 19:23:12 INFO  - Test Started: IGP_TC_207
+2017-02-13 19:23:12 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 19:23:12 INFO  - Open home page
+2017-02-13 19:23:12 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 19:23:19 INFO  - Open home page
+2017-02-13 19:23:19 INFO  - Select product from best selling
+2017-02-13 19:23:19 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 19:23:24 INFO  - Select product from best selling
+2017-02-13 19:23:24 INFO  - Enter valid Pin code and validate
+2017-02-13 19:23:24 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 19:23:24 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 19:23:24 INFO  - Input pincode:134102
+2017-02-13 19:23:24 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 19:23:26 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:23:26 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 19:23:26 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:23:26 INFO  - Enter valid Pin code and validate
+2017-02-13 19:23:26 INFO  - Buy Now
+2017-02-13 19:23:26 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 19:23:26 INFO  - Buy Now
+2017-02-13 19:23:26 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:23:31 INFO  - The page should navigate to cart page
+2017-02-13 19:23:31 INFO  - Place order
+2017-02-13 19:23:31 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:23:31 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 19:23:35 INFO  - Click place order
+2017-02-13 19:23:39 INFO  - The user should be navigated to checkout page.
+2017-02-13 19:23:39 INFO  - Login at checkout page
+2017-02-13 19:23:39 INFO  - Login at checkout page
+2017-02-13 19:23:39 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 19:23:39 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 19:23:40 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 19:23:43 INFO  - Login at checkout page
+2017-02-13 19:23:43 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 19:23:44 INFO  - Click Deliver here
+2017-02-13 19:23:44 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:23:47 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 19:23:47 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 19:23:47 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:23:47 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 19:23:47 INFO  - Click place order
+2017-02-13 19:23:50 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 19:23:50 INFO  - Verify User should Navigate to Payment page
+2017-02-13 19:23:50 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 19:23:50 INFO  - Click Net Banking
+2017-02-13 19:23:51 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 19:23:51 INFO  - Verify net banking option
+2017-02-13 19:23:52 INFO  - Click: By.xpath: //*[@id='net-banking']//img[contains(@src,'hdfc.png')]
+2017-02-13 19:23:52 INFO  - Click HDFC BANK
+2017-02-13 19:23:53 INFO  - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:23:55 INFO  - Make a payment using - HDFC BANK
+2017-02-13 19:24:02 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page
+2017-02-13 19:24:53 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213192453_IGP_TC_207.jpg
+2017-02-13 19:24:53 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:24:53 INFO  - Expected condition failed: waiting for visibility of element located by By.cssSelector: .payment-block (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir12224_1213}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b48f6dfe270bf6ef74cbdeffbf4df322
+2017-02-13 19:24:53 INFO  - Total Time taken in(seconds):101
+2017-02-13 19:24:53 INFO  - **********TEST FINISHED-> IGP_TC_207-FAILED**********
+2017-02-13 19:24:54 INFO  - TestResults
+2017-02-13 19:24:56 INFO  - Test has ended closing browser: Chrome
+2017-02-13 19:24:56 INFO  - Closing Browsers
+2017-02-13 19:24:57 INFO  - Default suite suite finished at Mon Feb 13 19:24:57 IST 2017
+2017-02-13 19:24:57 INFO  - Test process has ended
+2017-02-13 19:24:57 INFO  - History File created successfully
+2017-02-13 19:27:20 INFO  - 
+
++============================================================================================================================+
+2017-02-13 19:27:20 INFO  - Default suite suite started at Mon Feb 13 19:27:20 IST 2017
+2017-02-13 19:27:20 INFO  - Suite Browser: Chrome
+2017-02-13 19:27:23 INFO  - +=============Database started=============+
+2017-02-13 19:27:23 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 19:27:23 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 19:27:23 INFO  - +==========================================+
+
+2017-02-13 19:27:23 INFO  - Test is started with browser: Chrome
+2017-02-13 19:27:28 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 19:27:28 INFO  - Test Started: IGP_TC_207
+2017-02-13 19:27:28 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 19:27:28 INFO  - Open home page
+2017-02-13 19:27:28 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 19:27:37 INFO  - Open home page
+2017-02-13 19:27:37 INFO  - Select product from best selling
+2017-02-13 19:27:37 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 19:27:41 INFO  - Select product from best selling
+2017-02-13 19:27:41 INFO  - Enter valid Pin code and validate
+2017-02-13 19:27:41 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 19:27:41 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 19:27:41 INFO  - Input pincode:134102
+2017-02-13 19:27:41 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 19:27:43 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:27:43 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 19:27:43 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:27:43 INFO  - Enter valid Pin code and validate
+2017-02-13 19:27:43 INFO  - Buy Now
+2017-02-13 19:27:43 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 19:27:45 INFO  - Buy Now
+2017-02-13 19:27:45 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:27:47 INFO  - The page should navigate to cart page
+2017-02-13 19:27:47 INFO  - Place order
+2017-02-13 19:27:47 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:27:47 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 19:27:50 INFO  - Click place order
+2017-02-13 19:27:54 INFO  - The user should be navigated to checkout page.
+2017-02-13 19:27:54 INFO  - Login at checkout page
+2017-02-13 19:27:54 INFO  - Login at checkout page
+2017-02-13 19:27:54 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 19:27:54 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 19:27:55 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 19:27:59 INFO  - Login at checkout page
+2017-02-13 19:27:59 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 19:27:59 INFO  - Click Deliver here
+2017-02-13 19:27:59 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:28:02 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 19:28:02 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 19:28:02 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:28:02 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 19:28:02 INFO  - Click place order
+2017-02-13 19:28:05 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 19:28:05 INFO  - Verify User should Navigate to Payment page
+2017-02-13 19:28:05 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 19:28:05 INFO  - Click Net Banking
+2017-02-13 19:28:06 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 19:28:06 INFO  - Verify net banking option
+2017-02-13 19:28:07 INFO  - Click: By.xpath: //*[@id='net-banking']//img[contains(@src,'hdfc.png')]
+2017-02-13 19:28:07 INFO  - Click HDFC BANK
+2017-02-13 19:28:08 INFO  - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:28:10 INFO  - Make a payment using - HDFC BANK
+2017-02-13 19:28:16 INFO  - Page url-: https://netbanking.hdfcbank.com/netbanking/merchant?ClientCode=130835&MerchantCode=PAYUINTERME1&TxnCurrency=INR&TxnAmount=980.00&TxnScAmount=0&MerchantRefNo=6019983902&SuccessStaticFlag=N&FailureStaticFlag=N&Date=13/02/2017%2019:28:09&Ref1=&Ref2=&Ref3=&Ref4=&Ref5=
+2017-02-13 19:28:16 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page
+2017-02-13 19:30:04 INFO  - 
+
++============================================================================================================================+
+2017-02-13 19:30:04 INFO  - Default suite suite started at Mon Feb 13 19:30:04 IST 2017
+2017-02-13 19:30:04 INFO  - Suite Browser: Chrome
+2017-02-13 19:30:06 INFO  - +=============Database started=============+
+2017-02-13 19:30:06 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 19:30:06 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 19:30:06 INFO  - +==========================================+
+
+2017-02-13 19:30:06 INFO  - Test is started with browser: Chrome
+2017-02-13 19:30:11 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 19:30:11 INFO  - Test Started: IGP_TC_207
+2017-02-13 19:30:11 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 19:30:11 INFO  - Open home page
+2017-02-13 19:30:11 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 19:30:27 INFO  - Open home page
+2017-02-13 19:30:27 INFO  - Select product from best selling
+2017-02-13 19:30:27 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 19:30:32 INFO  - Select product from best selling
+2017-02-13 19:30:32 INFO  - Enter valid Pin code and validate
+2017-02-13 19:30:32 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 19:30:32 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 19:30:32 INFO  - Input pincode:134102
+2017-02-13 19:30:32 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 19:30:34 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:30:34 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 19:30:34 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:30:34 INFO  - Enter valid Pin code and validate
+2017-02-13 19:30:34 INFO  - Buy Now
+2017-02-13 19:30:34 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 19:30:34 INFO  - Buy Now
+2017-02-13 19:30:34 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:30:37 INFO  - The page should navigate to cart page
+2017-02-13 19:30:37 INFO  - Place order
+2017-02-13 19:30:37 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:30:37 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 19:30:41 INFO  - Click place order
+2017-02-13 19:30:45 INFO  - The user should be navigated to checkout page.
+2017-02-13 19:30:45 INFO  - Login at checkout page
+2017-02-13 19:30:45 INFO  - Login at checkout page
+2017-02-13 19:30:45 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 19:30:45 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 19:30:46 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 19:30:49 INFO  - Login at checkout page
+2017-02-13 19:30:49 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 19:30:50 INFO  - Click Deliver here
+2017-02-13 19:30:50 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:30:53 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 19:30:53 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 19:30:53 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:30:53 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 19:30:53 INFO  - Click place order
+2017-02-13 19:30:56 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 19:30:56 INFO  - Verify User should Navigate to Payment page
+2017-02-13 19:30:56 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 19:30:56 INFO  - Click Net Banking
+2017-02-13 19:30:57 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 19:30:57 INFO  - Verify net banking option
+2017-02-13 19:30:58 INFO  - Click: By.xpath: //*[@id='net-banking']//img[contains(@src,'hdfc.png')]
+2017-02-13 19:30:58 INFO  - Click HDFC BANK
+2017-02-13 19:30:59 INFO  - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:31:00 INFO  - Make a payment using - HDFC BANK
+2017-02-13 19:31:06 INFO  - Page url-: https://netbanking.hdfcbank.com/netbanking/merchant?ClientCode=130835&MerchantCode=PAYUINTERME1&TxnCurrency=INR&TxnAmount=980.00&TxnScAmount=0&MerchantRefNo=6019987052&SuccessStaticFlag=N&FailureStaticFlag=N&Date=13/02/2017%2019:31:00&Ref1=&Ref2=&Ref3=&Ref4=&Ref5=
+2017-02-13 19:31:06 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page
+2017-02-13 19:31:57 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213193157_IGP_TC_207.jpg
+2017-02-13 19:31:57 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:31:57 INFO  - Expected condition failed: waiting for visibility of element located by By.cssSelector: .payment-block (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir9896_20067}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1a5d2bdde709c17188353846aa908c3a
+2017-02-13 19:31:57 INFO  - Total Time taken in(seconds):106
+2017-02-13 19:31:57 INFO  - **********TEST FINISHED-> IGP_TC_207-FAILED**********
+2017-02-13 19:31:58 INFO  - TestResults
+2017-02-13 19:31:58 INFO  - Test has ended closing browser: Chrome
+2017-02-13 19:31:58 INFO  - Closing Browsers
+2017-02-13 19:31:59 INFO  - Default suite suite finished at Mon Feb 13 19:31:59 IST 2017
+2017-02-13 19:32:00 INFO  - Test process has ended
+2017-02-13 19:32:00 INFO  - History File created successfully
+2017-02-13 19:33:52 INFO  - 
+
++============================================================================================================================+
+2017-02-13 19:33:52 INFO  - Default suite suite started at Mon Feb 13 19:33:52 IST 2017
+2017-02-13 19:33:52 INFO  - Suite Browser: Chrome
+2017-02-13 19:33:54 INFO  - +=============Database started=============+
+2017-02-13 19:33:54 INFO  - Database driver name: SQLiteJDBC
+2017-02-13 19:33:54 INFO  - Product name SQLite, Version 3.8.11
+2017-02-13 19:33:54 INFO  - +==========================================+
+
+2017-02-13 19:33:54 INFO  - Test is started with browser: Chrome
+2017-02-13 19:33:59 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-13 19:33:59 INFO  - Test Started: IGP_TC_207
+2017-02-13 19:33:59 INFO  - Test description: Net Banking: HDFC Bank: Ensure that HDFC bank in Net Banking section
+2017-02-13 19:33:59 INFO  - Open home page
+2017-02-13 19:33:59 INFO  - Navigate to: https://www.igp.com/
+2017-02-13 19:34:13 INFO  - Open home page
+2017-02-13 19:34:13 INFO  - Select product from best selling
+2017-02-13 19:34:13 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-02-13 19:34:18 INFO  - Select product from best selling
+2017-02-13 19:34:18 INFO  - Enter valid Pin code and validate
+2017-02-13 19:34:18 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-13 19:34:19 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-02-13 19:34:19 INFO  - Input pincode:134102
+2017-02-13 19:34:19 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-13 19:34:21 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:34:21 INFO  - Valid Pin code message: Will be delivered tomorrow.
+2017-02-13 19:34:21 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-02-13 19:34:21 INFO  - Enter valid Pin code and validate
+2017-02-13 19:34:21 INFO  - Buy Now
+2017-02-13 19:34:21 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-02-13 19:34:22 INFO  - Buy Now
+2017-02-13 19:34:22 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:34:29 INFO  - The page should navigate to cart page
+2017-02-13 19:34:29 INFO  - Place order
+2017-02-13 19:34:29 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-02-13 19:34:29 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-02-13 19:34:31 INFO  - Click place order
+2017-02-13 19:34:35 INFO  - The user should be navigated to checkout page.
+2017-02-13 19:34:35 INFO  - Login at checkout page
+2017-02-13 19:34:35 INFO  - Login at checkout page
+2017-02-13 19:34:35 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-02-13 19:34:35 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-02-13 19:34:36 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-02-13 19:34:41 INFO  - Login at checkout page
+2017-02-13 19:34:41 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-02-13 19:34:41 INFO  - Click Deliver here
+2017-02-13 19:34:41 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:34:44 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-02-13 19:34:44 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 980
+(Shipping Charge : Free)" 
+2017-02-13 19:34:44 INFO  - Verify user navigated to Order Summary page
+2017-02-13 19:34:44 INFO  - Click: By.linkText: PLACE ORDER
+2017-02-13 19:34:44 INFO  - Click place order
+2017-02-13 19:34:47 INFO  - Check Element present: By.xpath: //ul[@class='payment-method-list']
+2017-02-13 19:34:47 INFO  - Verify User should Navigate to Payment page
+2017-02-13 19:34:47 INFO  - Click: By.xpath: //li[@data-target='net-banking']
+2017-02-13 19:34:47 INFO  - Click Net Banking
+2017-02-13 19:34:48 INFO  - Check Element present: By.xpath: //div[contains(@class,'payment-method-wrapper')]/ul/li[contains(.,'Net Banking')][contains(@class,'active')]
+2017-02-13 19:34:48 INFO  - Verify net banking option
+2017-02-13 19:34:49 INFO  - Click: By.xpath: //*[@id='net-banking']//img[contains(@src,'hdfc.png')]
+2017-02-13 19:34:49 INFO  - Click HDFC BANK
+2017-02-13 19:34:50 INFO  - Click: By.xpath: //*[@id='net-banking-form']/button[@type='submit']
+2017-02-13 19:34:52 INFO  - Make a payment using - HDFC BANK
+2017-02-13 19:34:58 INFO  - Page url-: https://netbanking.hdfcbank.com/netbanking/merchant?ClientCode=130835&MerchantCode=PAYUINTERME1&TxnCurrency=INR&TxnAmount=980.00&TxnScAmount=0&MerchantRefNo=6019991465&SuccessStaticFlag=N&FailureStaticFlag=N&Date=13/02/2017%2019:34:51&Ref1=&Ref2=&Ref3=&Ref4=&Ref5=
+2017-02-13 19:34:58 INFO  - Verify selecting HDFC bank and click on payment user should navigate to hdfc netbanking page
+2017-02-13 19:34:58 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170213193458_PaymentBANK_HDFC.jpg
+2017-02-13 19:34:58 INFO  - Total Time taken in(seconds):59
+2017-02-13 19:34:59 INFO  - TestResults
+2017-02-13 19:34:59 INFO  - **********TEST FINISHED-> IGP_TC_207-PASS**********
+2017-02-13 19:34:59 INFO  - Test has ended closing browser: Chrome
+2017-02-13 19:34:59 INFO  - Closing Browsers
+2017-02-13 19:35:00 INFO  - Default suite suite finished at Mon Feb 13 19:35:00 IST 2017
+2017-02-13 19:35:01 INFO  - Test process has ended
+2017-02-13 19:35:01 INFO  - History File created successfully

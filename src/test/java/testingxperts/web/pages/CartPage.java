@@ -208,7 +208,7 @@ public static void updatePinCode(String pinCode) throws InterruptedException{
 	 inputText(By.xpath("//input[@id='pin-code']"), pinCode);
 	 pause(2000);
 	 click(btnApply);
-	 pause(2000);
+	 pause(4000);
 	 lastPinNumber=pinCode;
 	 
 	 
