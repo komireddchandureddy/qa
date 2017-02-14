@@ -187,6 +187,7 @@ public class CustomListeners extends Utility implements ISuiteListener, IInvoked
 		// Set current suite name for reporting
 		GlobalUtil.getTestData().setSuiteName(GlobalUtil.getCurrentSuiteName());
 		// Set platform for reporting
+		
 		GlobalUtil.getTestData().setTestPlatformInfo(System.getProperty("os.name") + "-" + GlobalUtil.getCurrentBrowser());
 		// Set Project ID
 		GlobalUtil.getTestData().setProjectID(GlobalUtil.getCommonSettings().getProjectName());

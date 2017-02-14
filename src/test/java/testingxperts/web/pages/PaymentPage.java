@@ -1,5 +1,7 @@
 package testingxperts.web.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 
 public class PaymentPage extends HomePage {
@@ -9,6 +11,10 @@ public class PaymentPage extends HomePage {
 	
 	public enum Bank {
 		AXIS_BANK,HDFC_BANK,ICICI_BANK, CITI_BANK 
+	}
+	
+	public enum Wallets {
+		PAYTM,BUDDY,MOBIKWIK 
 	}
 	
 
@@ -33,9 +39,10 @@ public class PaymentPage extends HomePage {
 	public static By ddDebitCardYear = By.xpath("//*[@id='d-card-form']//select[@name='ccexpyr']");
 	public static By txtDebitCardError =By.xpath("//*[@id='d-card-form']//input[@name='ccnum'][contains(@class,'error')]");
 	public static By btnMakePayment = By.xpath("//button[@type='submit']");
+	public static By ddNetBanking_AnotherBank = By.xpath("//select[@id='nb-bank-name']");
 	
-
-	public static boolean isPaymentPageLoaded() {
+	public static boolean isPaymentPageLoaded() throws Exception {
+		pause(4000);
 		return isWebElementPresent(listPaymentMethod);
 	}
 	
@@ -150,5 +157,30 @@ public class PaymentPage extends HomePage {
 		
 		executeStep(click(By.xpath("//*[@id='net-banking-form']/button[@type='submit']")), "Make a payment using - " +bankName);
 	}
+	
+public static void makePaymentWithWallet(Wallets wallets) throws Exception{
+		
+		String wallet="";
+		switch (wallets) {
+		case PAYTM:
+			executeStep(click(By.xpath("//img[ contains(@src,'paytm.png')]")), "Click PAYTM");
+			pause(1000);
+			wallet="PAYTM";
+			break;
+		case BUDDY:
+			executeStep(click(By.xpath(".//img[ contains(@src,'buddy.png')]")), "Click BUDDY");
+			pause(1000);
+			wallet="BUDDY";
+			break;
+		case MOBIKWIK:
+		executeStep(click(By.xpath(".//img[ contains(@src,'mobikwik')]")), "Click MOBIKWIK");
+			pause(1000);
+			wallet="MOBIKWIK";
+			break;
+			}
+		
+		executeStep(click(By.xpath("//*[@id='wallets']//button[@type='submit']")), "Make a payment using - " +wallet);
+	}
 
-}
+
+}//END CLASS

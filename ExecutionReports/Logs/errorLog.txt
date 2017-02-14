@@ -3687,3 +3687,237 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir9896_20067}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
 Session ID: 1a5d2bdde709c17188353846aa908c3a
 2017-02-13 19:31:57 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:52:54 ERROR - 
+========ERROR IN TEST : IGP_TC_196 =====================================
+2017-02-14 11:52:54 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:52:54 ERROR - stale element reference: element is not attached to the page document
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.56 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir11732_10774}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 76745f30ebe74a9b868a4e6aa1a484b8
+2017-02-14 11:52:54 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:52:56 ERROR - 
+========ERROR IN TEST : IGP_TC_196 =====================================
+2017-02-14 11:52:56 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:52:56 ERROR - stale element reference: element is not attached to the page document
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9.56 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir11732_10774}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 76745f30ebe74a9b868a4e6aa1a484b8
+2017-02-14 11:52:56 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:53:34 ERROR - 
+========ERROR IN TEST : IGP_TC_199 =====================================
+2017-02-14 11:53:34 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:53:34 ERROR - Varification failed-->Open home page
+2017-02-14 11:53:34 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:53:38 ERROR - 
+========ERROR IN TEST : IGP_TC_199 =====================================
+2017-02-14 11:53:38 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:53:38 ERROR - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: RemoteWebDriver
+2017-02-14 11:53:38 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:53:56 ERROR - 
+========ERROR IN TEST : IGP_TC_201 =====================================
+2017-02-14 11:53:56 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:53:56 ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Place Order'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir11732_10774}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 76745f30ebe74a9b868a4e6aa1a484b8
+2017-02-14 11:53:56 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:06 ERROR - 
+========ERROR IN TEST : IGP_TC_201 =====================================
+2017-02-14 11:54:06 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:06 ERROR - no such session
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 162 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir9288_4066}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b3004fb453409847b6ba397883fd367
+2017-02-14 11:54:06 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:08 ERROR - 
+========ERROR IN TEST : IGP_TC_201 =====================================
+2017-02-14 11:54:08 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:08 ERROR - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: RemoteWebDriver
+2017-02-14 11:54:08 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:46 ERROR - 
+========ERROR IN TEST : IGP_TC_208 =====================================
+2017-02-14 11:54:46 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:46 ERROR - Varification failed-->Open home page
+2017-02-14 11:54:46 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:47 ERROR - 
+========ERROR IN TEST : IGP_TC_208 =====================================
+2017-02-14 11:54:47 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:47 ERROR - Varification failed-->Open home page
+2017-02-14 11:54:47 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:49 ERROR - 
+========ERROR IN TEST : IGP_TC_208 =====================================
+2017-02-14 11:54:49 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:54:49 ERROR - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: RemoteWebDriver
+2017-02-14 11:54:49 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:55:41 ERROR - 
+========ERROR IN TEST : IGP_TC_209 =====================================
+2017-02-14 11:55:41 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:55:41 ERROR - stale element reference: element is not attached to the page document
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.93 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir10788_17073}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ad2c73e9c8a57b8c3b33635b7dee0547
+2017-02-14 11:55:41 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:56:35 ERROR - 
+========ERROR IN TEST : IGP_TC_209 =====================================
+2017-02-14 11:56:35 ERROR - -----------------------------------------------------------------------
+2017-02-14 11:56:35 ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Place Order'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir10788_17073}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ad2c73e9c8a57b8c3b33635b7dee0547
+2017-02-14 11:56:35 ERROR - -----------------------------------------------------------------------
+2017-02-14 12:02:28 ERROR - 
+========ERROR IN TEST : IGP_TC_210 =====================================
+2017-02-14 12:02:28 ERROR - -----------------------------------------------------------------------
+2017-02-14 12:02:28 ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Place Order'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir1048_22036}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 305764320dc4d4b425ddd091a29b6ff4
+2017-02-14 12:02:28 ERROR - -----------------------------------------------------------------------
+2017-02-14 12:45:16 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 12:45:16 ERROR - -----------------------------------------------------------------------
+2017-02-14 12:45:16 ERROR - unknown error: Element is not clickable at point (271, 493). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir7548_22314}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6aa76c8403718977372ee55689493558
+2017-02-14 12:45:16 ERROR - -----------------------------------------------------------------------
+2017-02-14 12:47:19 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 12:47:19 ERROR - -----------------------------------------------------------------------
+2017-02-14 12:47:19 ERROR - unknown error: Element is not clickable at point (271, 493). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir6188_15738}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 538d62c0a08ed574c42972aa41f0509e
+2017-02-14 12:47:19 ERROR - -----------------------------------------------------------------------
+2017-02-14 13:26:56 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 13:26:56 ERROR - -----------------------------------------------------------------------
+2017-02-14 13:26:56 ERROR - unknown error: Element is not clickable at point (271, 493). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir7628_3145}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 605bfe86dbc6af2b4e2383345a7c173d
+2017-02-14 13:26:56 ERROR - -----------------------------------------------------------------------
+2017-02-14 13:31:44 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 13:31:44 ERROR - -----------------------------------------------------------------------
+2017-02-14 13:31:44 ERROR - unknown error: Element is not clickable at point (271, 493). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir7600_14208}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3b45232da6c0bd16f4a4a20b147c0b33
+2017-02-14 13:31:44 ERROR - -----------------------------------------------------------------------
+2017-02-14 13:37:49 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 13:37:49 ERROR - -----------------------------------------------------------------------
+2017-02-14 13:37:49 ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Place Order'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir9424_9105}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b169ebedaa1edf6c87ae37ef166ec215
+2017-02-14 13:37:49 ERROR - -----------------------------------------------------------------------
+2017-02-14 14:19:33 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 14:19:33 ERROR - -----------------------------------------------------------------------
+2017-02-14 14:19:33 ERROR - unknown error: Element is not clickable at point (271, 493). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir12424_31043}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9fd73499a2d09c8585468fe1d1bea676
+2017-02-14 14:19:33 ERROR - -----------------------------------------------------------------------
+2017-02-14 14:21:34 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 14:21:34 ERROR - -----------------------------------------------------------------------
+2017-02-14 14:21:34 ERROR - unknown error: Element is not clickable at point (271, 493). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir4212_20537}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bf4af342b63a81ab6c15b020ae1f9f56
+2017-02-14 14:21:34 ERROR - -----------------------------------------------------------------------
+2017-02-14 14:30:09 ERROR - 
+========ERROR IN TEST : IGP_TC_213 =====================================
+2017-02-14 14:30:09 ERROR - -----------------------------------------------------------------------
+2017-02-14 14:30:09 ERROR - unknown error: Element is not clickable at point (271, 493). Other element would receive the click: <div class="checkout-overlay" id="checkout-overlay"></div>
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir12816_27460}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dbfe0990e0344671c6253410e9e16c47
+2017-02-14 14:30:09 ERROR - -----------------------------------------------------------------------
+2017-02-14 18:37:13 ERROR - 
+========ERROR IN TEST : IGP_TC_214 =====================================
+2017-02-14 18:37:13 ERROR - -----------------------------------------------------------------------
+2017-02-14 18:37:13 ERROR - Expected condition failed: waiting for visibility of element located by By.cssSelector: .payment-block (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir5192_14275}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1d506806a295f225d5034e816514734e
+2017-02-14 18:37:13 ERROR - -----------------------------------------------------------------------

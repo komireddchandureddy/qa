@@ -63,6 +63,9 @@ public class KeywordUtil extends Utility {
 	
 	public static WebElement waitForClickable(By locator) {
 		WebDriverWait wait = new WebDriverWait(getDriver(), DEFAULT_WAIT_SECONDS);
+		wait.ignoring(ElementNotVisibleException.class);
+		wait.ignoring(WebDriverException.class);
+		
 		return wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}
 
@@ -99,11 +102,6 @@ public class KeywordUtil extends Utility {
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 	
-	
-	
-	
-	
-
 	/**
 	 * @param locator
 	 * @param seconds
@@ -113,7 +111,8 @@ public class KeywordUtil extends Utility {
 	 */
 	public static WebElement findWithFluintWait(By locator, int seconds, int poolingMil) throws Exception {
 		// Because if implicit wait is set then fluint wait will not work
-		//getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+
+		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
 		WebElement element = null;
 		try {
 			Wait<WebDriver> wait = new FluentWait<WebDriver>(getDriver())
@@ -147,6 +146,7 @@ public class KeywordUtil extends Utility {
 	 * @throws Exception
 	 */
 	public static WebElement findWithFluintWait(By locator) throws Exception {
+		getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
 		// Because if implict wait is set then fluint wait will not work
 		KeywordUtil.lastAction="Find Element: " +locator.toString();
 		//getDriver().manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
@@ -195,6 +195,7 @@ public class KeywordUtil extends Utility {
 	 * @return
 	 */
 	public static boolean click(By locator) {
+		
 		KeywordUtil.lastAction="Click: " +locator.toString();
 		LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
 		WebElement elm = waitForClickable(locator);
