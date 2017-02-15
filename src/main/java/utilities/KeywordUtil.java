@@ -636,7 +636,7 @@ public class KeywordUtil extends Utility {
 		String[] b = data.split("");
 		for (int i = 0; i < b.length; i++) {
 			element.sendKeys(b[i]);
-			Thread.sleep(500);
+			Thread.sleep(250);
 		}
 		return true;
 	}

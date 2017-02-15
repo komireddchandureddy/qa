@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61135" started-at="2017-02-14T13:09:18Z" finished-at="2017-02-14T13:10:19Z">
+  <suite name="Default suite" duration-ms="69424" started-at="2017-02-15T13:32:06Z" finished-at="2017-02-15T13:33:16Z">
     <groups>
       <group name="Payment">
-        <method signature="IGP_TC_214.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_214@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_214"/>
+        <method signature="IGP_TC_204.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_204@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_204"/>
       </group> <!-- Payment -->
     </groups>
-    <test name="Default test" duration-ms="61135" started-at="2017-02-14T13:09:18Z" finished-at="2017-02-14T13:10:19Z">
-      <class name="testingxperts.web.tests.IGP_TC_214">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_214@eec5a4a]" name="test" duration-ms="52109" started-at="2017-02-14T18:39:24Z" description="Wallets - Verify Wallets option in Payment page" finished-at="2017-02-14T18:40:16Z">
+    <test name="Default test" duration-ms="69424" started-at="2017-02-15T13:32:06Z" finished-at="2017-02-15T13:33:16Z">
+      <class name="testingxperts.web.tests.IGP_TC_204">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_204@eec5a4a]" name="test" duration-ms="62591" started-at="2017-02-15T19:02:11Z" description="Payment Page-Credit Card &amp; Debit card: Ensure that  Make Payment button has to display  pay amount  before clicking it." finished-at="2017-02-15T19:03:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.IGP_TC_214 -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_204 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

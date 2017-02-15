@@ -131,14 +131,11 @@ public class CustomListeners extends Utility implements ISuiteListener, IInvoked
 			//DriverUtil.closeAllDriver();
 
 			String dbxCof = "N";
-
 			if (dbxCof.equalsIgnoreCase("Y")) {
 				DropBoxUtil.switchOn();
 				DropBoxUtil.init(Utility.getValue("dropBox_AccessToken"));
 				DropBoxUtil.uploadFile("\\PathOfFile.zip");
 			}
-
-			
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -146,8 +143,6 @@ public class CustomListeners extends Utility implements ISuiteListener, IInvoked
 
 		
 	}
-
-	
 
 	@Override
 	public void onBeforeClass(ITestClass arg0) {
@@ -207,9 +202,6 @@ public class CustomListeners extends Utility implements ISuiteListener, IInvoked
 		//
 		
 	}
-
-		
-
 	/* (non-Javadoc)
 	 * @see org.testng.ITestListener#onTestStart(org.testng.ITestResult)
 	 */

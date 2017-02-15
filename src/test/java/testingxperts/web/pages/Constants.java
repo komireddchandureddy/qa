@@ -12,5 +12,10 @@ public class Constants {
 	public static final String VALID_COUPEN="IGP15";//IGP25
 	public static final String INVALID_COUPEN="ABC00";
 	public static final String MASTER_CARD_NUMBER = "5105105105105100";
+	public static final String VISA_CARD_NUMBER = "4012888888881881";
+	public static final String NAME_ON_CARD = "TESTER";
+	public static final String CVV = "225";
+	public static final String EXPIRY_MONTH = "01";
+	public static final String EXPIRY_YEAR = "2019";
 	
 }

@@ -96,7 +96,7 @@ public class IGP_TC_201 extends KeywordUtil {
 			PaymentPage.clickPaymentOption(PaymentPage.PaymentOptions.DEBIT_CARD);
 			pause(2000);
 			PaymentPage.inputDebitCardNumber("1111222233334444");
-			PaymentPage.clickMakePayment();
+			PaymentPage.clickMakePayment_ForDebitCard();
 			
 			verifyStep(isWebElementVisible(PaymentPage.txtDebitCardError),
 					stepInfo);

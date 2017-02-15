@@ -25,6 +25,7 @@ public class ExecutionStartEndListner extends Utility implements IExecutionListe
 		// TODO Auto-generated method stub
 		LogUtil.infoLog("TestProcessEnd", "Test process has ended");
 		
+		ReportFactoryDB.getComparisonReport(GlobalUtil.getCommonSettings().getProjectName());
 		
 		//1. Send Mail functionality
 		if (GlobalUtil.getCommonSettings().getEmailOutput().equalsIgnoreCase("Y"))
@@ -55,7 +56,7 @@ public class ExecutionStartEndListner extends Utility implements IExecutionListe
 			}
 		}
 		//4. Generate Comparison sheet 
-		ReportFactoryDB.getComparisonReport(GlobalUtil.getCommonSettings().getProjectName());
+		
 		
 		//5. Rename test file
 		GlobalUtil.renameFile();

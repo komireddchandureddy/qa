@@ -1,5 +1,6 @@
 package testingxperts.web.pages;
 
+import java.time.Month;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -46,8 +47,8 @@ public class PaymentPage extends HomePage {
 		return isWebElementPresent(listPaymentMethod);
 	}
 	
-	public static void clickMakePayment() throws Exception {
-		executeStep(click(btnMakePayment), "Click Make Payment");
+	public static void clickMakePayment_ForDebitCard() throws Exception {
+		executeStep(click(By.xpath("//*[@id='d-card-form']//button[@type='submit']")), "Click Make Payment");
 	}
 
 	public static boolean totalAmountPayableIsDisplayed() {
@@ -122,12 +123,31 @@ public class PaymentPage extends HomePage {
 	public static void inputDebitCardNumber(String number) throws Exception {
 		
 		executeStep(writeInInputCharByChar(inputDebitCardNumber,number),
-				"Input credit card number: " + number);
-		
-//		executeStep(inputText(inputDebitCardNumber, number),
-//				"Input credit card number: " + number);
+				"Input debit card number: " + number);
 	}
+public static void inputDebitCardNameOnCard(String name) throws Exception {
+		executeStep(inputText(inputDebitCardNameOnCard,name),
+				"Input debit card name: " + name);
+	}
+
+public static void inputDebitCardCVV(String cvv) throws Exception {
+	executeStep(inputText(inputDebitCardCCV,cvv),
+			"Input debit card cvv: " + cvv);
+}
+
+public static void selectDebitCardType_Visa() throws Exception {
+	executeStep(selectByVisibleText(ddDebitCardType, "Visa Debit Cards (All Banks)"),
+			"Select debit card type - visa");
+}
+
+public static void inputDebitCardExpiryInfo() throws Exception {
+	executeStep(selectByValue(ddDebitCardMonth, Constants.EXPIRY_MONTH),
+			"Select debit expiry month - " +Constants.EXPIRY_MONTH);
 	
+	executeStep(selectByValue(ddDebitCardYear, Constants.EXPIRY_YEAR),
+			"Select debit expiry month - " +Constants.EXPIRY_YEAR);
+}
+
 	
 	public static void makePaymentWithBank(Bank bank) throws Exception{
 		
@@ -182,5 +202,30 @@ public static void makePaymentWithWallet(Wallets wallets) throws Exception{
 		executeStep(click(By.xpath("//*[@id='wallets']//button[@type='submit']")), "Make a payment using - " +wallet);
 	}
 
+//Sanyam
+public static boolean verifyMakePaymentbuttonforDebit()
+{
+	
+	return isWebElementVisible(By.xpath("//form[@id='d-card-form']//button[contains(text(),'Rs.')]"));
+}
+//Sanyam
+public static void verifyDebitCardInfoForm() throws Exception{
+	clickPaymentOption(PaymentOptions.DEBIT_CARD);
+	pause(1000);
+}
+
+public static boolean verifyAmountPayable()
+{
+	int totalamountPayable=Integer.parseInt(getElementText(By.xpath("//span[@class='final-value']")));
+	int makePayment=Integer.parseInt(getElementText(By.xpath("//form[@id='d-card-form']//span[@class='number final-value']")));
+	if(totalamountPayable==makePayment)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
 
 }//END CLASS
