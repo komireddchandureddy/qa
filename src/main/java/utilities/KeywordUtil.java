@@ -206,7 +206,18 @@ public class KeywordUtil extends Utility {
 			return true;
 		}
 	}
-
+	public static boolean clickAndWait(By locator) throws InterruptedException {
+		KeywordUtil.lastAction="Click: " +locator.toString();
+		LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+		WebElement elm = waitForClickable(locator);
+		if (elm == null) {
+			return false;
+		} else {
+			elm.click();
+			pause(3000);
+			return true;
+		}
+	}
 	/**
 	 * @param linkText
 	 * @return
@@ -411,6 +422,16 @@ public class KeywordUtil extends Utility {
 		String actual = element.getAttribute(VALUE);
 		LogUtil.infoLog(KeywordUtil.class, "Actual:" +actual);
 		return actual.equalsIgnoreCase(data);
+
+	}
+	
+	public static String getInputText(By locator) {
+		KeywordUtil.lastAction="Get Input Text: "+locator.toString();
+		LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
+		WebElement element = waitForVisibile(locator);
+		String actual = element.getAttribute(VALUE).trim();
+		LogUtil.infoLog(KeywordUtil.class, "Input Text:" +actual);
+		return actual;
 
 	}
 

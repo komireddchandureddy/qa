@@ -1,5 +1,9 @@
 package testingxperts.web.pages;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -24,7 +28,7 @@ public class OrderSummaryPage extends HomePage {
 	public static By listTotalItems = By.xpath("//*[@class='order-item-row']");
 	public static By btnPlaceOrder = By.linkText("PLACE ORDER");
 	
-	
+	public static HashMap<String, String> contacts=new HashMap<String, String>();	
 	
 	public static boolean isOrderSummaryPageLoaded() throws Exception{
 		pause(3000);
@@ -202,8 +206,59 @@ public class OrderSummaryPage extends HomePage {
 	public static String getDeliveryDateForItem(int index){
 		return  getListElements(By.xpath("//div[contains(@class,'c-item-delivery')]//p[@class='c-item-d-type']"))
 		.get(index-1).getText();
-		
-		
 	}
+	
+	//Saynam
+	public static boolean changecontactDetails(String firstname,String lastname,String country,String contactnumber) throws InterruptedException
+	{
+		contacts.put(firstname,"//input[@placeholder='Enter First Name']");
+		contacts.put(lastname,"//input[@placeholder='Enter Last Name']");
+		contacts.put(country,"//input[@placeholder='Enter a country']");
+		contacts.put(contactnumber,"//input[@placeholder='Enter Mobile Number']");
+		Iterator<Entry<String,String>> it=contacts.entrySet().iterator();
+		while(it.hasNext())
+		{
+			Entry<String, String> fieldinfo=it.next();
+			String fieldkey=fieldinfo.getKey();
+			String fieldtype=fieldinfo.getValue();
+			if(fieldkey!=null)
+			{
+				return writeInInputCharByChar(By.xpath(fieldtype),fieldkey);
+			}
+			
+		}
+		return click(By.xpath("//input[@value='Save']"));	
+		 
+	}
+	
+	//Sanyam
+	public static boolean setfuturedeliveryDate(int date,String deliveryMonth) throws Exception
+	{
+
+		click(By.xpath("//span[@class='date-svg change-date undefined']"));
+		clickAndWait(By.xpath("//input[contains(@id,'fixed-date')]"));
+		
+		String part1="//table[contains(@aria-controls,'fixed-date')]//tbody//td/div[contains(text(),'";
+		String part2="')]";
+		if(!getDriver().findElement(By.xpath(part1+date+part2)).isDisplayed())
+		{
+			
+			return false; 
+		}
+		else if(deliveryMonth=="Present Month")
+		{
+		getDriver().findElement(By.xpath(part1+date+part2)).click();
+		pause(3000);
+		}
+		else if(deliveryMonth=="Next Month")
+		{
+			clickAndWait(By.xpath("//child::div[h6[text()='Fix Date Delivery']]//div[@title='Next month']"));
+			getDriver().findElement(By.xpath(part1+date+part2)).click();
+			pause(3000);
+		}
+		click(By.xpath("//child::div[h6[text()='Fix Date Delivery']]//button[text()='Select']"));
+		return true;
+	}
+	
 	
 }

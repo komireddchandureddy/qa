@@ -34,9 +34,6 @@ public class IGP_TC_URL extends KeywordUtil{
 			
 			stepInfo="Test list of URL";
 			
-			
-			
-			
 			List<String> urlList = new ArrayList<>();
 			https://igp.com/
 			urlList.add("https://google.com/");

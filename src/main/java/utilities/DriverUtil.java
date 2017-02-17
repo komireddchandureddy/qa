@@ -4,12 +4,19 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.LoggingPreferences;
+import org.openqa.selenium.logging.Logs;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
@@ -25,6 +32,7 @@ public class DriverUtil {
 	private static Map<String, WebDriver> drivers = new HashMap<>();
 	public static final WebDriver driver = null;
 	private static HashMap<String, String> checkLogin = new HashMap<>();
+	
 	/**
 	 * will use this getting browser(chrome, ie, ff)
 	 * @param browserName
@@ -38,14 +46,16 @@ public class DriverUtil {
 	 * @return
 	 */
 	public static WebDriver getBrowser(String browserName) {
+		
 		WebDriver browser;
 		if (browserName.equalsIgnoreCase(CHROME)) {
 			// Write code for chrome
 			browser = drivers.get(browserName);
 			if (browser == null) {
+				DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
 				File chromeExecutable = new File(ConfigReader.getValue("ChromeDriverPath"));
 				System.setProperty("webdriver.chrome.driver", chromeExecutable.getAbsolutePath());
-				browser = new ChromeDriver();
+				browser = new ChromeDriver(desiredCapabilities);
 				drivers.put("Chrome", browser);
 			} // End if
 		} else if (browserName.equalsIgnoreCase(IE)) {
@@ -121,15 +131,14 @@ public class DriverUtil {
 	 */
 	public static void closeAllDriver() {
 		LogUtil.infoLog(DriverUtil.class, "Closing Browsers");
-		
 		drivers.entrySet().forEach(key->
 			{
 				key.getValue().quit();
-			key.setValue(null);
-			}
-		
-		
-	);
-		
-	}
+				key.setValue(null);
+			});
+}
+	
+	 
+	
+
 }// End class

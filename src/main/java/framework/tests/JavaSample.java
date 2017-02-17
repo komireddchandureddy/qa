@@ -4,6 +4,8 @@ import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,22 +24,44 @@ public class JavaSample {
 
 
 	public static void main(String[] args) throws Exception {
-		String expectedMessage  ="Midnight Delivery - FREE (on 07-Feb-2017)";
+		String expectedMessage  ="123#$";
 		System.out.println(expectedMessage);
-		System.out.println(expectedMessage.indexOf(" - "));
-		
-		System.out.println(expectedMessage.indexOf("("));
-		
-		String s = expectedMessage.substring((expectedMessage.indexOf(" - ")+2), expectedMessage.indexOf("("));
-		System.out.println(s.trim());
-		s= s.replaceAll("[^0-9]", "");
-		
-		
-		
-		if(!s.isEmpty())
-			{int val =Integer.parseInt(s.trim());
-			System.out.println(val);
-			}
+		if (expectedMessage == null || expectedMessage.trim().isEmpty()) {
+	         System.out.println("Incorrect format of string");
+	     }else{
+	    	 Pattern p = Pattern.compile("[^A-Za-z0-9]");
+	         Matcher m = p.matcher(expectedMessage);
+	        // boolean b = m.matches();
+	         boolean b = m.find();
+	         System.out.println("Any special char:" +b);
+	         
+	         p = Pattern.compile("[0-9]");
+	         m = p.matcher(expectedMessage);
+	         
+	         b = m.find();
+	         System.out.println("Any num char:" +b);
+	         
+	         p = Pattern.compile("[A-Za-z]");
+	         m = p.matcher(expectedMessage);
+	         
+	         b = m.find();
+	         
+	         System.out.println("Any alpha char:" +b);
+	         
+	         System.out.println("Any special char: " +expectedMessage.contains("[^A-Za-z0-9]"));
+	         
+	         
+	         
+	         String spcl = expectedMessage.replaceAll("[A-Za-z0-9]", "");
+	         System.out.println(spcl.isEmpty());
+	         
+	         
+	         spcl = expectedMessage.replaceAll("[^0-9]", "");
+	         System.out.println(spcl);
+	         
+	         
+	         
+	     }
 		
 		
 		

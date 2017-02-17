@@ -3975,3 +3975,79 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir12052_1434}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
 Session ID: 94c12da7cc8288442f8caa238041e5f9
 2017-02-15 18:48:45 ERROR - -----------------------------------------------------------------------
+2017-02-17 11:31:39 ERROR - 
+========ERROR IN TEST : IGP_TC_083 =====================================
+2017-02-17 11:31:39 ERROR - -----------------------------------------------------------------------
+2017-02-17 11:31:39 ERROR - 
+2017-02-17 11:31:39 ERROR - -----------------------------------------------------------------------
+2017-02-17 11:33:32 ERROR - 
+========ERROR IN TEST : IGP_TC_083 =====================================
+2017-02-17 11:33:32 ERROR - -----------------------------------------------------------------------
+2017-02-17 11:33:32 ERROR - 
+2017-02-17 11:33:32 ERROR - -----------------------------------------------------------------------
+2017-02-17 11:35:27 ERROR - 
+========ERROR IN TEST : IGP_TC_083 =====================================
+2017-02-17 11:35:27 ERROR - -----------------------------------------------------------------------
+2017-02-17 11:35:27 ERROR - 
+2017-02-17 11:35:27 ERROR - -----------------------------------------------------------------------
+2017-02-17 12:01:21 ERROR - 
+========ERROR IN TEST : IGP_TC_083 =====================================
+2017-02-17 12:01:21 ERROR - -----------------------------------------------------------------------
+2017-02-17 12:01:21 ERROR - unknown error: log type 'performance' not found
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir11480_16734}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2da5b732916dea594cb2897b68f6e7d1
+2017-02-17 12:01:21 ERROR - -----------------------------------------------------------------------
+2017-02-17 12:05:25 ERROR - 
+========ERROR IN TEST : IGP_TC_083 =====================================
+2017-02-17 12:05:25 ERROR - -----------------------------------------------------------------------
+2017-02-17 12:05:25 ERROR - unknown error: log type 'server' not found
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir7444_12039}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f84a9f21bbe098ba7cb8795790a0792f
+2017-02-17 12:05:25 ERROR - -----------------------------------------------------------------------
+2017-02-17 14:34:02 ERROR - 
+========ERROR IN TEST : IGP_TC_203 =====================================
+2017-02-17 14:34:02 ERROR - -----------------------------------------------------------------------
+2017-02-17 14:34:02 ERROR - Varification failed-->Name should not contains special characters
+2017-02-17 14:34:02 ERROR - -----------------------------------------------------------------------
+2017-02-17 16:10:55 ERROR - 
+========ERROR IN TEST : IGP_TC_082 =====================================
+2017-02-17 16:10:55 ERROR - -----------------------------------------------------------------------
+2017-02-17 16:10:55 ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Place Order'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir12140_20323}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bbfbdbe4c92518ce84f1c02b1b1e766b
+2017-02-17 16:10:55 ERROR - -----------------------------------------------------------------------
+2017-02-17 16:12:17 ERROR - 
+========ERROR IN TEST : IGP_TC_083 =====================================
+2017-02-17 16:12:17 ERROR - -----------------------------------------------------------------------
+2017-02-17 16:12:17 ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Place Order'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir11252_25314}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 294ce1c155147cd5e65b5d296b648fe1
+2017-02-17 16:12:17 ERROR - -----------------------------------------------------------------------
+2017-02-17 16:13:43 ERROR - 
+========ERROR IN TEST : IGP_TC_084 =====================================
+2017-02-17 16:13:43 ERROR - -----------------------------------------------------------------------
+2017-02-17 16:13:43 ERROR - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Place Order'] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir10484_8567}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8d5beb01a4e530bc4ca3e1a0f697f41f
+2017-02-17 16:13:43 ERROR - -----------------------------------------------------------------------
