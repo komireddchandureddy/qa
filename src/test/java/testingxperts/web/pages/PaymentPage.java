@@ -44,7 +44,9 @@ public class PaymentPage extends HomePage {
 	
 	public static boolean isPaymentPageLoaded() throws Exception {
 		pause(4000);
-		return isWebElementPresent(listPaymentMethod);
+	return	isWebElementVisible(listPaymentMethod);
+//		return isWebElementPresent(listPaymentMethod);
+		
 	}
 	
 	public static void clickMakePayment_ForDebitCard() throws Exception {

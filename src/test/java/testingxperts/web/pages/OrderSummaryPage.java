@@ -175,10 +175,13 @@ public class OrderSummaryPage extends HomePage {
 	}	
 	
 	public static void increaseQty_FirstItem() throws InterruptedException{
+		logStep("Increase Qty of First Item");
 		WebElement element =getListElements(listTotalItems).get(0);
 		element.findElement(By.xpath("//span[contains(@id,'inc-quantity')]")).click();
 		pause(3000);
+		
 	}
+	
 	
 	public static void DecreaseQty_FirstItem() throws InterruptedException{
 		WebElement element =getListElements(listTotalItems).get(0);

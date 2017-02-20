@@ -8,11 +8,12 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import listeners.CustomListeners_RestTest;
+import listeners.ExecutionStartEndListner;
 import utilities.GlobalUtil;
 import utilities.KeywordUtil;
 import utilities.Webservices;
 
-@Listeners({CustomListeners_RestTest.class})
+@Listeners({CustomListeners_RestTest.class,ExecutionStartEndListner.class })
 public class IGP_TC_URL extends KeywordUtil{
 	String stepInfo="";
 

@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Order Summary Page]">
-  <parameter name="Browser" value="Chrome"/>
-  <test name="Order Summary Page-Tests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testingxperts.web.tests.IGP_TC_082">
+      <class name="testingxperts.web.tests.IGP_TC_URL">
         <methods>
           <include name="test"/>
         </methods>
-      </class> <!-- testingxperts.web.tests.IGP_TC_082 -->
-      <class name="testingxperts.web.tests.IGP_TC_084">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- testingxperts.web.tests.IGP_TC_084 -->
-      <class name="testingxperts.web.tests.IGP_TC_083">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- testingxperts.web.tests.IGP_TC_083 -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_URL -->
     </classes>
-  </test> <!-- Order Summary Page-Tests(failed) -->
-</suite> <!-- Failed suite [Order Summary Page] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
