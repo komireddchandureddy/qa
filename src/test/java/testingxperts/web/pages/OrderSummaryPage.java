@@ -27,6 +27,8 @@ public class OrderSummaryPage extends HomePage {
 	public static By btnDone = By.xpath("//button[text()='Done']");
 	public static By listTotalItems = By.xpath("//*[@class='order-item-row']");
 	public static By btnPlaceOrder = By.linkText("PLACE ORDER");
+	public static By fixedtimeDelivery=By.xpath("//label[contains(text(),'Fixed Time Delivery')]");
+	public static By midnightDeliver=By.xpath("//label[contains(text(),'Midnight Delivery')]");
 	
 	public static HashMap<String, String> contacts=new HashMap<String, String>();	
 	
@@ -263,5 +265,110 @@ public class OrderSummaryPage extends HomePage {
 		return true;
 	}
 	
+	//Sanyam
+	public static boolean fixedtimedeliveryoption(int date) throws InterruptedException
+	{
+		click(fixedtimeDelivery);
+		clickAndWait(By.xpath("//input[contains(@id,'fixed-dp')]"));
+		String part1="//table[contains(@aria-controls,'fixed-dp')]//tbody//td/div[contains(text(),'";
+		String part2="')]";
+		if(!getDriver().findElement(By.xpath(part1+date+part2)).isDisplayed())
+		{
+
+			return false; 
+		}
+		else 
+		{
+			getDriver().findElement(By.xpath(part1+date+part2)).click();
+			pause(3000);
+
+
+			click(By.xpath("//child::div[h6[text()='Fixed Time Delivery']]//button[text()='Select']"));
+			selectByValue(By.xpath("//select[contains(@id,'fixed-tp')]"), "16:00 hrs - 18:00 hrs");
+			return true;
+		}
+	}
+	public static boolean verifydeliveryoption(String deliverymethod,int date) throws InterruptedException
+	{
+		if(deliverymethod=="Fixed Time Delivery")
+		{
+			return fixedtimedeliveryoption(date);
+		}
+
+		if(deliverymethod=="Midnight Time Delivery")
+		{
+			return midnightdeliveryoptions(date);
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
+	public static Boolean midnightdeliveryoptions(int date) throws InterruptedException
+	{
+		click(midnightDeliver);
+		clickAndWait(By.xpath("//input[contains(@id,'mid-dp')]"));
+		String part1="//table[contains(@aria-controls,'mid-dp')]//tbody//td/div[contains(text(),'";
+		String part2="')]";
+		if(!getDriver().findElement(By.xpath(part1+date+part2)).isDisplayed())
+		{
+
+			return false; 
+		}
+		else if(getDriver().findElement(By.xpath("//div[contains(@class,'disabled')]")).isDisplayed())
+		{
+			return true;
+		}
+		else 
+		{
+			getDriver().findElement(By.xpath(part1+date+part2)).click();
+			pause(3000);
+			click(By.xpath("//child::div[h6[text()='Midnight Delivery']]//button[text()='Select']"));
+			return true;
+		}
+	}
+
+	public static boolean validatecouponcoderesult(String couponcode) throws Exception
+	{
+		inputCoupenAndApply(couponcode);
+		if(getWebElement(txtCoupenSuccessMessage).getText().contains("Coupon Code"))
+		{
+
+			return verifyCoupenIsSuccess(couponcode);
+		}
+		else if(getWebElement(txtCoupenInvalidMessage).getText().contains("Invalid"))
+		{
+			return verifyCoupenIsInvalid(couponcode);
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
+	public static boolean entermessagedetails(String to,String message,String from) throws Exception
+	{
+		if(to.equals("")|| message.equals("")|| from.equals(""))
+		{
+			writeInInputCharByChar(inputTo, to);
+			writeInInputCharByChar(inputMessage, message);
+			writeInInputCharByChar(inputFrom, from);
+			click(btnDone);
+			return waitForPresent(By.xpath("//div[@class='msg-container active']//*[contains(@class,'error')]")).isDisplayed();
+		}
+		else
+		{
+			writeInInputCharByChar(inputTo, to);
+			writeInInputCharByChar(inputMessage, message);
+			writeInInputCharByChar(inputFrom, from);
+			click(btnDone);
+			return waitForPresent(By.xpath("//p[text()='Edit Message']")).isDisplayed();
+		}
+
+
+	}
+
+
 	
 }

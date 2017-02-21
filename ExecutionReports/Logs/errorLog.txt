@@ -4163,3 +4163,210 @@ Session ID: d433c21773cafa0889f3ae200a80234e
 2017-02-20 19:34:11 ERROR - -----------------------------------------------------------------------
 2017-02-20 19:34:11 ERROR - SSL peer shut down incorrectly
 2017-02-20 19:34:11 ERROR - -----------------------------------------------------------------------
+2017-02-21 12:18:12 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 12:18:12 ERROR - -----------------------------------------------------------------------
+2017-02-21 12:18:12 ERROR - SSL peer shut down incorrectly
+2017-02-21 12:18:12 ERROR - -----------------------------------------------------------------------
+2017-02-21 12:25:33 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 12:25:33 ERROR - -----------------------------------------------------------------------
+2017-02-21 12:25:33 ERROR - SSL peer shut down incorrectly
+2017-02-21 12:25:33 ERROR - -----------------------------------------------------------------------
+2017-02-21 15:57:51 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 15:57:51 ERROR - -----------------------------------------------------------------------
+2017-02-21 15:57:51 ERROR - SSL peer shut down incorrectly
+2017-02-21 15:57:51 ERROR - -----------------------------------------------------------------------
+2017-02-21 16:02:14 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 16:02:14 ERROR - -----------------------------------------------------------------------
+2017-02-21 16:02:14 ERROR - SSL peer shut down incorrectly
+2017-02-21 16:02:14 ERROR - -----------------------------------------------------------------------
+2017-02-21 16:08:23 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 16:08:23 ERROR - -----------------------------------------------------------------------
+2017-02-21 16:08:23 ERROR - SSL peer shut down incorrectly
+2017-02-21 16:08:23 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:36:43 ERROR - Home page--https://igp.com -- Has error->  SSL peer shut down incorrectly
+2017-02-21 18:36:43 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:36:44 ERROR - Cart Page--https://igp.com -- Has error->  SSL peer shut down incorrectly
+2017-02-21 18:36:44 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:36:44 ERROR - Payment Page--https://igp.com -- Has error->  SSL peer shut down incorrectly
+2017-02-21 18:36:44 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:40:08 ERROR - Home page--https://igp.com -- Has error->  SSL peer shut down incorrectly
+2017-02-21 18:40:08 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:40:09 ERROR - Cart Page--https://igp.com -- Has error->  SSL peer shut down incorrectly
+2017-02-21 18:40:09 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:40:09 ERROR - Payment Page--https://igp.com -- Has error->  SSL peer shut down incorrectly
+2017-02-21 18:40:09 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:42:04 ERROR - Home page--https://igp.com -- Has error->  SSL peer shut down incorrectly
+2017-02-21 18:42:04 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:42:04 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 18:42:04 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:42:04 ERROR - SSL peer shut down incorrectly
+2017-02-21 18:42:04 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:43:17 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 18:43:17 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:43:17 ERROR - 
+Test has failed
+2017-02-21 18:43:17 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:54:56 ERROR - 
+========ERROR IN TEST : IGP_TC_URL =====================================
+2017-02-21 18:54:56 ERROR - -----------------------------------------------------------------------
+2017-02-21 18:54:56 ERROR - 
+Test has failed
+2017-02-21 18:54:56 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:02:56 ERROR - 
+========ERROR IN TEST : IGP_TC_203 =====================================
+2017-02-21 19:02:56 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:02:56 ERROR - timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.109
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.12 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir6272_28832}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 68ba3718c7f955f264977f1548290b5b
+2017-02-21 19:02:56 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:04:33 ERROR - 
+========ERROR IN TEST : IGP_TC_204 =====================================
+2017-02-21 19:04:33 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:04:33 ERROR - timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.022
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.09 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir5664_16172}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 31947cff642a6fdce871c5c298ff2f03
+2017-02-21 19:04:33 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:06:09 ERROR - 
+========ERROR IN TEST : IGP_TC_219 =====================================
+2017-02-21 19:06:09 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:06:09 ERROR - timeout: Timed out receiving message from renderer: 78.220
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.23 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir3304_2635}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d3f0bb7a3a21af736765a17a48bc60c0
+2017-02-21 19:06:09 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:07:45 ERROR - 
+========ERROR IN TEST : IGP_TC_082 =====================================
+2017-02-21 19:07:45 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:07:45 ERROR - timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.013
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.05 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir4584_9060}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0c6b07874c0f56a5746782eb532328d1
+2017-02-21 19:07:45 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:10:11 ERROR - 
+========ERROR IN TEST : IGP_TC_083 =====================================
+2017-02-21 19:10:11 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:10:11 ERROR - Expected condition failed: waiting for element to be clickable: By.xpath: (//*[@id='edp-default']//img)[position()=6] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir8260_29732}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 371e8aeea16ccc151249b16100484275
+2017-02-21 19:10:11 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:11:47 ERROR - 
+========ERROR IN TEST : IGP_TC_084 =====================================
+2017-02-21 19:11:47 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:11:47 ERROR - timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.033
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.16 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir5316_19058}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1df18e066453270f8d6229a00d94a4ed
+2017-02-21 19:11:47 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:13:22 ERROR - 
+========ERROR IN TEST : IGP_TC_085 =====================================
+2017-02-21 19:13:22 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:13:22 ERROR - timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.035
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir8492_10319}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 65a379fbbdebea0182b0fec3774f8594
+2017-02-21 19:13:22 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:14:58 ERROR - 
+========ERROR IN TEST : IGP_TC_086 =====================================
+2017-02-21 19:14:58 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:14:58 ERROR - timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.070
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.17 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir5676_13429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bdaa308f93933877d3ac7d4feacc1ff7
+2017-02-21 19:14:58 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:16:43 ERROR - 
+========ERROR IN TEST : IGP_TC_087 =====================================
+2017-02-21 19:16:43 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:16:43 ERROR - Varification failed-->Change the delivery option.
+2017-02-21 19:16:43 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:17:42 ERROR - 
+========ERROR IN TEST : IGP_TC_088 =====================================
+2017-02-21 19:17:42 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:17:42 ERROR - Expected condition failed: waiting for element to be clickable: By.xpath: (//*[@id='edp-default']//img)[position()=6] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir7712_16659}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 223fe10e80d179af2c69e7c04b521d79
+2017-02-21 19:17:42 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:18:39 ERROR - 
+========ERROR IN TEST : IGP_TC_089 =====================================
+2017-02-21 19:18:39 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:18:39 ERROR - Expected condition failed: waiting for element to be clickable: By.xpath: (//*[@id='edp-default']//img)[position()=6] (tried for 50 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir6688_5360}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c7f888acb95c16ac99236f4305472458
+2017-02-21 19:18:39 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:27:12 ERROR - 
+========ERROR IN TEST : IGP_TC_082 =====================================
+2017-02-21 19:27:12 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:27:12 ERROR - timeout: cannot determine loading status
+from timeout: Timed out receiving message from renderer: -0.051
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 90.09 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir9004_28267}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b8ef65ec76748957d27222ccceb3ea7
+2017-02-21 19:27:12 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:46:02 ERROR - 
+========ERROR IN TEST : IGP_TC_203 =====================================
+2017-02-21 19:46:02 ERROR - -----------------------------------------------------------------------
+2017-02-21 19:46:02 ERROR - Varification failed-->Name should not contains special characters
+2017-02-21 19:46:02 ERROR - -----------------------------------------------------------------------

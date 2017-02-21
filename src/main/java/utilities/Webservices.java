@@ -38,6 +38,7 @@ public class Webservices {
 		 }
 		 
 		 public static int getStatusCode(String url) throws URISyntaxException{
+			 System.setProperty("https.protocols", "TLSv1.1");
 		    return given()
 		    .config(RestAssured.config().sslConfig(
 		    new SSLConfig().allowAllHostnames())).get(new URI(url)).getStatusCode();
