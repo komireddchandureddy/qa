@@ -41282,3 +41282,46 @@ Session ID: 7b8ef65ec76748957d27222ccceb3ea7
 2017-02-21 19:50:04 INFO  - History File created successfully
 2017-02-21 19:50:04 INFO  - Test process has ended
 2017-02-21 19:50:04 INFO  - History File created successfully
+2017-02-22 14:56:48 INFO  - 
+
++============================================================================================================================+
+2017-02-22 14:56:48 INFO  - Default suite suite started at Wed Feb 22 14:56:48 IST 2017
+2017-02-22 14:56:48 INFO  - Suite Browser: Chrome
+2017-02-22 14:56:50 INFO  - +=============Database started=============+
+2017-02-22 14:56:50 INFO  - Database driver name: SQLiteJDBC
+2017-02-22 14:56:50 INFO  - Product name SQLite, Version 3.8.11
+2017-02-22 14:56:50 INFO  - +==========================================+
+
+2017-02-22 14:56:50 INFO  - Test is started with browser: Chrome
+2017-02-22 14:56:55 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-22 14:56:55 INFO  - Test Started: IGP_TC_096
+2017-02-22 14:56:55 INFO  - Test description: Entered pin code not deliverable to the location: Ensure that Selected product is available to entered pin code.
+2017-02-22 14:56:55 INFO  - Open home page
+2017-02-22 14:56:55 INFO  - Navigate to: https://www.igp.com/
+2017-02-22 14:57:06 INFO  - Open home page
+2017-02-22 14:57:06 INFO  - Select Item to buy
+2017-02-22 14:57:06 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-02-22 14:57:07 INFO  - Click:FLOWER_AND_CAKE
+2017-02-22 14:57:07 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-02-22 14:57:11 INFO  - Select Item
+2017-02-22 14:57:18 INFO  - Enter invalid Pin code and validate
+2017-02-22 14:57:18 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-02-22 14:57:18 INFO  - Input Text: 001122 - By.xpath: //*[@id='pincode']
+2017-02-22 14:57:18 INFO  - Input pincode:001122
+2017-02-22 14:57:18 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-02-22 14:57:20 INFO  - Get Element text: By.xpath: //*[@id='pin-error-text']
+2017-02-22 14:57:20 INFO  - Invalid Pin code message: We currently do not support delivery in this area.
+Please try a different pincode
+2017-02-22 14:57:20 INFO  - Verify Text Contains: We currently do not support delivery in this area. - By.xpath: //*[@id='pin-error-text']
+2017-02-22 14:57:20 INFO  - Verified text expected "We currently do not support delivery in this area." actual "We currently do not support delivery in this area.
+Please try a different pincode" 
+2017-02-22 14:57:20 INFO  - Enter invalid Pin code and validate
+2017-02-22 14:57:20 INFO  - Total Time taken in(seconds):25
+2017-02-22 14:57:21 INFO  - TestResults
+2017-02-22 14:57:22 INFO  - **********TEST FINISHED-> IGP_TC_096-PASS**********
+2017-02-22 14:57:22 INFO  - Test has ended closing browser: Chrome
+2017-02-22 14:57:22 INFO  - Closing Browsers
+2017-02-22 14:57:23 INFO  - Default suite suite finished at Wed Feb 22 14:57:23 IST 2017
+2017-02-22 14:57:25 INFO  - Test process has ended
+2017-02-22 14:57:25 INFO  - History File created successfully

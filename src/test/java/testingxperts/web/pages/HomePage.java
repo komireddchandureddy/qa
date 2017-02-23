@@ -8,7 +8,8 @@ import utilities.KeywordUtil;
 
 public class HomePage extends KeywordUtil {
 	
-	public enum GiftBy { FLOWER_AND_CAKE, GIFT_HAMPER}  
+	public enum GiftBy { FLOWER_AND_CAKE, GIFT_HAMPER} 
+	
 	public static By linkFlower_and_cake= By.xpath("//p[text()='Flowers & Cakes']");
 	public static By logo = By.xpath("//*[@id='absolute-header']/div[1]/div/a/img");
 	

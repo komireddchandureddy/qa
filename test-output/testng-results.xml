@@ -2,16 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="IGP Test Automation Suite" duration-ms="320728" started-at="2017-02-21T14:14:43Z" finished-at="2017-02-21T14:20:04Z">
+  <suite name="Default suite" duration-ms="33592" started-at="2017-02-22T09:26:50Z" finished-at="2017-02-22T09:27:23Z">
     <groups>
+      <group name="Cart">
+        <method signature="IGP_TC_096.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_096@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_096"/>
+      </group> <!-- Cart -->
     </groups>
-    <test name="AllScripts" duration-ms="320728" started-at="2017-02-21T14:14:43Z" finished-at="2017-02-21T14:20:04Z">
-      <class name="suite.runner.CustomSuiteRunner">
-        <test-method status="PASS" signature="suiteRunner()[pri:0, instance:suite.runner.CustomSuiteRunner@544fe44c]" name="suiteRunner" duration-ms="320707" started-at="2017-02-21T19:44:43Z" finished-at="2017-02-21T19:50:04Z">
+    <test name="Default test" duration-ms="33592" started-at="2017-02-22T09:26:50Z" finished-at="2017-02-22T09:27:23Z">
+      <class name="testingxperts.web.tests.IGP_TC_096">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_096@eec5a4a]" name="test" duration-ms="25542" started-at="2017-02-22T14:56:55Z" description="Entered pin code not deliverable to the location: Ensure that Selected product is available to entered pin code." finished-at="2017-02-22T14:57:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- suiteRunner -->
-      </class> <!-- suite.runner.CustomSuiteRunner -->
-    </test> <!-- AllScripts -->
-  </suite> <!-- IGP Test Automation Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_096 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -54,6 +54,7 @@ public class CartPage extends HomePage{
 		if(giftBy==GiftBy.FLOWER_AND_CAKE){
 			executeStep(click(linkFlower_and_cake), "Click:"+giftBy.toString());
 		}
+		
 				executeStep(selectItem(1),
 						"Select Item");
 				waitForClickable(btnAddToCart);
@@ -80,7 +81,6 @@ public class CartPage extends HomePage{
 	
 	public static boolean verifyPinCodeMessage() throws Exception{
 		return verifyTextContains(txtMessageWrongPin, Constants.ERROR_MESSAGE_INVALID_PIN);
-		
 	}
 	
 	public static String getPinCodeErrorMessage(){
@@ -210,8 +210,6 @@ public static void updatePinCode(String pinCode) throws InterruptedException{
 	 click(btnApply);
 	 pause(4000);
 	 lastPinNumber=pinCode;
-	 
-	 
 }
 
 public static void selectMidnightDeliveryWithDate() throws Exception{
