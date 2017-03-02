@@ -4370,3 +4370,36 @@ Session ID: 7b8ef65ec76748957d27222ccceb3ea7
 2017-02-21 19:46:02 ERROR - -----------------------------------------------------------------------
 2017-02-21 19:46:02 ERROR - Varification failed-->Name should not contains special characters
 2017-02-21 19:46:02 ERROR - -----------------------------------------------------------------------
+2017-02-24 10:48:44 ERROR - 
+========ERROR IN TEST : IGP_TC_203 =====================================
+2017-02-24 10:48:44 ERROR - -----------------------------------------------------------------------
+2017-02-24 10:48:44 ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir5104_24526}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7b64011bb498594fa54d02d10a15c5ed
+2017-02-24 10:48:44 ERROR - -----------------------------------------------------------------------
+2017-02-24 10:49:00 ERROR - 
+========ERROR IN TEST : IGP_TC_204 =====================================
+2017-02-24 10:49:00 ERROR - -----------------------------------------------------------------------
+2017-02-24 10:49:00 ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSCHD-015', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir6980_1318}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6a944d19b9567496c166f8ae92d9c910
+2017-02-24 10:49:00 ERROR - -----------------------------------------------------------------------
+2017-03-02 14:39:59 ERROR - 
+========ERROR IN TEST : IGP_TC_085 =====================================
+2017-03-02 14:39:59 ERROR - -----------------------------------------------------------------------
+2017-03-02 14:39:59 ERROR - Varification failed-->Increase the quantity of the product using increment/decrement option.
+2017-03-02 14:39:59 ERROR - -----------------------------------------------------------------------

@@ -41325,3 +41325,179 @@ Please try a different pincode"
 2017-02-22 14:57:23 INFO  - Default suite suite finished at Wed Feb 22 14:57:23 IST 2017
 2017-02-22 14:57:25 INFO  - Test process has ended
 2017-02-22 14:57:25 INFO  - History File created successfully
+2017-02-24 10:48:26 INFO  - 
+
++============================================================================================================================+
+2017-02-24 10:48:26 INFO  - Payment suite started at Fri Feb 24 10:48:26 IST 2017
+2017-02-24 10:48:26 INFO  - Suite Browser: Chrome
+2017-02-24 10:48:29 INFO  - +=============Database started=============+
+2017-02-24 10:48:29 INFO  - Database driver name: SQLiteJDBC
+2017-02-24 10:48:29 INFO  - Product name SQLite, Version 3.8.11
+2017-02-24 10:48:29 INFO  - +==========================================+
+
+2017-02-24 10:48:29 INFO  - Test is started with browser: Chrome
+2017-02-24 10:48:34 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-24 10:48:34 INFO  - Test Started: IGP_TC_203
+2017-02-24 10:48:34 INFO  - Test description: Credit Card & Debit card: Name On the card: Verify that Name On The Card is accepting numbers and special symbols or not.
+2017-02-24 10:48:34 INFO  - Open home page
+2017-02-24 10:48:34 INFO  - Navigate to: https://www.igp.com/
+2017-02-24 10:48:44 INFO  - Total Time taken in(seconds):10
+2017-02-24 10:48:44 INFO  - **********TEST FINISHED-> IGP_TC_203-FAILED**********
+2017-02-24 10:48:45 INFO  - TestResults
+2017-02-24 10:48:47 INFO  - Test has ended closing browser: Chrome
+2017-02-24 10:48:47 INFO  - Closing Browsers
+2017-02-24 10:48:48 INFO  - Test is started with browser: Chrome
+2017-02-24 10:48:52 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-02-24 10:48:52 INFO  - Test Started: IGP_TC_204
+2017-02-24 10:48:52 INFO  - Test description: Credit Card & Debit card:  Submit(Make payment) button: Ensure that  Make Payment button has to display  pay amount  before clicking it.
+2017-02-24 10:48:52 INFO  - Open home page
+2017-02-24 10:48:52 INFO  - Navigate to: https://www.igp.com/
+2017-02-24 10:49:00 INFO  - Total Time taken in(seconds):8
+2017-02-24 10:49:00 INFO  - **********TEST FINISHED-> IGP_TC_204-FAILED**********
+2017-02-24 10:49:00 INFO  - TestResults
+2017-02-24 10:49:01 INFO  - Test has ended closing browser: Chrome
+2017-02-24 10:49:01 INFO  - Closing Browsers
+2017-02-24 10:49:02 INFO  - Test is started with browser: Chrome
+2017-02-24 10:49:07 INFO  - Payment suite finished at Fri Feb 24 10:49:07 IST 2017
+2017-03-02 14:39:05 INFO  - 
+
++============================================================================================================================+
+2017-03-02 14:39:05 INFO  - Default suite suite started at Thu Mar 02 14:39:05 IST 2017
+2017-03-02 14:39:05 INFO  - Suite Browser: Chrome
+2017-03-02 14:39:07 INFO  - +=============Database started=============+
+2017-03-02 14:39:07 INFO  - Database driver name: SQLiteJDBC
+2017-03-02 14:39:07 INFO  - Product name SQLite, Version 3.8.11
+2017-03-02 14:39:07 INFO  - +==========================================+
+
+2017-03-02 14:39:07 INFO  - Test is started with browser: Chrome
+2017-03-02 14:39:13 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-02 14:39:13 INFO  - Test Started: IGP_TC_085
+2017-03-02 14:39:13 INFO  - Test description: To add  quantity for  selected product-: Ensure that user can increase the quantity of the product.
+2017-03-02 14:39:13 INFO  - Open home page
+2017-03-02 14:39:13 INFO  - Navigate to: https://www.igp.com/
+2017-03-02 14:39:21 INFO  - Open home page
+2017-03-02 14:39:21 INFO  - Select product from best selling
+2017-03-02 14:39:21 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-03-02 14:39:27 INFO  - Select product from best selling
+2017-03-02 14:39:27 INFO  - Enter valid Pin code and validate
+2017-03-02 14:39:27 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-02 14:39:28 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-02 14:39:28 INFO  - Input pincode:134102
+2017-03-02 14:39:28 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-02 14:39:30 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-03-02 14:39:30 INFO  - Valid Pin code message: Will be delivered today (if ordered within next 2 hours).
+2017-03-02 14:39:30 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-03-02 14:39:30 INFO  - Enter valid Pin code and validate
+2017-03-02 14:39:33 INFO  - Buy Now
+2017-03-02 14:39:33 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-02 14:39:34 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-02 14:39:39 INFO  - The page should navigate to cart page
+2017-03-02 14:39:39 INFO  - Place order
+2017-03-02 14:39:39 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-02 14:39:39 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-02 14:39:41 INFO  - Click place order
+2017-03-02 14:39:43 INFO  - The user should be navigated to checkout page.
+2017-03-02 14:39:43 INFO  - Login at checkout page
+2017-03-02 14:39:43 INFO  - Login at checkout page
+2017-03-02 14:39:43 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-03-02 14:39:43 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-03-02 14:39:44 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-03-02 14:39:48 INFO  - Login at checkout page
+2017-03-02 14:39:48 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-03-02 14:39:48 INFO  - Click Deliver here
+2017-03-02 14:39:48 INFO  - Verify user navigated to Order Summary page
+2017-03-02 14:39:51 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-03-02 14:39:51 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 595
+(Shipping Charge : Free)" 
+2017-03-02 14:39:51 INFO  - Verify user navigated to Order Summary page
+2017-03-02 14:39:51 INFO  - Increase the quantity of the product using increment/decrement option.
+2017-03-02 14:39:51 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-02 14:39:53 INFO  - Itme qty Before increase: 1
+2017-03-02 14:39:53 INFO  - Increase Qty of First Item
+2017-03-02 14:39:53 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-02 14:39:56 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-02 14:39:58 INFO  - Itme qty After increase: 1
+2017-03-02 14:39:58 INFO  - Increase the quantity of the product using increment/decrement option.
+2017-03-02 14:39:59 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170302143958_IGP_TC_085.jpg
+2017-03-02 14:39:59 INFO  - Increase the quantity of the product using increment/decrement option. - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-02 14:39:59 INFO  - Varification failed-->Increase the quantity of the product using increment/decrement option.
+2017-03-02 14:39:59 INFO  - Total Time taken in(seconds):46
+2017-03-02 14:39:59 INFO  - **********TEST FINISHED-> IGP_TC_085-FAILED**********
+2017-03-02 14:40:00 INFO  - TestResults
+2017-03-02 14:40:01 INFO  - Test has ended closing browser: Chrome
+2017-03-02 14:40:01 INFO  - Closing Browsers
+2017-03-02 14:40:02 INFO  - Default suite suite finished at Thu Mar 02 14:40:02 IST 2017
+2017-03-02 14:40:02 INFO  - Test process has ended
+2017-03-02 14:40:02 INFO  - History File created successfully
+2017-03-02 14:41:08 INFO  - 
+
++============================================================================================================================+
+2017-03-02 14:41:08 INFO  - Default suite suite started at Thu Mar 02 14:41:08 IST 2017
+2017-03-02 14:41:08 INFO  - Suite Browser: Chrome
+2017-03-02 14:41:10 INFO  - +=============Database started=============+
+2017-03-02 14:41:10 INFO  - Database driver name: SQLiteJDBC
+2017-03-02 14:41:10 INFO  - Product name SQLite, Version 3.8.11
+2017-03-02 14:41:10 INFO  - +==========================================+
+
+2017-03-02 14:41:10 INFO  - Test is started with browser: Chrome
+2017-03-02 14:41:16 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-02 14:41:16 INFO  - Test Started: IGP_TC_085
+2017-03-02 14:41:16 INFO  - Test description: To add  quantity for  selected product-: Ensure that user can increase the quantity of the product.
+2017-03-02 14:41:16 INFO  - Open home page
+2017-03-02 14:41:16 INFO  - Navigate to: https://www.igp.com/
+2017-03-02 14:41:23 INFO  - Open home page
+2017-03-02 14:41:23 INFO  - Select product from best selling
+2017-03-02 14:41:23 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-03-02 14:41:23 INFO  - Select product from best selling
+2017-03-02 14:41:23 INFO  - Enter valid Pin code and validate
+2017-03-02 14:41:23 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-02 14:41:28 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-02 14:41:28 INFO  - Input pincode:134102
+2017-03-02 14:41:28 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-02 14:41:30 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-03-02 14:41:30 INFO  - Valid Pin code message: Will be delivered today (if ordered within next 2 hours).
+2017-03-02 14:41:30 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-03-02 14:41:30 INFO  - Enter valid Pin code and validate
+2017-03-02 14:41:33 INFO  - Buy Now
+2017-03-02 14:41:33 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-02 14:41:33 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-02 14:41:36 INFO  - The page should navigate to cart page
+2017-03-02 14:41:36 INFO  - Place order
+2017-03-02 14:41:36 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-02 14:41:36 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-02 14:41:36 INFO  - Click place order
+2017-03-02 14:41:39 INFO  - The user should be navigated to checkout page.
+2017-03-02 14:41:39 INFO  - Login at checkout page
+2017-03-02 14:41:39 INFO  - Login at checkout page
+2017-03-02 14:41:39 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-03-02 14:41:39 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-03-02 14:41:40 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-03-02 14:41:43 INFO  - Login at checkout page
+2017-03-02 14:41:43 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-03-02 14:41:44 INFO  - Click Deliver here
+2017-03-02 14:41:44 INFO  - Verify user navigated to Order Summary page
+2017-03-02 14:41:47 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-03-02 14:41:47 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 595
+(Shipping Charge : Free)" 
+2017-03-02 14:41:47 INFO  - Verify user navigated to Order Summary page
+2017-03-02 14:41:47 INFO  - Increase the quantity of the product using increment/decrement option.
+2017-03-02 14:41:47 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-02 14:41:49 INFO  - Itme qty Before increase: 1
+2017-03-02 14:41:49 INFO  - Increase Qty of First Item
+2017-03-02 14:41:49 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-02 14:41:52 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-02 14:41:54 INFO  - Itme qty After increase: 2
+2017-03-02 14:41:54 INFO  - Increase the quantity of the product using increment/decrement option.
+2017-03-02 14:41:54 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170302144154_Order Detail.jpg
+2017-03-02 14:41:55 INFO  - Total Time taken in(seconds):39
+2017-03-02 14:41:55 INFO  - TestResults
+2017-03-02 14:41:56 INFO  - **********TEST FINISHED-> IGP_TC_085-PASS**********
+2017-03-02 14:41:56 INFO  - Test has ended closing browser: Chrome
+2017-03-02 14:41:56 INFO  - Closing Browsers
+2017-03-02 14:41:57 INFO  - Default suite suite finished at Thu Mar 02 14:41:57 IST 2017
+2017-03-02 14:41:57 INFO  - Test process has ended
+2017-03-02 14:41:57 INFO  - History File created successfully
