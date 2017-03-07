@@ -12,7 +12,7 @@ public class HomePage extends KeywordUtil {
 	
 	public static By linkFlower_and_cake= By.xpath("//p[text()='Flowers & Cakes']");
 	public static By logo = By.xpath("//*[@id='absolute-header']/div[1]/div/a/img");
-	
+	public static By personalized_gifts=By.xpath("//div[contains(@class,'icon')]/p[text()='Personalized Gifts']");	
 	
 	public static String getPageTitle(WebDriver driver) {
 		return driver.getTitle();
@@ -40,6 +40,29 @@ public class HomePage extends KeywordUtil {
 		String xpathOfItem = String.format("(//*[@id='edp-default']//img)[position()=%d]", 4+index);
 		 By item=By.xpath(xpathOfItem);
 		 return click(item);
+	}
+
+	public static boolean sendgiftsWorldwide() throws InterruptedException
+	{
+		if(isWebElementPresent(By.xpath("//img[@alt='CCS Banner']")))
+		{
+			return clickAndWait(By.xpath("//img[@alt='CCS Banner']"));
+		}
+		else
+			return false;
+	}
+	
+	public static boolean personalisedGifts() throws Exception
+	{
+		if(isWebElementPresent(personalized_gifts))
+		{
+			verifyStep(clickAndWait(personalized_gifts),"Click on Personalized gifts");
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 
 }

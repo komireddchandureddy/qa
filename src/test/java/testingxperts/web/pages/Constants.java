@@ -17,5 +17,5 @@ public class Constants {
 	public static final String CVV = "225";
 	public static final String EXPIRY_MONTH = "01";
 	public static final String EXPIRY_YEAR = "2019";
-	
+	public static final String INVALID_COUNTRY="Tokyo";
 }

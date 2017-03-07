@@ -26,7 +26,7 @@ public class ExecutionStartEndListner extends Utility implements IExecutionListe
 		LogUtil.infoLog("TestProcessEnd", "Test process has ended");
 		
 		ReportFactoryDB.getComparisonReport(GlobalUtil.getCommonSettings().getProjectName());
-		
+		ReportFactoryDB.closeDBConnection();
 		//1. Send Mail functionality
 		if (GlobalUtil.getCommonSettings().getEmailOutput().equalsIgnoreCase("Y"))
 			try {

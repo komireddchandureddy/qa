@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46254" started-at="2017-03-02T09:11:10Z" finished-at="2017-03-02T09:11:57Z">
+  <suite name="Default suite" duration-ms="47003" started-at="2017-03-07T12:08:37Z" finished-at="2017-03-07T12:09:24Z">
     <groups>
-      <group name="Order Summary">
-        <method signature="IGP_TC_085.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_085@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_085"/>
-      </group> <!-- Order Summary -->
+      <group name="Product Description page.">
+        <method signature="IGP_TC_108.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_108@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_108"/>
+      </group> <!-- Product Description page. -->
     </groups>
-    <test name="Default test" duration-ms="46254" started-at="2017-03-02T09:11:10Z" finished-at="2017-03-02T09:11:57Z">
-      <class name="testingxperts.web.tests.IGP_TC_085">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_085@eec5a4a]" name="test" duration-ms="39407" started-at="2017-03-02T14:41:15Z" description="To add  quantity for  selected product:Ensure that user can increase the quantity of the product." finished-at="2017-03-02T14:41:55Z">
+    <test name="Default test" duration-ms="47003" started-at="2017-03-07T12:08:37Z" finished-at="2017-03-07T12:09:24Z">
+      <class name="testingxperts.web.tests.IGP_TC_108">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_108@eec5a4a]" name="test" duration-ms="40591" started-at="2017-03-07T17:38:42Z" description="Product name and Price:Ensure that the selected product name and price should be same with what we are selected in listing page." finished-at="2017-03-07T17:39:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.IGP_TC_085 -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_108 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

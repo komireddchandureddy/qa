@@ -41501,3 +41501,693 @@ Please try a different pincode"
 2017-03-02 14:41:57 INFO  - Default suite suite finished at Thu Mar 02 14:41:57 IST 2017
 2017-03-02 14:41:57 INFO  - Test process has ended
 2017-03-02 14:41:57 INFO  - History File created successfully
+2017-03-07 12:14:28 INFO  - 
+
++============================================================================================================================+
+2017-03-07 12:14:28 INFO  - Default suite suite started at Tue Mar 07 12:14:28 IST 2017
+2017-03-07 12:14:28 INFO  - Suite Browser: Chrome
+2017-03-07 12:14:30 INFO  - +=============Database started=============+
+2017-03-07 12:14:30 INFO  - Database driver name: SQLiteJDBC
+2017-03-07 12:14:30 INFO  - Product name SQLite, Version 3.8.11
+2017-03-07 12:14:30 INFO  - +==========================================+
+
+2017-03-07 12:14:30 INFO  - Test is started with browser: Chrome
+2017-03-07 12:14:36 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 12:14:36 INFO  - Test Started: IGP_TC_085
+2017-03-07 12:14:36 INFO  - Test description: To add  quantity for  selected product-: Ensure that user can increase the quantity of the product.
+2017-03-07 12:14:36 INFO  - Open home page
+2017-03-07 12:14:36 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 12:14:43 INFO  - Open home page
+2017-03-07 12:14:43 INFO  - Select product from best selling
+2017-03-07 12:14:43 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-03-07 12:14:48 INFO  - Select product from best selling
+2017-03-07 12:14:48 INFO  - Enter valid Pin code and validate
+2017-03-07 12:14:48 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 12:14:48 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 12:14:48 INFO  - Input pincode:134102
+2017-03-07 12:14:48 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 12:14:50 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-03-07 12:14:50 INFO  - Valid Pin code message: Will be delivered today between 10:00 A.M. - 10:00 P.M. (if ordered within next 4 hours).
+2017-03-07 12:14:50 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-03-07 12:14:50 INFO  - Enter valid Pin code and validate
+2017-03-07 12:14:53 INFO  - Buy Now
+2017-03-07 12:14:53 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 12:14:55 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 12:14:57 INFO  - The page should navigate to cart page
+2017-03-07 12:14:57 INFO  - Place order
+2017-03-07 12:14:57 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 12:14:57 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-07 12:15:00 INFO  - Click place order
+2017-03-07 12:15:02 INFO  - The user should be navigated to checkout page.
+2017-03-07 12:15:02 INFO  - Login at checkout page
+2017-03-07 12:15:02 INFO  - Login at checkout page
+2017-03-07 12:15:02 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-03-07 12:15:02 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-03-07 12:15:04 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-03-07 12:15:08 INFO  - Login at checkout page
+2017-03-07 12:15:08 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-03-07 12:15:08 INFO  - Click Deliver here
+2017-03-07 12:15:08 INFO  - Verify user navigated to Order Summary page
+2017-03-07 12:15:11 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-03-07 12:15:11 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 595
+(Shipping Charge : Free)" 
+2017-03-07 12:15:11 INFO  - Verify user navigated to Order Summary page
+2017-03-07 12:15:11 INFO  - Increase the quantity of the product using increment/decrement option.
+2017-03-07 12:15:11 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-07 12:15:13 INFO  - Itme qty Before increase: 1
+2017-03-07 12:15:13 INFO  - Increase Qty of First Item
+2017-03-07 12:15:13 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-07 12:15:16 INFO  - Get List of Elements: By.xpath: //*[@class='order-item-row']
+2017-03-07 12:15:18 INFO  - Itme qty After increase: 2
+2017-03-07 12:15:18 INFO  - Increase the quantity of the product using increment/decrement option.
+2017-03-07 12:15:19 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307121518_Order Detail.jpg
+2017-03-07 12:15:19 INFO  - Total Time taken in(seconds):44
+2017-03-07 12:15:20 INFO  - TestResults
+2017-03-07 12:15:20 INFO  - **********TEST FINISHED-> IGP_TC_085-PASS**********
+2017-03-07 12:15:20 INFO  - Test has ended closing browser: Chrome
+2017-03-07 12:15:20 INFO  - Closing Browsers
+2017-03-07 12:15:21 INFO  - Default suite suite finished at Tue Mar 07 12:15:21 IST 2017
+2017-03-07 12:15:23 INFO  - Test process has ended
+2017-03-07 12:15:23 INFO  - History File created successfully
+2017-03-07 12:53:32 INFO  - 
+
++============================================================================================================================+
+2017-03-07 12:53:32 INFO  - Default suite suite started at Tue Mar 07 12:53:32 IST 2017
+2017-03-07 12:53:32 INFO  - Suite Browser: Chrome
+2017-03-07 12:53:35 INFO  - +=============Database started=============+
+2017-03-07 12:53:35 INFO  - Database driver name: SQLiteJDBC
+2017-03-07 12:53:35 INFO  - Product name SQLite, Version 3.8.11
+2017-03-07 12:53:35 INFO  - +==========================================+
+
+2017-03-07 12:53:35 INFO  - Test is started with browser: Chrome
+2017-03-07 12:53:40 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 12:53:40 INFO  - Test Started: IGP_TC_103
+2017-03-07 12:53:40 INFO  - Test description: Pin code validation:Ensure that the pin code box is accepting more than 6 digits, alphabets & special symbols or not.
+2017-03-07 12:53:40 INFO  - Open home page
+2017-03-07 12:53:40 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 12:53:47 INFO  - Open home page
+2017-03-07 12:53:47 INFO  - Login to application
+2017-03-07 12:53:47 INFO  - Do Login
+2017-03-07 12:53:47 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-07 12:53:48 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-07 12:53:49 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-07 12:53:49 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-07 12:53:49 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 12:53:49 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 12:53:50 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 12:53:50 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 12:53:51 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 12:53:52 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 12:53:59 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-07 12:53:59 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-07 12:54:00 INFO  - Login to application
+2017-03-07 12:54:00 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-07 12:54:00 INFO  - Check Element present: By.xpath: //img[@alt='CCS Banner']
+2017-03-07 12:54:00 INFO  - Click: By.xpath: //img[@alt='CCS Banner']
+2017-03-07 12:54:03 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-07 12:54:03 INFO  - Check Element present: By.xpath: //h3[text()='Top Countries']
+2017-03-07 12:54:04 INFO  - Navigated to Worldwide Page
+2017-03-07 12:54:07 INFO  - Click on any name of the City/Country gifts
+2017-03-07 12:54:09 INFO  - Click: By.linkText: Singapore
+2017-03-07 12:54:13 INFO  - Click on any name of the City/Country gifts
+2017-03-07 12:54:16 INFO  - Select the item.
+2017-03-07 12:54:16 INFO  - Click: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=6]
+2017-03-07 12:54:21 INFO  - Select the item.
+2017-03-07 12:54:21 INFO  - Click on 'Shipping with India'.
+2017-03-07 12:54:21 INFO  - Click: By.linkText: Shipping within India
+2017-03-07 12:54:21 INFO  - Click on 'Shipping with India'.
+2017-03-07 12:54:21 INFO  - Enter pin code greater than 6 digits and check this.
+2017-03-07 12:54:23 INFO  - Click: By.id: pinCheck
+2017-03-07 12:54:23 INFO  - Check Element present: By.xpath: //input[contains(@class,'pincode error')]
+2017-03-07 12:54:23 INFO  - Enter pin code greater than 6 digits and check this.
+2017-03-07 12:54:24 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307125424_Product Desc. page.jpg
+2017-03-07 12:54:24 INFO  - Total Time taken in(seconds):44
+2017-03-07 12:54:25 INFO  - TestResults
+2017-03-07 12:54:26 INFO  - **********TEST FINISHED-> IGP_TC_103-PASS**********
+2017-03-07 12:54:26 INFO  - Test has ended closing browser: Chrome
+2017-03-07 12:54:26 INFO  - Closing Browsers
+2017-03-07 12:54:27 INFO  - Default suite suite finished at Tue Mar 07 12:54:27 IST 2017
+2017-03-07 12:54:28 INFO  - Test process has ended
+2017-03-07 12:54:28 INFO  - History File created successfully
+2017-03-07 14:52:21 INFO  - 
+
++============================================================================================================================+
+2017-03-07 14:52:21 INFO  - Default suite suite started at Tue Mar 07 14:52:21 IST 2017
+2017-03-07 14:52:21 INFO  - Suite Browser: Chrome
+2017-03-07 14:52:24 INFO  - +=============Database started=============+
+2017-03-07 14:52:24 INFO  - Database driver name: SQLiteJDBC
+2017-03-07 14:52:24 INFO  - Product name SQLite, Version 3.8.11
+2017-03-07 14:52:24 INFO  - +==========================================+
+
+2017-03-07 14:52:24 INFO  - Test is started with browser: Chrome
+2017-03-07 14:52:29 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 14:52:29 INFO  - Test Started: IGP_TC_103
+2017-03-07 14:52:29 INFO  - Test description: Pin code validation:Ensure that the pin code box is accepting more than 6 digits, alphabets & special symbols or not.
+2017-03-07 14:52:29 INFO  - Open home page
+2017-03-07 14:52:29 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 14:52:37 INFO  - Open home page
+2017-03-07 14:52:37 INFO  - Login to application
+2017-03-07 14:52:37 INFO  - Do Login
+2017-03-07 14:52:37 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-07 14:52:37 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-07 14:52:38 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-07 14:52:39 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-07 14:52:39 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 14:52:39 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 14:52:40 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 14:52:40 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 14:52:41 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 14:52:41 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 14:52:47 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-07 14:52:47 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-07 14:52:47 INFO  - Login to application
+2017-03-07 14:52:47 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-07 14:52:47 INFO  - Check Element present: By.xpath: //img[@alt='CCS Banner']
+2017-03-07 14:52:47 INFO  - Click: By.xpath: //img[@alt='CCS Banner']
+2017-03-07 14:52:52 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-07 14:52:52 INFO  - Check Element present: By.xpath: //h3[text()='Top Countries']
+2017-03-07 14:52:52 INFO  - Navigated to Worldwide Page
+2017-03-07 14:52:55 INFO  - Click on any name of the City/Country gifts
+2017-03-07 14:52:58 INFO  - Click: By.linkText: Singapore
+2017-03-07 14:53:02 INFO  - Click on any name of the City/Country gifts
+2017-03-07 14:53:05 INFO  - Select the item.
+2017-03-07 14:53:05 INFO  - Click: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=6]
+2017-03-07 14:53:09 INFO  - Select the item.
+2017-03-07 14:53:09 INFO  - Click on 'Shipping with India'.
+2017-03-07 14:53:09 INFO  - Click: By.linkText: Shipping within India
+2017-03-07 14:53:09 INFO  - Click on 'Shipping with India'.
+2017-03-07 14:53:09 INFO  - Enter pin code greater than 6 digits and check this.
+2017-03-07 14:53:12 INFO  - Click: By.id: pinCheck
+2017-03-07 14:53:13 INFO  - Check Element present: By.xpath: //input[contains(@class,'pincode error')]
+2017-03-07 14:53:13 INFO  - Enter pin code greater than 6 digits and check this.
+2017-03-07 14:53:14 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307145313_Product Desc. page.jpg
+2017-03-07 14:53:14 INFO  - Total Time taken in(seconds):45
+2017-03-07 14:53:15 INFO  - TestResults
+2017-03-07 14:53:16 INFO  - **********TEST FINISHED-> IGP_TC_103-PASS**********
+2017-03-07 14:53:16 INFO  - Test has ended closing browser: Chrome
+2017-03-07 14:53:16 INFO  - Closing Browsers
+2017-03-07 14:53:17 INFO  - Default suite suite finished at Tue Mar 07 14:53:17 IST 2017
+2017-03-07 14:53:18 INFO  - Test process has ended
+2017-03-07 14:53:18 INFO  - History File created successfully
+2017-03-07 15:14:20 INFO  - 
+
++============================================================================================================================+
+2017-03-07 15:14:20 INFO  - Default suite suite started at Tue Mar 07 15:14:20 IST 2017
+2017-03-07 15:14:20 INFO  - Suite Browser: Chrome
+2017-03-07 15:14:23 INFO  - +=============Database started=============+
+2017-03-07 15:14:23 INFO  - Database driver name: SQLiteJDBC
+2017-03-07 15:14:23 INFO  - Product name SQLite, Version 3.8.11
+2017-03-07 15:14:23 INFO  - +==========================================+
+
+2017-03-07 15:14:23 INFO  - Test is started with browser: Chrome
+2017-03-07 15:14:28 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 15:14:28 INFO  - Test Started: IGP_TC_203
+2017-03-07 15:14:28 INFO  - Test description: Credit Card & Debit card: Name On the card: Verify that Name On The Card is accepting numbers and special symbols or not.
+2017-03-07 15:14:28 INFO  - Open home page
+2017-03-07 15:14:28 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 15:14:36 INFO  - Open home page
+2017-03-07 15:14:36 INFO  - Select product from best selling
+2017-03-07 15:14:36 INFO  - Click: By.xpath: (//*[@id='edp-default']//img)[position()=6]
+2017-03-07 15:14:41 INFO  - Select product from best selling
+2017-03-07 15:14:41 INFO  - Enter valid Pin code and validate
+2017-03-07 15:14:42 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 15:14:42 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 15:14:42 INFO  - Input pincode:134102
+2017-03-07 15:14:42 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 15:14:44 INFO  - Get Element text: By.xpath: //*[@id='sameday-help-text']
+2017-03-07 15:14:44 INFO  - Valid Pin code message: Will be delivered today between 10:00 A.M. - 10:00 P.M. (if ordered within next 1 hours).
+2017-03-07 15:14:44 INFO  - Check Element visible: By.xpath: //*[@id='sameday-help-text']
+2017-03-07 15:14:44 INFO  - Enter valid Pin code and validate
+2017-03-07 15:14:44 INFO  - Buy Now
+2017-03-07 15:14:44 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 15:14:45 INFO  - Buy Now
+2017-03-07 15:14:45 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 15:14:50 INFO  - The page should navigate to cart page
+2017-03-07 15:14:50 INFO  - Place order
+2017-03-07 15:14:50 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 15:14:50 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-07 15:14:52 INFO  - Click place order
+2017-03-07 15:14:56 INFO  - The user should be navigated to checkout page.
+2017-03-07 15:14:56 INFO  - Login at checkout page
+2017-03-07 15:14:56 INFO  - Login at checkout page
+2017-03-07 15:14:56 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.xpath: (//input[@name='email'][@placeholder='enter email address'])[position()=1]
+2017-03-07 15:14:57 INFO  - Input Text: 123456 - By.xpath: (//input[@name='passwd'][@placeholder='enter password'])[position()=2]
+2017-03-07 15:14:58 INFO  - Click: By.xpath: (//button[@type='submit'][contains(.,'Login')])[position()=2]
+2017-03-07 15:15:02 INFO  - Login at checkout page
+2017-03-07 15:15:02 INFO  - Click: By.xpath: //a[contains(.,'Deliver Here')]
+2017-03-07 15:15:02 INFO  - Click Deliver here
+2017-03-07 15:15:02 INFO  - Verify user navigated to Order Summary page
+2017-03-07 15:15:05 INFO  - Verify Text Contains: Total Amount Payable - By.xpath: //h5[contains(.,'Total Amount Payable : Rs')]
+2017-03-07 15:15:05 INFO  - Verified text expected "Total Amount Payable" actual "TOTAL AMOUNT PAYABLE : RS 595
+(Shipping Charge : Free)" 
+2017-03-07 15:15:05 INFO  - Verify user navigated to Order Summary page
+2017-03-07 15:15:05 INFO  - Click: By.linkText: PLACE ORDER
+2017-03-07 15:15:05 INFO  - Click place order
+2017-03-07 15:15:12 INFO  - Check Element visible: By.xpath: //ul[@class='payment-method-list']
+2017-03-07 15:15:12 INFO  - Verify User should Navigate to Payment page
+2017-03-07 15:15:12 INFO  - Enter Invalid format for card on name field say <b>'123ABC#$'</b>  and verify, It should not accept it. 
+2017-03-07 15:15:12 INFO  - Click: By.xpath: //li[@data-target='debit-card']
+2017-03-07 15:15:12 INFO  - Click Debit card
+2017-03-07 15:15:14 INFO  - Select dropdown by text : Visa Debit Cards (All Banks) - By.xpath: //*[@id='d-card-form']//select[@name='bankcode']
+2017-03-07 15:15:14 INFO  - Select debit card type - visa
+2017-03-07 15:15:19 INFO  - Input debit card number: 4012888888881881
+2017-03-07 15:15:19 INFO  - Input Text: 123ABC#$ - By.xpath: //*[@id='d-card-form']//input[@ placeholder='Name on card']
+2017-03-07 15:15:19 INFO  - Input debit card name: 123ABC#$
+2017-03-07 15:15:20 INFO  - Get Input Text: By.xpath: //*[@id='d-card-form']//input[@ placeholder='Name on card']
+2017-03-07 15:15:20 INFO  - Input Text:123ABC#$
+2017-03-07 15:15:20 INFO  - Name should not contains special characters
+2017-03-07 15:15:20 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307151520_IGP_TC_203.jpg
+2017-03-07 15:15:20 INFO  - Enter Invalid format for card on name field say <b>'123ABC#$'</b>  and verify, It should not accept it.  - Get Input Text: By.xpath: //*[@id='d-card-form']//input[@ placeholder='Name on card']
+2017-03-07 15:15:20 INFO  - Varification failed-->Name should not contains special characters
+2017-03-07 15:15:20 INFO  - Total Time taken in(seconds):52
+2017-03-07 15:15:20 INFO  - **********TEST FINISHED-> IGP_TC_203-FAILED**********
+2017-03-07 15:15:21 INFO  - TestResults
+2017-03-07 15:15:22 INFO  - Test has ended closing browser: Chrome
+2017-03-07 15:15:22 INFO  - Closing Browsers
+2017-03-07 15:15:23 INFO  - Default suite suite finished at Tue Mar 07 15:15:23 IST 2017
+2017-03-07 15:15:23 INFO  - Test process has ended
+2017-03-07 15:15:23 INFO  - Comparison sheet written successfully
+2017-03-07 15:15:23 INFO  - Data to excel written successfully
+2017-03-07 15:15:23 INFO  - History File created successfully
+2017-03-07 15:18:32 INFO  - 
+
++============================================================================================================================+
+2017-03-07 15:18:32 INFO  - Default suite suite started at Tue Mar 07 15:18:32 IST 2017
+2017-03-07 15:18:32 INFO  - Suite Browser: Chrome
+2017-03-07 15:18:34 INFO  - +=============Database started=============+
+2017-03-07 15:18:34 INFO  - Database driver name: SQLiteJDBC
+2017-03-07 15:18:34 INFO  - Product name SQLite, Version 3.8.11
+2017-03-07 15:18:34 INFO  - +==========================================+
+
+2017-03-07 15:18:34 INFO  - Test is started with browser: Chrome
+2017-03-07 15:18:38 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 15:18:38 INFO  - Test Started: IGP_TC_093
+2017-03-07 15:18:38 INFO  - Test description: Delivery pin code update: Ensure that the pin code is updating upon change.
+2017-03-07 15:18:38 INFO  - Open home page
+2017-03-07 15:18:38 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 15:18:48 INFO  - Open home page
+2017-03-07 15:18:48 INFO  - Login to application
+2017-03-07 15:18:48 INFO  - Do Login
+2017-03-07 15:18:48 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-07 15:18:48 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-07 15:18:49 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-07 15:18:49 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-07 15:18:49 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 15:18:49 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 15:18:50 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 15:18:51 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 15:18:52 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 15:18:52 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 15:18:57 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-07 15:18:57 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-07 15:18:57 INFO  - Login to application
+2017-03-07 15:18:57 INFO  - Add product into cart.
+2017-03-07 15:18:57 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-03-07 15:18:58 INFO  - Click:FLOWER_AND_CAKE
+2017-03-07 15:18:58 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-03-07 15:19:01 INFO  - Select Item
+2017-03-07 15:19:06 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 15:19:06 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 15:19:06 INFO  - Input pincode
+2017-03-07 15:19:06 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 15:19:09 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-03-07 15:19:09 INFO  - Click: ADD TO CART
+2017-03-07 15:19:09 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-03-07 15:19:10 INFO  - Click cart button
+2017-03-07 15:19:12 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-03-07 15:19:12 INFO  - Add product into cart.
+2017-03-07 15:19:12 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-03-07 15:19:14 INFO  - Buy Now
+2017-03-07 15:19:14 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 15:19:15 INFO  - Buy Now
+2017-03-07 15:19:15 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 15:19:18 INFO  - The page should navigate to order details page
+2017-03-07 15:19:18 INFO  - Place order
+2017-03-07 15:19:18 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 15:19:18 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-07 15:19:20 INFO  - Click place order
+2017-03-07 15:19:24 INFO  - The user should be navigated to cart page.
+2017-03-07 15:19:24 INFO  - Change pin
+2017-03-07 15:19:24 INFO  - Click Edit address icon
+2017-03-07 15:19:27 INFO  - Click : By.xpath: //div//span[@data-tooltip='Edit Address']
+2017-03-07 15:19:29 INFO  - Input Text: 160019 - By.xpath: //input[@placeholder='pincode']
+2017-03-07 15:19:32 INFO  - Updated pin:160019
+2017-03-07 15:19:32 INFO  - Change pin
+2017-03-07 15:19:32 INFO  - Verify pin updated
+2017-03-07 15:19:32 INFO  - Click: By.xpath: //button[contains(@id,'e-a-save')]
+2017-03-07 15:19:33 INFO  - Verify Text Contains: 160019 - By.xpath: (//div[contains(@id,'address-card')])[1]//p[2]
+2017-03-07 15:19:33 INFO  - Verified text expected "160019" actual "Chandigarh, Chandigarh
+160019" 
+2017-03-07 15:19:33 INFO  - Verify pin updated
+2017-03-07 15:19:38 INFO  - Logout from application
+2017-03-07 15:19:38 INFO  - Logout from application
+2017-03-07 15:19:38 INFO  - Click: By.xpath: //li[@id='user-menu-short']
+2017-03-07 15:19:38 INFO  - Click: By.xpath: //li[@id='user-menu-short']
+2017-03-07 15:19:39 INFO  - Click: By.xpath: //a[@href='/logout']
+2017-03-07 15:19:44 INFO  - Click: By.xpath: //a[@href='/logout']
+2017-03-07 15:19:45 INFO  - Check Element present: By.xpath: //li[@id='user-menu-short']//div[@class='hidden'][contains(.,'Login')]
+2017-03-07 15:19:45 INFO  - Logout from application
+2017-03-07 15:19:45 INFO  - Total Time taken in(seconds):67
+2017-03-07 15:19:46 INFO  - TestResults
+2017-03-07 15:19:47 INFO  - **********TEST FINISHED-> IGP_TC_093-PASS**********
+2017-03-07 15:19:47 INFO  - Test has ended closing browser: Chrome
+2017-03-07 15:19:47 INFO  - Closing Browsers
+2017-03-07 15:19:48 INFO  - Default suite suite finished at Tue Mar 07 15:19:48 IST 2017
+2017-03-07 15:19:48 INFO  - Test process has ended
+2017-03-07 15:19:48 INFO  - Comparison sheet written successfully
+2017-03-07 15:19:48 INFO  - Data to excel written successfully
+2017-03-07 15:19:48 INFO  - History File created successfully
+2017-03-07 17:38:35 INFO  - 
+
++============================================================================================================================+
+2017-03-07 17:38:35 INFO  - Default suite suite started at Tue Mar 07 17:38:35 IST 2017
+2017-03-07 17:38:35 INFO  - Suite Browser: Chrome
+2017-03-07 17:38:37 INFO  - +=============Database started=============+
+2017-03-07 17:38:37 INFO  - Database driver name: SQLiteJDBC
+2017-03-07 17:38:37 INFO  - Product name SQLite, Version 3.8.11
+2017-03-07 17:38:37 INFO  - +==========================================+
+
+2017-03-07 17:38:37 INFO  - Test is started with browser: Chrome
+2017-03-07 17:38:42 INFO  - No data found with given key-> IGP_TC_108
+2017-03-07 17:38:42 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 17:38:42 INFO  - Test Started: IGP_TC_108
+2017-03-07 17:38:42 INFO  - Test description: 
+2017-03-07 17:38:42 INFO  - Open home page
+2017-03-07 17:38:42 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 17:38:49 INFO  - Open home page
+2017-03-07 17:38:49 INFO  - Login to application
+2017-03-07 17:38:49 INFO  - Do Login
+2017-03-07 17:38:49 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-07 17:38:49 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-07 17:38:50 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-07 17:38:51 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-07 17:38:51 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:38:51 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:38:52 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:38:52 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:38:53 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:38:53 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:38:58 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-07 17:38:58 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-07 17:38:58 INFO  - Login to application
+2017-03-07 17:38:58 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-07 17:38:58 INFO  - Check Element present: By.xpath: //img[@alt='CCS Banner']
+2017-03-07 17:38:58 INFO  - Click: By.xpath: //img[@alt='CCS Banner']
+2017-03-07 17:39:02 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-07 17:39:02 INFO  - Check Element present: By.xpath: //h3[text()='Top Countries']
+2017-03-07 17:39:02 INFO  - Navigated to Worldwide Page
+2017-03-07 17:39:05 INFO  - Click on any name of the City/Country gifts
+2017-03-07 17:39:08 INFO  - Click: By.linkText: Singapore
+2017-03-07 17:39:09 INFO  - Click on any name of the City/Country gifts
+2017-03-07 17:39:12 INFO  - Navigate to product description page.
+2017-03-07 17:39:12 INFO  - Get Element text: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=6]//p[@class='product-name']/a
+2017-03-07 17:39:12 INFO  - Get Element text: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=6]//p[@class='product-price']/span
+2017-03-07 17:39:12 INFO  - Click: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=6]
+2017-03-07 17:39:17 INFO  - Get Element text: By.xpath: //h1[@class='pdp-product-name']
+2017-03-07 17:39:17 INFO  - Get Element text: By.xpath: //span[contains(@class,'product-price')]
+2017-03-07 17:39:17 INFO  - Navigate to product description page.
+2017-03-07 17:39:20 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307173920_Product Desc. page.jpg
+2017-03-07 17:39:22 INFO  - Total Time taken in(seconds):40
+2017-03-07 17:39:23 INFO  - TestResults
+2017-03-07 17:39:23 INFO  - **********TEST FINISHED-> -PASS**********
+2017-03-07 17:39:23 INFO  - Test has ended closing browser: Chrome
+2017-03-07 17:39:23 INFO  - Closing Browsers
+2017-03-07 17:39:24 INFO  - Default suite suite finished at Tue Mar 07 17:39:24 IST 2017
+2017-03-07 17:39:25 INFO  - Test process has ended
+2017-03-07 17:39:25 INFO  - Comparison sheet written successfully
+2017-03-07 17:39:25 INFO  - Data to excel written successfully
+2017-03-07 17:39:25 INFO  - History File created successfully
+2017-03-07 17:43:32 INFO  - 
+
++============================================================================================================================+
+2017-03-07 17:43:32 INFO  - Cart page suite started at Tue Mar 07 17:43:32 IST 2017
+2017-03-07 17:43:32 INFO  - Suite Browser: Chrome
+2017-03-07 17:43:34 INFO  - +=============Database started=============+
+2017-03-07 17:43:34 INFO  - Database driver name: SQLiteJDBC
+2017-03-07 17:43:34 INFO  - Product name SQLite, Version 3.8.11
+2017-03-07 17:43:34 INFO  - +==========================================+
+
+2017-03-07 17:43:34 INFO  - Test is started with browser: Chrome
+2017-03-07 17:43:39 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 17:43:39 INFO  - Test Started: IGP_TC_090
+2017-03-07 17:43:39 INFO  - Test description: Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on 'Buy now'.
+2017-03-07 17:43:39 INFO  - Open home page
+2017-03-07 17:43:39 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 17:43:46 INFO  - Open home page
+2017-03-07 17:43:46 INFO  - Add product into cart.
+2017-03-07 17:43:46 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-03-07 17:43:48 INFO  - Click:FLOWER_AND_CAKE
+2017-03-07 17:43:48 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-03-07 17:43:53 INFO  - Select Item
+2017-03-07 17:43:53 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 17:43:53 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 17:43:53 INFO  - Input pincode
+2017-03-07 17:43:53 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 17:43:57 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-03-07 17:43:58 INFO  - Click: ADD TO CART
+2017-03-07 17:43:58 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-03-07 17:43:58 INFO  - Click cart button
+2017-03-07 17:43:59 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-03-07 17:43:59 INFO  - Add product into cart.
+2017-03-07 17:43:59 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-03-07 17:44:01 INFO  - Buy Now
+2017-03-07 17:44:01 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 17:44:02 INFO  - The page should navigate to order details page
+2017-03-07 17:44:02 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:44:07 INFO  - The page should navigate to order details page
+2017-03-07 17:44:07 INFO  - Verify pin update
+2017-03-07 17:44:07 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-03-07 17:44:09 INFO  - Click: By.xpath: //*[@class='fa fa-pencil']
+2017-03-07 17:44:09 INFO  - Input Text: 143505 - By.xpath: //input[@id='pin-code']
+2017-03-07 17:44:11 INFO  - Click: By.xpath: (//button[text()='Apply'])[position()=2]
+2017-03-07 17:44:15 INFO  - Verify Text Contains: 143505 - By.xpath: //*[@class='c-item-delivery v-center']//span[@class='number']
+2017-03-07 17:44:15 INFO  - Verified text expected "143505" actual "143505" 
+2017-03-07 17:44:15 INFO  - Verify pin update
+2017-03-07 17:44:18 INFO  - Total Time taken in(seconds):39
+2017-03-07 17:44:18 INFO  - TestResults
+2017-03-07 17:44:19 INFO  - **********TEST FINISHED-> IGP_TC_090-PASS**********
+2017-03-07 17:44:19 INFO  - Test has ended closing browser: Chrome
+2017-03-07 17:44:19 INFO  - Closing Browsers
+2017-03-07 17:44:20 INFO  - Test is started with browser: Chrome
+2017-03-07 17:44:24 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 17:44:24 INFO  - Test Started: IGP_TC_091
+2017-03-07 17:44:24 INFO  - Test description: Change country: Ensure that the product will be delivered to the selected country in cart page.
+2017-03-07 17:44:24 INFO  - Open home page
+2017-03-07 17:44:24 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 17:44:30 INFO  - Open home page
+2017-03-07 17:44:30 INFO  - Login to application
+2017-03-07 17:44:30 INFO  - Do Login
+2017-03-07 17:44:30 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-07 17:44:31 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-07 17:44:32 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-07 17:44:32 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-07 17:44:32 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:44:32 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:44:33 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:44:33 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:44:34 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:44:34 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:44:39 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-07 17:44:39 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-07 17:44:39 INFO  - Login to application
+2017-03-07 17:44:39 INFO  - Add product into cart.
+2017-03-07 17:44:39 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-03-07 17:44:39 INFO  - Click:FLOWER_AND_CAKE
+2017-03-07 17:44:39 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-03-07 17:44:42 INFO  - Select Item
+2017-03-07 17:44:47 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 17:44:47 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 17:44:47 INFO  - Input pincode
+2017-03-07 17:44:47 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 17:44:51 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-03-07 17:44:51 INFO  - Click: ADD TO CART
+2017-03-07 17:44:51 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-03-07 17:44:52 INFO  - Click cart button
+2017-03-07 17:44:53 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-03-07 17:44:53 INFO  - Add product into cart.
+2017-03-07 17:44:53 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-03-07 17:44:55 INFO  - Buy Now
+2017-03-07 17:44:55 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 17:44:56 INFO  - Buy Now
+2017-03-07 17:44:56 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:44:59 INFO  - The page should navigate to order details page
+2017-03-07 17:44:59 INFO  - Place order
+2017-03-07 17:44:59 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:44:59 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-07 17:44:59 INFO  - Click place order
+2017-03-07 17:45:03 INFO  - The user should be navigated to checkout page.
+2017-03-07 17:45:03 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307174503_IGP_TC_091.jpg
+2017-03-07 17:45:03 INFO  - The user should be navigated to checkout page. - Click: By.xpath: //a[text()='Place Order']
+2017-03-07 17:45:03 INFO  - Varification failed-->The user should be navigated to checkout page.
+2017-03-07 17:45:03 INFO  - Total Time taken in(seconds):39
+2017-03-07 17:45:03 INFO  - **********TEST FINISHED-> IGP_TC_091-FAILED**********
+2017-03-07 17:45:03 INFO  - TestResults
+2017-03-07 17:45:03 INFO  - Test has ended closing browser: Chrome
+2017-03-07 17:45:03 INFO  - Closing Browsers
+2017-03-07 17:45:04 INFO  - Test is started with browser: Chrome
+2017-03-07 17:45:09 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 17:45:09 INFO  - Test Started: IGP_TC_092
+2017-03-07 17:45:09 INFO  - Test description: Place Order: Ensure that the user is able to place order by clicking on "Place order" button.
+2017-03-07 17:45:09 INFO  - Open home page
+2017-03-07 17:45:09 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 17:45:16 INFO  - Open home page
+2017-03-07 17:45:16 INFO  - Login to application
+2017-03-07 17:45:16 INFO  - Do Login
+2017-03-07 17:45:16 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-07 17:45:16 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-07 17:45:17 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-07 17:45:17 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-07 17:45:17 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:45:18 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:45:19 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:45:19 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:45:20 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:45:20 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:45:25 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-07 17:45:25 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-07 17:45:25 INFO  - Login to application
+2017-03-07 17:45:25 INFO  - Add product into cart.
+2017-03-07 17:45:25 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-03-07 17:45:25 INFO  - Click:FLOWER_AND_CAKE
+2017-03-07 17:45:25 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-03-07 17:45:27 INFO  - Select Item
+2017-03-07 17:45:32 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 17:45:32 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 17:45:32 INFO  - Input pincode
+2017-03-07 17:45:32 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 17:45:35 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-03-07 17:45:35 INFO  - Click: ADD TO CART
+2017-03-07 17:45:35 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-03-07 17:45:37 INFO  - Click cart button
+2017-03-07 17:45:38 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-03-07 17:45:38 INFO  - Add product into cart.
+2017-03-07 17:45:38 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-03-07 17:45:40 INFO  - Buy Now
+2017-03-07 17:45:40 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 17:45:41 INFO  - Buy Now
+2017-03-07 17:45:41 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:45:43 INFO  - The page should navigate to order details page
+2017-03-07 17:45:43 INFO  - Place order
+2017-03-07 17:45:43 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:45:43 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-07 17:45:43 INFO  - Click place order
+2017-03-07 17:45:48 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307174547_IGP_TC_092.jpg
+2017-03-07 17:45:48 INFO  - The user should be navigated to delivery page. - Find Element: By.xpath: //*[@id='a-n-address-w']/div/div/h6
+2017-03-07 17:45:48 INFO  - Timeout reached when searching for element! Time: 50 seconds 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='a-n-address-w']/div/div/h6"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'CB-71', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir6688_28470}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cf2f230e9e919d0675ee6f31fa621d83
+*** Element info: {Using=xpath, value=//*[@id='a-n-address-w']/div/div/h6}
+2017-03-07 17:45:48 INFO  - Total Time taken in(seconds):39
+2017-03-07 17:45:48 INFO  - **********TEST FINISHED-> IGP_TC_092-FAILED**********
+2017-03-07 17:45:48 INFO  - TestResults
+2017-03-07 17:45:48 INFO  - Test has ended closing browser: Chrome
+2017-03-07 17:45:48 INFO  - Closing Browsers
+2017-03-07 17:45:49 INFO  - Test is started with browser: Chrome
+2017-03-07 17:45:54 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 17:45:54 INFO  - Test Started: IGP_TC_093
+2017-03-07 17:45:54 INFO  - Test description: Delivery pin code update: Ensure that the pin code is updating upon change.
+2017-03-07 17:45:54 INFO  - Open home page
+2017-03-07 17:45:54 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 17:46:00 INFO  - Open home page
+2017-03-07 17:46:00 INFO  - Login to application
+2017-03-07 17:46:00 INFO  - Do Login
+2017-03-07 17:46:00 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-07 17:46:00 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-07 17:46:02 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-07 17:46:02 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-07 17:46:02 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:46:02 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-07 17:46:03 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:46:03 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-07 17:46:04 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:46:04 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-07 17:46:11 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-07 17:46:11 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-07 17:46:11 INFO  - Login to application
+2017-03-07 17:46:11 INFO  - Add product into cart.
+2017-03-07 17:46:11 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-03-07 17:46:11 INFO  - Click:FLOWER_AND_CAKE
+2017-03-07 17:46:11 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-03-07 17:46:14 INFO  - Select Item
+2017-03-07 17:46:19 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 17:46:19 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 17:46:19 INFO  - Input pincode
+2017-03-07 17:46:19 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 17:46:23 INFO  - Click: By.xpath: //*[@id='add-cart']
+2017-03-07 17:46:24 INFO  - Click: ADD TO CART
+2017-03-07 17:46:24 INFO  - Click: By.xpath: .//*[@class='action-links']/li[3]/a
+2017-03-07 17:46:24 INFO  - Click cart button
+2017-03-07 17:46:25 INFO  - Check Element present: By.xpath: //ul[@class='cart-items-list']/li/span
+2017-03-07 17:46:25 INFO  - Add product into cart.
+2017-03-07 17:46:25 INFO  - Click: By.xpath: //*[@id='close-cart']
+2017-03-07 17:46:27 INFO  - Buy Now
+2017-03-07 17:46:27 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 17:46:28 INFO  - Buy Now
+2017-03-07 17:46:28 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:46:30 INFO  - The page should navigate to order details page
+2017-03-07 17:46:30 INFO  - Place order
+2017-03-07 17:46:30 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:46:30 INFO  - Click: By.xpath: //a[text()='Place Order']
+2017-03-07 17:46:31 INFO  - Click place order
+2017-03-07 17:46:35 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170307174635_IGP_TC_093.jpg
+2017-03-07 17:46:35 INFO  - The user should be navigated to cart page. - Find Element: By.xpath: //*[@id='a-n-address-w']/div/div/h6
+2017-03-07 17:46:35 INFO  - Timeout reached when searching for element! Time: 50 seconds 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='a-n-address-w']/div/div/h6"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'CB-71', ip: '192.168.6.49', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\SUKHJI~1\AppData\Local\Temp\scoped_dir7004_3285}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d5fe105837df3a81d966b8d3e268dad0
+*** Element info: {Using=xpath, value=//*[@id='a-n-address-w']/div/div/h6}
+2017-03-07 17:46:35 INFO  - Total Time taken in(seconds):41
+2017-03-07 17:46:35 INFO  - **********TEST FINISHED-> IGP_TC_093-FAILED**********
+2017-03-07 17:46:35 INFO  - TestResults
+2017-03-07 17:46:35 INFO  - Test has ended closing browser: Chrome
+2017-03-07 17:46:35 INFO  - Closing Browsers
+2017-03-07 17:46:36 INFO  - Test is started with browser: Chrome
+2017-03-07 17:46:40 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-07 17:46:40 INFO  - Test Started: IGP_TC_095
+2017-03-07 17:46:40 INFO  - Test description: Remove from cart: Ensure that the user able to remove the item from the cart.
+2017-03-07 17:46:40 INFO  - Open home page
+2017-03-07 17:46:40 INFO  - Navigate to: https://www.igp.com/
+2017-03-07 17:46:51 INFO  - Open home page
+2017-03-07 17:46:51 INFO  - Add product into cart.
+2017-03-07 17:46:51 INFO  - Click: By.xpath: //p[text()='Flowers & Cakes']
+2017-03-07 17:46:55 INFO  - Click:FLOWER_AND_CAKE
+2017-03-07 17:46:55 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=5]
+2017-03-07 17:47:01 INFO  - Select Item
+2017-03-07 17:47:01 INFO  - Double click: By.xpath: //*[@id='pincode']
+2017-03-07 17:47:01 INFO  - Input Text: 134102 - By.xpath: //*[@id='pincode']
+2017-03-07 17:47:01 INFO  - Input pincode
+2017-03-07 17:47:01 INFO  - Click: By.xpath: //*[@id='pinCheck']
+2017-03-07 17:47:04 INFO  - Buy Now
+2017-03-07 17:47:04 INFO  - Click: By.xpath: //button[@id='buy-now']
+2017-03-07 17:47:05 INFO  - The page should navigate to order details page
+2017-03-07 17:47:05 INFO  - Check Element visible: By.xpath: //a[text()='Place Order']
+2017-03-07 17:47:09 INFO  - The page should navigate to order details page
+2017-03-07 17:47:09 INFO  - Remove item from cart
+2017-03-07 17:47:09 INFO  - Verify Remove item pop-up displayed
+2017-03-07 17:47:09 INFO  - Click: By.xpath: //*[@id='site-wrapper']//div[@class='row c-item flex-row']//div[contains(@class,'close-menu-s')]

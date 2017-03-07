@@ -127,7 +127,7 @@ public class CustomListeners extends Utility implements ISuiteListener, IInvoked
 				HtmlReportUtil.tearDownReport();
 			}
 			
-			ReportFactoryDB.closeDBConnection();
+			
 			//DriverUtil.closeAllDriver();
 
 			String dbxCof = "N";
