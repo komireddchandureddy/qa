@@ -136,4 +136,19 @@ public class ProductDetailPage extends HomePage {
 		
 	}
 
+	public static boolean needHelpOption(String reason,String query) throws Exception
+	{
+		if(isWebElementVisible(By.linkText("Need Help ?")))
+		{
+			executeStep(click(By.linkText("Need Help ?")),"Click on Need Help column");
+			selectByVisibleText(By.id("other_query5"), reason);
+			writeInInputCharByChar(By.id("contact-umsg"), query);
+			clickAndWait(By.id("send-btn"));
+			verifyStep(isWebElementVisible(By.xpath("//div[text()='Thanks for the support. Your message have been sent. You will be contacted soon by our customer service.']")), "Query message received");
+			return true;
+		}
+		else
+			return false;
+	}
+	
 }

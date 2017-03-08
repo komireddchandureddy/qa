@@ -4445,3 +4445,8 @@ Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEn
 Session ID: d5fe105837df3a81d966b8d3e268dad0
 *** Element info: {Using=xpath, value=//*[@id='a-n-address-w']/div/div/h6}
 2017-03-07 17:46:35 ERROR - -----------------------------------------------------------------------
+2017-03-08 19:19:01 ERROR - 
+========ERROR IN TEST : IGP_TC_105 =====================================
+2017-03-08 19:19:01 ERROR - -----------------------------------------------------------------------
+2017-03-08 19:19:01 ERROR - Varification failed-->Enter invalid data in 'country name'.
+2017-03-08 19:19:01 ERROR - -----------------------------------------------------------------------
