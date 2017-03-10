@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49146" started-at="2017-03-08T14:07:34Z" finished-at="2017-03-08T14:08:23Z">
+  <suite name="Default suite" duration-ms="45902" started-at="2017-03-10T09:28:39Z" finished-at="2017-03-10T09:29:25Z">
     <groups>
-      <group name="Cart">
-        <method signature="IGP_TC_090.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_090@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_090"/>
-      </group> <!-- Cart -->
+      <group name="Product Description page.">
+        <method signature="IGP_TC_113.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_113@eec5a4a]" name="test" class="testingxperts.web.tests.IGP_TC_113"/>
+      </group> <!-- Product Description page. -->
     </groups>
-    <test name="Default test" duration-ms="49146" started-at="2017-03-08T14:07:34Z" finished-at="2017-03-08T14:08:23Z">
-      <class name="testingxperts.web.tests.IGP_TC_090">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_090@eec5a4a]" name="test" duration-ms="42108" started-at="2017-03-08T19:37:39Z" description="Change pin code: Ensure that the pin code is updating in product review page  when we change it after clicking on &#039;Buy now&#039;." finished-at="2017-03-08T19:38:21Z">
+    <test name="Default test" duration-ms="45902" started-at="2017-03-10T09:28:39Z" finished-at="2017-03-10T09:29:25Z">
+      <class name="testingxperts.web.tests.IGP_TC_113">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_113@eec5a4a]" name="test" duration-ms="38377" started-at="2017-03-10T14:58:44Z" description="Personalized Now-:Ensure that user should not navigate to the next page with out completing all the steps in &#039;personalize now&#039;." finished-at="2017-03-10T14:59:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.IGP_TC_090 -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_113 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

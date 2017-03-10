@@ -9,6 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 public class ProductDetailPage extends HomePage {
 	public static By txtPinCode = By.xpath("//*[@id='pincode']");
 	public static By btnpinCheck=By.id("pinCheck");
+	public static By btnColorSelection =By.xpath("//*[contains(@class,'color-selector')]");
+	public static By btnPersonalizeNow = By.xpath("//button[contains(.,'PERSONALIZE NOW')]");
 
 	public static boolean clickShoppingwithIndia()
 	{

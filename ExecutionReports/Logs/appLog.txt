@@ -42653,3 +42653,332 @@ Session ID: d5fe105837df3a81d966b8d3e268dad0
 2017-03-08 19:38:24 INFO  - Comparison sheet written successfully
 2017-03-08 19:38:24 INFO  - Data to excel written successfully
 2017-03-08 19:38:24 INFO  - History File created successfully
+2017-03-09 12:51:27 INFO  - 
+
++============================================================================================================================+
+2017-03-09 12:51:27 INFO  - Default suite suite started at Thu Mar 09 12:51:27 IST 2017
+2017-03-09 12:51:27 INFO  - Suite Browser: Chrome
+2017-03-09 12:51:29 INFO  - +=============Database started=============+
+2017-03-09 12:51:29 INFO  - Database driver name: SQLiteJDBC
+2017-03-09 12:51:29 INFO  - Product name SQLite, Version 3.8.11
+2017-03-09 12:51:29 INFO  - +==========================================+
+
+2017-03-09 12:51:29 INFO  - Test is started with browser: Chrome
+2017-03-09 12:51:34 INFO  - No data found with given key-> IGP_TC_110
+2017-03-09 12:51:34 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-09 12:51:34 INFO  - Test Started: IGP_TC_110
+2017-03-09 12:51:34 INFO  - Test description: 
+2017-03-09 12:51:34 INFO  - Open home page
+2017-03-09 12:51:34 INFO  - Navigate to: https://www.igp.com/
+2017-03-09 12:51:53 INFO  - Open home page
+2017-03-09 12:51:53 INFO  - Login to application
+2017-03-09 12:51:53 INFO  - Do Login
+2017-03-09 12:51:53 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-09 12:51:53 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-09 12:51:54 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-09 12:51:54 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-09 12:51:54 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-09 12:51:54 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-09 12:51:55 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-09 12:51:56 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-09 12:51:57 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-09 12:51:57 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-09 12:52:01 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-09 12:52:01 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-09 12:52:02 INFO  - Login to application
+2017-03-09 12:52:02 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-09 12:52:02 INFO  - Check Element present: By.xpath: //img[@alt='CCS Banner']
+2017-03-09 12:52:02 INFO  - Click: By.xpath: //img[@alt='CCS Banner']
+2017-03-09 12:52:05 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-09 12:52:05 INFO  - Check Element present: By.xpath: //h3[text()='Top Countries']
+2017-03-09 12:52:05 INFO  - Navigated to Worldwide Page
+2017-03-09 12:52:08 INFO  - Click on any name of the City/Country gifts
+2017-03-09 12:52:11 INFO  - Click: By.linkText: Singapore
+2017-03-09 12:52:15 INFO  - Click on any name of the City/Country gifts
+2017-03-09 12:52:18 INFO  - Select the item.
+2017-03-09 12:52:18 INFO  - Click: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=8]
+2017-03-09 12:52:18 INFO  - Select the item.
+2017-03-09 12:52:18 INFO  - Check Element visible: By.linkText: Need Help ?
+2017-03-09 12:52:23 INFO  - Click: By.linkText: Need Help ?
+2017-03-09 12:52:23 INFO  - Click on Need Help column
+2017-03-09 12:52:23 INFO  - Select dropdown by text : Need more information about product(s) - By.id: other_query5
+2017-03-09 12:52:28 INFO  - Click: By.id: send-btn
+2017-03-09 12:52:31 INFO  - Check Element visible: By.xpath: //div[text()='Thanks for the support. Your message have been sent. You will be contacted soon by our customer service.']
+2017-03-09 12:52:31 INFO  - Query message received
+2017-03-09 12:52:31 INFO  - Click on 'Need Help?'.
+2017-03-09 12:52:34 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170309125234_Product Desc. page.jpg
+2017-03-09 12:52:36 INFO  - Total Time taken in(seconds):62
+2017-03-09 12:52:37 INFO  - TestResults
+2017-03-09 12:52:37 INFO  - **********TEST FINISHED-> -PASS**********
+2017-03-09 12:52:37 INFO  - Test has ended closing browser: Chrome
+2017-03-09 12:52:37 INFO  - Closing Browsers
+2017-03-09 12:52:38 INFO  - Default suite suite finished at Thu Mar 09 12:52:38 IST 2017
+2017-03-09 12:52:39 INFO  - Test process has ended
+2017-03-09 12:52:39 INFO  - Comparison sheet written successfully
+2017-03-09 12:52:39 INFO  - Data to excel written successfully
+2017-03-09 12:52:39 INFO  - History File created successfully
+2017-03-09 13:58:36 INFO  - 
+
++============================================================================================================================+
+2017-03-09 13:58:36 INFO  - Default suite suite started at Thu Mar 09 13:58:36 IST 2017
+2017-03-09 13:58:36 INFO  - Suite Browser: Chrome
+2017-03-09 13:58:39 INFO  - +=============Database started=============+
+2017-03-09 13:58:39 INFO  - Database driver name: SQLiteJDBC
+2017-03-09 13:58:39 INFO  - Product name SQLite, Version 3.8.11
+2017-03-09 13:58:39 INFO  - +==========================================+
+
+2017-03-09 13:58:39 INFO  - Test is started with browser: Chrome
+2017-03-09 13:58:44 INFO  - No data found with given key-> IGP_TC_111
+2017-03-09 13:58:44 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-09 13:58:44 INFO  - Test Started: IGP_TC_111
+2017-03-09 13:58:44 INFO  - Test description: 
+2017-03-09 13:58:44 INFO  - Open home page
+2017-03-09 13:58:44 INFO  - Navigate to: https://www.igp.com/
+2017-03-09 13:58:53 INFO  - Open home page
+2017-03-09 13:58:53 INFO  - Login to application
+2017-03-09 13:58:53 INFO  - Do Login
+2017-03-09 13:58:53 INFO  - Click: By.xpath: //*[@id='user-menu']
+2017-03-09 13:58:53 INFO  - Click: By.xpath: //*[@id='user-menu'] - true
+2017-03-09 13:58:54 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ]
+2017-03-09 13:58:55 INFO  - Click: By.xpath: //a[text() [contains(.,'Login with email') ] ] - true
+2017-03-09 13:58:55 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-09 13:58:55 INFO  - Input Text: sukhjinder.singh@testingxperts.com - By.id: com-e-m-field
+2017-03-09 13:58:56 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-09 13:58:56 INFO  - Input Text: 123456 - By.xpath: //*[@id='passwd']
+2017-03-09 13:58:57 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-09 13:58:57 INFO  - Click: By.xpath: //button[contains(.,'Login')]
+2017-03-09 13:59:03 INFO  - Check Element present: By.xpath: //a[@id='user-menu']
+2017-03-09 13:59:03 INFO  - Find Element: By.xpath: //a[@id='user-menu']
+2017-03-09 13:59:03 INFO  - Login to application
+2017-03-09 13:59:03 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-09 13:59:03 INFO  - Check Element present: By.xpath: //img[@alt='CCS Banner']
+2017-03-09 13:59:03 INFO  - Click: By.xpath: //img[@alt='CCS Banner']
+2017-03-09 13:59:06 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-09 13:59:06 INFO  - Check Element present: By.xpath: //h3[text()='Top Countries']
+2017-03-09 13:59:06 INFO  - Navigated to Worldwide Page
+2017-03-09 13:59:09 INFO  - Click on any name of the City/Country gifts
+2017-03-09 13:59:12 INFO  - Click: By.linkText: Singapore
+2017-03-09 13:59:18 INFO  - Click on any name of the City/Country gifts
+2017-03-09 13:59:21 INFO  - Select the item.
+2017-03-09 13:59:21 INFO  - Click: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=8]
+2017-03-09 13:59:26 INFO  - Select the item.
+2017-03-09 13:59:26 INFO  - Check Element visible: By.xpath: //*[contains(@class,'color-selector')]
+2017-03-09 13:59:27 INFO  - Verify color selection is displayed
+2017-03-09 13:59:30 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170309135930_Product Desc. page.jpg
+2017-03-09 13:59:33 INFO  - Total Time taken in(seconds):49
+2017-03-09 13:59:33 INFO  - TestResults
+2017-03-09 13:59:34 INFO  - **********TEST FINISHED-> -PASS**********
+2017-03-09 13:59:34 INFO  - Test has ended closing browser: Chrome
+2017-03-09 13:59:34 INFO  - Closing Browsers
+2017-03-09 13:59:35 INFO  - Default suite suite finished at Thu Mar 09 13:59:35 IST 2017
+2017-03-09 13:59:36 INFO  - Test process has ended
+2017-03-09 13:59:36 INFO  - Comparison sheet written successfully
+2017-03-09 13:59:36 INFO  - Data to excel written successfully
+2017-03-09 13:59:36 INFO  - History File created successfully
+2017-03-09 14:00:04 INFO  - 
+
++============================================================================================================================+
+2017-03-09 14:00:04 INFO  - Default suite suite started at Thu Mar 09 14:00:04 IST 2017
+2017-03-09 14:00:04 INFO  - Suite Browser: Chrome
+2017-03-09 14:00:06 INFO  - +=============Database started=============+
+2017-03-09 14:00:06 INFO  - Database driver name: SQLiteJDBC
+2017-03-09 14:00:06 INFO  - Product name SQLite, Version 3.8.11
+2017-03-09 14:00:06 INFO  - +==========================================+
+
+2017-03-09 14:00:06 INFO  - Test is started with browser: Chrome
+2017-03-09 14:00:11 INFO  - No data found with given key-> IGP_TC_111
+2017-03-09 14:00:11 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-09 14:00:11 INFO  - Test Started: IGP_TC_111
+2017-03-09 14:00:11 INFO  - Test description: 
+2017-03-09 14:00:11 INFO  - Open home page
+2017-03-09 14:00:11 INFO  - Navigate to: https://www.igp.com/
+2017-03-09 14:00:21 INFO  - Open home page
+2017-03-09 14:00:21 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-09 14:00:21 INFO  - Check Element present: By.xpath: //img[@alt='CCS Banner']
+2017-03-09 14:00:21 INFO  - Click: By.xpath: //img[@alt='CCS Banner']
+2017-03-09 14:00:24 INFO  - Click on 'Send Gifts Worldwide' from Homepage.
+2017-03-09 14:00:24 INFO  - Check Element present: By.xpath: //h3[text()='Top Countries']
+2017-03-09 14:00:24 INFO  - Navigated to Worldwide Page
+2017-03-09 14:00:27 INFO  - Click on any name of the City/Country gifts
+2017-03-09 14:00:30 INFO  - Click: By.linkText: Singapore
+2017-03-09 14:00:36 INFO  - Click on any name of the City/Country gifts
+2017-03-09 14:00:39 INFO  - Select the item.
+2017-03-09 14:00:39 INFO  - Click: By.xpath: //div[contains(@class,'edp-group-wrapper')][position()=3]//div[@class='slick-track']/div[position()=8]
+2017-03-09 14:00:44 INFO  - Select the item.
+2017-03-09 14:00:44 INFO  - Check Element visible: By.xpath: //*[contains(@class,'color-selector')]
+2017-03-09 14:00:44 INFO  - Verify color selection is displayed
+2017-03-09 14:00:48 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170309140047_Product Desc. page.jpg
+2017-03-09 14:00:51 INFO  - Total Time taken in(seconds):39
+2017-03-09 14:00:51 INFO  - TestResults
+2017-03-09 14:00:52 INFO  - **********TEST FINISHED-> -PASS**********
+2017-03-09 14:00:52 INFO  - Test has ended closing browser: Chrome
+2017-03-09 14:00:52 INFO  - Closing Browsers
+2017-03-09 14:00:53 INFO  - Default suite suite finished at Thu Mar 09 14:00:53 IST 2017
+2017-03-09 14:00:54 INFO  - Test process has ended
+2017-03-09 14:00:54 INFO  - Comparison sheet written successfully
+2017-03-09 14:00:54 INFO  - Data to excel written successfully
+2017-03-09 14:00:54 INFO  - History File created successfully
+2017-03-09 15:50:12 INFO  - 
+
++============================================================================================================================+
+2017-03-09 15:50:12 INFO  - Default suite suite started at Thu Mar 09 15:50:12 IST 2017
+2017-03-09 15:50:12 INFO  - Suite Browser: Chrome
+2017-03-09 15:50:14 INFO  - +=============Database started=============+
+2017-03-09 15:50:14 INFO  - Database driver name: SQLiteJDBC
+2017-03-09 15:50:14 INFO  - Product name SQLite, Version 3.8.11
+2017-03-09 15:50:14 INFO  - +==========================================+
+
+2017-03-09 15:50:14 INFO  - Test is started with browser: Chrome
+2017-03-09 15:50:20 INFO  - No data found with given key-> IGP_TC_112
+2017-03-09 15:50:20 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-09 15:50:20 INFO  - Test Started: IGP_TC_112
+2017-03-09 15:50:20 INFO  - Test description: 
+2017-03-09 15:50:21 INFO  - Open home page
+2017-03-09 15:50:21 INFO  - Navigate to: https://www.igp.com/
+2017-03-09 15:50:32 INFO  - Open home page
+2017-03-09 15:50:32 INFO  - Select personalized gift category from Homepage.
+2017-03-09 15:50:32 INFO  - Check Element present: By.xpath: //div[contains(@class,'icon')]/p[text()='Personalized Gifts']
+2017-03-09 15:50:32 INFO  - Click: By.xpath: //div[contains(@class,'icon')]/p[text()='Personalized Gifts']
+2017-03-09 15:50:39 INFO  - Click on Personalized gifts
+2017-03-09 15:50:39 INFO  - Select personalized gift category from Homepage.
+2017-03-09 15:50:39 INFO  - Check Element visible: By.xpath: //h1[contains(.,'Personalized Gifts')]
+2017-03-09 15:50:39 INFO  - Verify Personalized Gifts Page is loaded
+2017-03-09 15:50:39 INFO  - Select Item from personalize items for Woman
+2017-03-09 15:50:39 INFO  - Click: By.xpath: //div[@data-selected-type='recipient']
+2017-03-09 15:50:42 INFO  - Click: By.xpath: (//ul[@class='s-item-list'])[position()=1]//a[contains(@href,'personalized-gifts-for-women')]
+2017-03-09 15:50:42 INFO  - Recipient - WOMEN
+2017-03-09 15:50:42 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=1]
+2017-03-09 15:50:50 INFO  - Select item# 1
+2017-03-09 15:50:50 INFO  - Verify PERSONALIZE NOW button is present
+2017-03-09 15:50:50 INFO  - Check Element visible: By.xpath: //button[contains(.,'PERSONALIZE NOW')]
+2017-03-09 15:50:50 INFO  - Verify PERSONALIZE NOW button is present
+2017-03-09 15:50:53 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170309155052_Product Desc. page.jpg
+2017-03-09 15:50:53 INFO  - Total Time taken in(seconds):32
+2017-03-09 15:50:53 INFO  - TestResults
+2017-03-09 15:50:54 INFO  - **********TEST FINISHED-> -PASS**********
+2017-03-09 15:50:54 INFO  - Test has ended closing browser: Chrome
+2017-03-09 15:50:54 INFO  - Closing Browsers
+2017-03-09 15:50:55 INFO  - Default suite suite finished at Thu Mar 09 15:50:55 IST 2017
+2017-03-09 15:50:56 INFO  - Test process has ended
+2017-03-09 15:50:56 INFO  - Comparison sheet written successfully
+2017-03-09 15:50:56 INFO  - Data to excel written successfully
+2017-03-09 15:50:56 INFO  - History File created successfully
+2017-03-10 13:16:07 INFO  - 
+
++============================================================================================================================+
+2017-03-10 13:16:07 INFO  - Default suite suite started at Fri Mar 10 13:16:07 IST 2017
+2017-03-10 13:16:07 INFO  - Suite Browser: Chrome
+2017-03-10 13:16:43 INFO  - 
+
++============================================================================================================================+
+2017-03-10 13:16:43 INFO  - Default suite suite started at Fri Mar 10 13:16:43 IST 2017
+2017-03-10 13:16:43 INFO  - Suite Browser: Chrome
+2017-03-10 13:16:45 INFO  - +=============Database started=============+
+2017-03-10 13:16:45 INFO  - Database driver name: SQLiteJDBC
+2017-03-10 13:16:45 INFO  - Product name SQLite, Version 3.8.11
+2017-03-10 13:16:45 INFO  - +==========================================+
+
+2017-03-10 13:16:45 INFO  - Test is started with browser: Chrome
+2017-03-10 13:16:52 INFO  - No data found with given key-> IGP_TC_112
+2017-03-10 13:16:52 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-10 13:16:52 INFO  - Test Started: IGP_TC_112
+2017-03-10 13:16:52 INFO  - Test description: 
+2017-03-10 13:16:52 INFO  - Open home page
+2017-03-10 13:16:52 INFO  - Navigate to: https://www.igp.com/
+2017-03-10 13:17:00 INFO  - Open home page
+2017-03-10 13:17:00 INFO  - Select personalized gift category from Homepage.
+2017-03-10 13:17:00 INFO  - Check Element present: By.xpath: //div[contains(@class,'icon')]/p[text()='Personalized Gifts']
+2017-03-10 13:17:00 INFO  - Click: By.xpath: //div[contains(@class,'icon')]/p[text()='Personalized Gifts']
+2017-03-10 13:17:07 INFO  - Click on Personalized gifts
+2017-03-10 13:17:07 INFO  - Select personalized gift category from Homepage.
+2017-03-10 13:17:07 INFO  - Check Element visible: By.xpath: //h1[contains(.,'Personalized Gifts')]
+2017-03-10 13:17:07 INFO  - Verify Personalized Gifts Page is loaded
+2017-03-10 13:17:07 INFO  - Select Item from personalize items for Woman
+2017-03-10 13:17:07 INFO  - Click: By.xpath: //div[@data-selected-type='recipient']
+2017-03-10 13:17:11 INFO  - Click: By.xpath: (//ul[@class='s-item-list'])[position()=1]//a[contains(@href,'personalized-gifts-for-women')]
+2017-03-10 13:17:14 INFO  - Recipient - WOMEN
+2017-03-10 13:17:14 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=1]
+2017-03-10 13:17:20 INFO  - Select item# 1
+2017-03-10 13:17:20 INFO  - Verify PERSONALIZE NOW button is present
+2017-03-10 13:17:20 INFO  - Check Element visible: By.xpath: //button[contains(.,'PERSONALIZE NOW')]
+2017-03-10 13:17:20 INFO  - Verify PERSONALIZE NOW button is present
+2017-03-10 13:17:22 INFO  - Personalization options should display by clicking on PERSONALIZE NOW
+2017-03-10 13:17:22 INFO  - Click: By.xpath: //button[contains(.,'PERSONALIZE NOW')]
+2017-03-10 13:17:22 INFO  - Click PERSONALIZE NOW
+2017-03-10 13:17:22 INFO  - Check Element visible: By.xpath: //p[contains(.,'Personalisation options:')]
+2017-03-10 13:17:22 INFO  - Personalization options should display by clicking on PERSONALIZE NOW
+2017-03-10 13:17:25 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170310131724_Product Desc. page.jpg
+2017-03-10 13:17:25 INFO  - Total Time taken in(seconds):34
+2017-03-10 13:17:25 INFO  - TestResults
+2017-03-10 13:17:26 INFO  - **********TEST FINISHED-> -PASS**********
+2017-03-10 13:17:26 INFO  - Test has ended closing browser: Chrome
+2017-03-10 13:17:26 INFO  - Closing Browsers
+2017-03-10 13:17:27 INFO  - Default suite suite finished at Fri Mar 10 13:17:27 IST 2017
+2017-03-10 13:17:28 INFO  - Test process has ended
+2017-03-10 13:17:28 INFO  - Comparison sheet written successfully
+2017-03-10 13:17:28 INFO  - Data to excel written successfully
+2017-03-10 13:17:28 INFO  - History File created successfully
+2017-03-10 14:58:37 INFO  - 
+
++============================================================================================================================+
+2017-03-10 14:58:37 INFO  - Default suite suite started at Fri Mar 10 14:58:37 IST 2017
+2017-03-10 14:58:37 INFO  - Suite Browser: Chrome
+2017-03-10 14:58:39 INFO  - +=============Database started=============+
+2017-03-10 14:58:39 INFO  - Database driver name: SQLiteJDBC
+2017-03-10 14:58:39 INFO  - Product name SQLite, Version 3.8.11
+2017-03-10 14:58:39 INFO  - +==========================================+
+
+2017-03-10 14:58:39 INFO  - Test is started with browser: Chrome
+2017-03-10 14:58:45 INFO  - No data found with given key-> IGP_TC_113
+2017-03-10 14:58:45 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-03-10 14:58:45 INFO  - Test Started: IGP_TC_113
+2017-03-10 14:58:45 INFO  - Test description: 
+2017-03-10 14:58:45 INFO  - Open home page
+2017-03-10 14:58:45 INFO  - Navigate to: https://www.igp.com/
+2017-03-10 14:58:56 INFO  - Open home page
+2017-03-10 14:58:56 INFO  - Select personalized gift category from Homepage.
+2017-03-10 14:58:56 INFO  - Check Element present: By.xpath: //div[contains(@class,'icon')]/p[text()='Personalized Gifts']
+2017-03-10 14:58:56 INFO  - Click: By.xpath: //div[contains(@class,'icon')]/p[text()='Personalized Gifts']
+2017-03-10 14:59:04 INFO  - Click on Personalized gifts
+2017-03-10 14:59:04 INFO  - Select personalized gift category from Homepage.
+2017-03-10 14:59:04 INFO  - Check Element visible: By.xpath: //h1[contains(.,'Personalized Gifts')]
+2017-03-10 14:59:04 INFO  - Verify Personalized Gifts Page is loaded
+2017-03-10 14:59:04 INFO  - Select Item from personalize items for Woman
+2017-03-10 14:59:04 INFO  - Click: By.xpath: //div[@data-selected-type='recipient']
+2017-03-10 14:59:08 INFO  - Click: By.xpath: (//ul[@class='s-item-list'])[position()=1]//a[contains(@href,'personalized-gifts-for-women')]
+2017-03-10 14:59:11 INFO  - Recipient - WOMEN
+2017-03-10 14:59:11 INFO  - Click: By.xpath: (//*[@class[contains(.,'product-item')]]/div[1]/a)[position()=1]
+2017-03-10 14:59:16 INFO  - Select item# 1
+2017-03-10 14:59:16 INFO  - Verify PERSONALIZE NOW button is present
+2017-03-10 14:59:16 INFO  - Check Element visible: By.xpath: //button[contains(.,'PERSONALIZE NOW')]
+2017-03-10 14:59:16 INFO  - Verify PERSONALIZE NOW button is present
+2017-03-10 14:59:18 INFO  - Personalization options should display by clicking on PERSONALIZE NOW
+2017-03-10 14:59:18 INFO  - Click: By.xpath: //button[contains(.,'PERSONALIZE NOW')]
+2017-03-10 14:59:18 INFO  - Click PERSONALIZE NOW
+2017-03-10 14:59:18 INFO  - Check Element visible: By.xpath: //p[contains(.,'Personalisation options:')]
+2017-03-10 14:59:19 INFO  - Personalization options should display by clicking on PERSONALIZE NOW
+2017-03-10 14:59:21 INFO  - Input message
+2017-03-10 14:59:21 INFO  - Input Text: HelloWorld - By.xpath: //input[@maxlength='20']
+2017-03-10 14:59:21 INFO  - Input message
+2017-03-10 14:59:21 INFO  - Click: By.xpath: //button[contains(.,'DONE')]
+2017-03-10 14:59:21 INFO  - Click Done
+2017-03-10 14:59:21 INFO  - Personalized tab should be changed to 'Edit personalization'
+2017-03-10 14:59:21 INFO  - Check Element visible: By.xpath: //button[contains(.,'EDIT PERSONALIZATION')]
+2017-03-10 14:59:22 INFO  - Personalized tab should be changed to 'Edit personalization'
+2017-03-10 14:59:22 INFO  - Screenshot image path: D:\IGP\AutomationWorkspace\IGP_Automation\ExecutionReports\HtmlReport\FailedScreenshots\20170310145922_Product Desc. page.jpg
+2017-03-10 14:59:23 INFO  - Total Time taken in(seconds):38
+2017-03-10 14:59:23 INFO  - TestResults
+2017-03-10 14:59:24 INFO  - **********TEST FINISHED-> -PASS**********
+2017-03-10 14:59:24 INFO  - Test has ended closing browser: Chrome
+2017-03-10 14:59:24 INFO  - Closing Browsers
+2017-03-10 14:59:25 INFO  - Default suite suite finished at Fri Mar 10 14:59:25 IST 2017
+2017-03-10 14:59:26 INFO  - Test process has ended
+2017-03-10 14:59:26 INFO  - Comparison sheet written successfully
+2017-03-10 14:59:26 INFO  - Data to excel written successfully
+2017-03-10 14:59:26 INFO  - History File created successfully
