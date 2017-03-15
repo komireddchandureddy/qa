@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Product Description Page]">
+<suite name="Failed suite [Order Summary Page]">
   <parameter name="Browser" value="Chrome"/>
-  <test name="Product Description Page-Tests(failed)">
+  <test name="Order Summary Page-Tests(failed)">
     <classes>
-      <class name="testingxperts.web.tests.IGP_TC_105">
+      <class name="testingxperts.web.tests.IGP_TC_087">
         <methods>
           <include name="test"/>
         </methods>
-      </class> <!-- testingxperts.web.tests.IGP_TC_105 -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_087 -->
     </classes>
-  </test> <!-- Product Description Page-Tests(failed) -->
-</suite> <!-- Failed suite [Product Description Page] -->
+  </test> <!-- Order Summary Page-Tests(failed) -->
+</suite> <!-- Failed suite [Order Summary Page] -->

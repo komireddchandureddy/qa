@@ -1,1 +1,5 @@
 /target/
+/ExecutionReports/ExcelReport
+/ExecutionReports/HtmlReport
+/ExecutionReports/Logs
+/ExecutionReports/HtmlReport.zip

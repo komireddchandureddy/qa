@@ -4,16 +4,101 @@
   <parameter name="Browser" value="Chrome"/>
   <test name="Checkout Page-Tests(failed)">
     <classes>
+      <class name="testingxperts.web.tests.IGP_TC_162">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_162 -->
+      <class name="testingxperts.web.tests.IGP_TC_173">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_173 -->
+      <class name="testingxperts.web.tests.IGP_TC_166">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_166 -->
+      <class name="testingxperts.web.tests.IGP_TC_163">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_163 -->
+      <class name="testingxperts.web.tests.IGP_TC_171">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_171 -->
+      <class name="testingxperts.web.tests.IGP_TC_177">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_177 -->
+      <class name="testingxperts.web.tests.IGP_TC_172">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_172 -->
+      <class name="testingxperts.web.tests.IGP_TC_175">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_175 -->
+      <class name="testingxperts.web.tests.IGP_TC_159">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_159 -->
+      <class name="testingxperts.web.tests.IGP_TC_170">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_170 -->
       <class name="testingxperts.web.tests.IGP_TC_160">
         <methods>
           <include name="test"/>
         </methods>
       </class> <!-- testingxperts.web.tests.IGP_TC_160 -->
+      <class name="testingxperts.web.tests.IGP_TC_161">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_161 -->
+      <class name="testingxperts.web.tests.IGP_TC_167">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_167 -->
       <class name="testingxperts.web.tests.IGP_TC_174">
         <methods>
           <include name="test"/>
         </methods>
       </class> <!-- testingxperts.web.tests.IGP_TC_174 -->
+      <class name="testingxperts.web.tests.IGP_TC_169">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_169 -->
+      <class name="testingxperts.web.tests.IGP_TC_176">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_176 -->
+      <class name="testingxperts.web.tests.IGP_TC_164">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_164 -->
+      <class name="testingxperts.web.tests.IGP_TC_168">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_168 -->
+      <class name="testingxperts.web.tests.IGP_TC_165">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_165 -->
     </classes>
   </test> <!-- Checkout Page-Tests(failed) -->
 </suite> <!-- Failed suite [Checkout Page] -->
