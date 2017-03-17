@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Payment]">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Payment-Tests(failed)">
+    <classes>
+      <class name="testingxperts.web.tests.IGP_TC_203">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_203 -->
+      <class name="testingxperts.web.tests.IGP_TC_199">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_199 -->
+      <class name="testingxperts.web.tests.IGP_TC_204">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_204 -->
+      <class name="testingxperts.web.tests.IGP_TC_210">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_210 -->
+      <class name="testingxperts.web.tests.IGP_TC_211">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_211 -->
+      <class name="testingxperts.web.tests.IGP_TC_196">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_196 -->
+      <class name="testingxperts.web.tests.IGP_TC_202">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_202 -->
+      <class name="testingxperts.web.tests.IGP_TC_206">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_206 -->
+      <class name="testingxperts.web.tests.IGP_TC_200">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_200 -->
+      <class name="testingxperts.web.tests.IGP_TC_197">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_197 -->
+      <class name="testingxperts.web.tests.IGP_TC_198">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_198 -->
+      <class name="testingxperts.web.tests.IGP_TC_212">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_212 -->
+      <class name="testingxperts.web.tests.IGP_TC_213">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_213 -->
+      <class name="testingxperts.web.tests.IGP_TC_195">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_195 -->
+      <class name="testingxperts.web.tests.IGP_TC_209">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_209 -->
+      <class name="testingxperts.web.tests.IGP_TC_201">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_201 -->
+      <class name="testingxperts.web.tests.IGP_TC_205">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_205 -->
+      <class name="testingxperts.web.tests.IGP_TC_208">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_208 -->
+      <class name="testingxperts.web.tests.IGP_TC_207">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_207 -->
+      <class name="testingxperts.web.tests.IGP_TC_214">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_214 -->
+      <class name="testingxperts.web.tests.IGP_TC_215">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_215 -->
+    </classes>
+  </test> <!-- Payment-Tests(failed) -->
+</suite> <!-- Failed suite [Payment] -->
