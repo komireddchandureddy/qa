@@ -64,5 +64,16 @@ public class HomePage extends KeywordUtil {
 			return false;
 		}
 	}
+	
+	public static boolean selectFlowersnCakes()
+	{
+		return click(linkFlower_and_cake);
+	}
+	
+	public static void selectNextButton() throws Exception
+	{
+		executeStep(click(By.xpath("//div[@id='edp-default']/button[text()='Next']")),"Click on Next button");
+		
+	}
 
 }

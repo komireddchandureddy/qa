@@ -12,6 +12,20 @@ public class ProductDetailPage extends HomePage {
 	public static By btnColorSelection =By.xpath("//*[contains(@class,'color-selector')]");
 	public static By btnPersonalizeNow = By.xpath("//button[contains(.,'PERSONALIZE NOW')]");
 
+	
+	public static boolean verifyShippingOptions()
+	{
+		if(isWebElementVisible(By.linkText("Shipping within India")) && isWebElementVisible(By.linkText("International Shipping")))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
+	
 	public static boolean clickShoppingwithIndia()
 	{
 		return click(By.linkText("Shipping within India"));
@@ -49,7 +63,7 @@ public class ProductDetailPage extends HomePage {
 		{
 			return true;
 		}
-		else if(isWebElementPresent(By.xpath("//li[contains(@class,'active')][@data-target='#international-del']")))
+		else if(!isWebElementPresent(By.xpath("//li[contains(@class,'active')][@data-target='#international-del']")))
 		{
 			clickAndWait(By.linkText("International Shipping"));
 			return true;
@@ -68,16 +82,46 @@ public class ProductDetailPage extends HomePage {
 		return isWebElementPresent(By.xpath("//div[text()='Sorry no results']"));	
 
 	}
+	
+	public static boolean verifyCountryEntered(String country) throws InterruptedException, Exception
+	{
+		doubleClick(By.id("country"));
+		executeStep(writeInInputCharByChar(By.id("country"), country),"Input country");
+		pause(10000);
+		clickAndWait(By.id("countryCheck"));
+		pause(3000);
+		return isWebElementPresent(By.xpath("//div[@class='row no-margin intl-del-help']"));
+	}
+	
+	public static boolean deliverychargePresent(String countryName) throws InterruptedException, Exception
+	{
+		verifyCountryEntered(countryName);
+		if(getElementText(By.xpath("//span[@class='intl text-red number']")).contains("Rs"))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
 
 	public static boolean verifyimageangles() throws InterruptedException
 	{
+		
 		if(isWebElementPresent(By.xpath("//div[contains(@class,'thumbnail-img')][position()=1]")))
+			
 		{
-			for(int i=1;i<=3;i++)
+			
+			for(int i=1;i<=5;i++)
 			{
+				if(isWebElementPresent(By.xpath("//div[contains(@class,'thumbnail-img')][position()="+i+"]")))
+				{
 				clickAndWait(By.xpath("//div[contains(@class,'thumbnail-img')][position()="+i+"]"));
 				isWebElementVisible(By.xpath("//div[@class='intrinsic intrinsic-square']/img[position()="+i+"]"));
 				pause(2000);
+				}
 			}
 			return true;
 		}
