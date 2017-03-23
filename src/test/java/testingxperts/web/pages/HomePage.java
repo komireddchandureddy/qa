@@ -2,6 +2,8 @@ package testingxperts.web.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import utilities.ConfigReader;
 import utilities.KeywordUtil;
@@ -52,6 +54,16 @@ public class HomePage extends KeywordUtil {
 			return false;
 	}
 	
+	public static boolean freeShippingtoUSA() throws InterruptedException
+	{
+		if(isWebElementPresent(By.xpath("//img[@alt='USA free-shipping']")))
+		{
+			return clickAndWait(By.xpath("//img[@alt='USA free-shipping']"));
+		}
+		else
+			return false;
+	}
+	
 	public static boolean personalisedGifts() throws Exception
 	{
 		if(isWebElementPresent(personalized_gifts))
@@ -74,6 +86,18 @@ public class HomePage extends KeywordUtil {
 	{
 		executeStep(click(By.xpath("//div[@id='edp-default']/button[text()='Next']")),"Click on Next button");
 		
+	}
+	
+	public static boolean selectOptionFromBirthday(String recipient) throws Exception
+	{
+		pause(3000);
+		WebElement element=getDriver().findElement(By.xpath("(//ul[@id='cards-default']//div[@class='card z-depth-1 hoverable'])[position()=1]"));
+		 Actions clicker = new Actions(getDriver());
+		 clicker.moveToElement(element);
+		 clicker.click(getDriver().findElement(By.xpath("//div[@class='card-name-w']/p[text()='Birthday Gifts']//p[contains(text(),'"+recipient+"')]"))).click().perform();
+		//hoverElement(By.xpath("(//ul[@id='cards-default']//div[@class='card z-depth-1 hoverable'])[position()=1]"));
+		pause(3000);
+		return click(By.xpath("//div[@class='card-name-w']/p[text()='Birthday Gifts']//p[contains(text(),'"+recipient+"')]"));
 	}
 
 }

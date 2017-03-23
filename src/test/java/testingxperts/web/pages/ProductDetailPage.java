@@ -74,12 +74,20 @@ public class ProductDetailPage extends HomePage {
 
 	public static boolean enterInvalidcountry(String country) throws Exception
 	{
+		
 		doubleClick(By.id("country"));
 		executeStep(writeInInputCharByChar(By.id("country"), country),"Input country");
 		pause(10000);
 		clickAndWait(By.id("countryCheck"));
 		pause(3000);
-		return isWebElementPresent(By.xpath("//div[text()='Sorry no results']"));	
+		String errorText=getElementText(By.xpath("//div[contains(text(),'This product is not shippable to ')]"));
+		//String countryName=getElementText(By.xpath("//div[contains(text(),'This product is not shippable to ')]/span[text()='"+country+"']"));
+		if((errorText).contains("This product is not shippable to "+country))
+		{
+		return true;	
+		}
+		else
+			return false;
 
 	}
 	

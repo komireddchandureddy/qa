@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Product Description Page" duration-ms="80451" started-at="2017-03-21T13:16:58Z" finished-at="2017-03-21T13:18:19Z">
+  <suite name="Default suite" duration-ms="39941" started-at="2017-03-23T13:34:02Z" finished-at="2017-03-23T13:34:42Z">
     <groups>
-      <group name="Product Description page.">
-        <method signature="IGP_TC_115.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_115@482bce4f]" name="test" class="testingxperts.web.tests.IGP_TC_115"/>
-        <method signature="IGP_TC_116.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_116@366647c2]" name="test" class="testingxperts.web.tests.IGP_TC_116"/>
-      </group> <!-- Product Description page. -->
+      <group name="Product Strip">
+        <method signature="IGP_TC_235.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_235@3e9b1010]" name="test" class="testingxperts.web.tests.IGP_TC_235"/>
+      </group> <!-- Product Strip -->
     </groups>
-    <test name="Product Description Page-Tests" duration-ms="80451" started-at="2017-03-21T13:16:58Z" finished-at="2017-03-21T13:18:19Z">
-      <class name="testingxperts.web.tests.IGP_TC_116">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_116@366647c2]" name="test" duration-ms="42215" started-at="2017-03-21T18:47:35Z" description="Shipping charges for international delivery: Ensure that there should be Shipping charges for international delivery." finished-at="2017-03-21T18:48:18Z">
+    <test name="Default test" duration-ms="39941" started-at="2017-03-23T13:34:02Z" finished-at="2017-03-23T13:34:42Z">
+      <class name="testingxperts.web.tests.IGP_TC_235">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_235@3e9b1010]" name="test" duration-ms="32603" started-at="2017-03-23T19:04:07Z" description="Navigate to Product Strip page:User is able to see all the details on Product Strip  Page for a festival." finished-at="2017-03-23T19:04:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.IGP_TC_116 -->
-      <class name="testingxperts.web.tests.IGP_TC_115">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_115@482bce4f]" name="test" duration-ms="26230" started-at="2017-03-21T18:47:03Z" description="Shipping options should be visible: Ensure that shipping option should be visible for India." finished-at="2017-03-21T18:47:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.IGP_TC_115 -->
-    </test> <!-- Product Description Page-Tests -->
-  </suite> <!-- Product Description Page -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_235 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

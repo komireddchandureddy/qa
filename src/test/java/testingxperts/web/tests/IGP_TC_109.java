@@ -72,7 +72,7 @@ public class IGP_TC_109 extends KeywordUtil{
 			
 			stepInfo="Select the item.";
 			logStep(stepInfo);
-			verifyStep(ProductList.selectItem(), stepInfo);
+			verifyStep(ProductList.selectItem(5), stepInfo);
 			pause(3000);
 			
 			stepInfo="Check the size option.";
