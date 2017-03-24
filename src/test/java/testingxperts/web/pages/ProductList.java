@@ -93,7 +93,7 @@ public class ProductList extends HomePage{
 
 	public static boolean selectionbarItems() throws Exception
 	{
-		if(isWebElementVisible(By.xpath("//div[@class='col t7 ']")))
+		if(isWebElementVisible(By.xpath("//div[contains(@class,'col t7')]")))
 		{
 			executeStep(isWebElementVisible(By.xpath("//div[@data-selected-type='recipient']")), "Recipient filter is visible.");
 			executeStep(isWebElementVisible(By.xpath("//div[@data-selected-type='relationship']")), "Relationship filter is visble.");

@@ -1,20 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39941" started-at="2017-03-23T13:34:02Z" finished-at="2017-03-23T13:34:42Z">
+  <suite name="Card List" duration-ms="71563" started-at="2017-03-24T12:54:13Z" finished-at="2017-03-24T12:55:25Z">
+    <groups>
+      <group name="Card List">
+        <method signature="IGP_TC_238.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_238@72cde7cc]" name="test" class="testingxperts.web.tests.IGP_TC_238"/>
+        <method signature="IGP_TC_239.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_239@5fd4f8f5]" name="test" class="testingxperts.web.tests.IGP_TC_239"/>
+      </group> <!-- Card List -->
+    </groups>
+    <test name="Card List-Tests" duration-ms="71563" started-at="2017-03-24T12:54:13Z" finished-at="2017-03-24T12:55:25Z">
+      <class name="testingxperts.web.tests.IGP_TC_238">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_238@72cde7cc]" name="test" duration-ms="30449" started-at="2017-03-24T18:24:17Z" description="Navigate to Card List page:User is able to see all the details on Card List Page for Birthday." finished-at="2017-03-24T18:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_238 -->
+      <class name="testingxperts.web.tests.IGP_TC_239">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_239@5fd4f8f5]" name="test" duration-ms="30933" started-at="2017-03-24T18:24:53Z" description="Navigate to Card List page:User is able to see all the details on Card List Page for Gifts for Women." finished-at="2017-03-24T18:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_239 -->
+    </test> <!-- Card List-Tests -->
+  </suite> <!-- Card List -->
+  <suite name="Product Listing Page" duration-ms="108113" started-at="2017-03-24T12:50:34Z" finished-at="2017-03-24T12:52:22Z">
+    <groups>
+      <group name="Product List">
+        <method signature="IGP_TC_232.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_232@51f116b8]" name="test" class="testingxperts.web.tests.IGP_TC_232"/>
+        <method signature="IGP_TC_233.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_233@19d481b]" name="test" class="testingxperts.web.tests.IGP_TC_233"/>
+        <method signature="IGP_TC_234.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_234@1f97cf0d]" name="test" class="testingxperts.web.tests.IGP_TC_234"/>
+      </group> <!-- Product List -->
+    </groups>
+    <test name="Product Listing Page-Tests" duration-ms="108113" started-at="2017-03-24T12:50:34Z" finished-at="2017-03-24T12:52:22Z">
+      <class name="testingxperts.web.tests.IGP_TC_233">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_233@19d481b]" name="test" duration-ms="29518" started-at="2017-03-24T18:21:15Z" description="Navigate to Product Listing page:User is able to see all the details on Product Listing Page for Women." finished-at="2017-03-24T18:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_233 -->
+      <class name="testingxperts.web.tests.IGP_TC_234">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_234@1f97cf0d]" name="test" duration-ms="30680" started-at="2017-03-24T18:21:50Z" description="Navigate to Product Listing page:User is able to see all the details on Product Listing Page for Anniversary Gifts." finished-at="2017-03-24T18:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_234 -->
+      <class name="testingxperts.web.tests.IGP_TC_232">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_232@51f116b8]" name="test" duration-ms="30162" started-at="2017-03-24T18:20:39Z" description="Navigate to Product Listing page:User is able to see all the details on Product Listing Page for Birthday Card." finished-at="2017-03-24T18:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_232 -->
+    </test> <!-- Product Listing Page-Tests -->
+  </suite> <!-- Product Listing Page -->
+  <suite name="Product Strip" duration-ms="111131" started-at="2017-03-24T12:52:22Z" finished-at="2017-03-24T12:54:13Z">
     <groups>
       <group name="Product Strip">
-        <method signature="IGP_TC_235.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_235@3e9b1010]" name="test" class="testingxperts.web.tests.IGP_TC_235"/>
+        <method signature="IGP_TC_235.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_235@2cd2a21f]" name="test" class="testingxperts.web.tests.IGP_TC_235"/>
+        <method signature="IGP_TC_236.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_236@2e55dd0c]" name="test" class="testingxperts.web.tests.IGP_TC_236"/>
+        <method signature="IGP_TC_237.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_237@74455848]" name="test" class="testingxperts.web.tests.IGP_TC_237"/>
       </group> <!-- Product Strip -->
     </groups>
-    <test name="Default test" duration-ms="39941" started-at="2017-03-23T13:34:02Z" finished-at="2017-03-23T13:34:42Z">
+    <test name="Product Strip-Tests" duration-ms="111131" started-at="2017-03-24T12:52:22Z" finished-at="2017-03-24T12:54:13Z">
+      <class name="testingxperts.web.tests.IGP_TC_237">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_237@74455848]" name="test" duration-ms="29678" started-at="2017-03-24T18:23:43Z" description="Navigate to Product Strip page:User is able to see all the details on Product Strip  Page for same delivery gifts." finished-at="2017-03-24T18:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_237 -->
       <class name="testingxperts.web.tests.IGP_TC_235">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_235@3e9b1010]" name="test" duration-ms="32603" started-at="2017-03-23T19:04:07Z" description="Navigate to Product Strip page:User is able to see all the details on Product Strip  Page for a festival." finished-at="2017-03-23T19:04:40Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_235@2cd2a21f]" name="test" duration-ms="32130" started-at="2017-03-24T18:22:26Z" description="Navigate to Product Strip page:User is able to see all the details on Product Strip  Page for a festival." finished-at="2017-03-24T18:22:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- testingxperts.web.tests.IGP_TC_235 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testingxperts.web.tests.IGP_TC_236">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_236@2e55dd0c]" name="test" duration-ms="34622" started-at="2017-03-24T18:23:03Z" description="Navigate to Product Strip page:User is able to see all the details on Product Strip  Page for a country." finished-at="2017-03-24T18:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_236 -->
+    </test> <!-- Product Strip-Tests -->
+  </suite> <!-- Product Strip -->
 </testng-results>
