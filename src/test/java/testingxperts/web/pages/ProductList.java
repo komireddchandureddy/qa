@@ -12,7 +12,7 @@ public class ProductList extends HomePage{
 	{
 		if(isWebElementPresent(By.xpath("(//div[@class='slick-track']/div[contains(@class,'product-grid-item col s3')])[position()=5]")))
 		{
-			click(By.xpath("(//div[@class='slick-track']/div[contains(@class,'product-grid-item col s3')])[position()='"+item+"']"));
+			click(By.xpath("(//div[@class='slick-track']/div[contains(@class,'product-grid-item col s3')])[position()='"+(item+4)+"']"));
 			return true;
 		}
 

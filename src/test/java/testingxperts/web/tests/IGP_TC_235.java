@@ -22,21 +22,22 @@ import testingxperts.web.pages.PersonalizedGiftsPage;
 import testingxperts.web.pages.PersonalizedGiftsPage.Recipient;
 import testingxperts.web.pages.ProductDetailPage;
 import testingxperts.web.pages.ProductList;
+import testingxperts.web.pages.ProductStripPage;
 import utilities.ConfigReader;
 import utilities.GlobalUtil;
 import utilities.HtmlReportUtil;
 import utilities.KeywordUtil;
 
 @Listeners({CustomListeners.class,ExecutionStartEndListner.class})
-public class IGP_TC_118 extends KeywordUtil{
+public class IGP_TC_235 extends KeywordUtil{
 	String stepInfo="";
 	int retryCount=getIntValue("retryCount");
 	static int retryingNumber=1;
 	
 	@Test(
-			testName="IGP_TC_118",
-			groups={"Product Description page."}, 
-			description="Free shipping to all countries but not shippable to US: Ensure that the items which are shippable to other countries are not shippable to US."
+			testName="IGP_TC_235",
+			groups={"Product Strip"}, 
+			description="Navigate to Product Strip page:User is able to see all the details on Product Strip  Page for a festival."
 			)
 	public void test() throws Throwable {
 		try{
@@ -55,36 +56,42 @@ public class IGP_TC_118 extends KeywordUtil{
 		
 			//.........Script Start...........................
 			
-			stepInfo="Open home page";
-			logStep(stepInfo);
-			HomePage.openHomePage();
-			verifyStep(HomePage.isHomePageOpened(), stepInfo);
+
 			
-			stepInfo="Login to application";
+			stepInfo="Open Festival Page";
 			logStep(stepInfo);
-			LoginPage.doLogin(ConfigReader.getValue("loginUser"), ConfigReader.getValue("loginPassword"));
-			verifyStep(LoginPage.isLogin(), stepInfo);
+			ProductStripPage.openStripPage("holi");
+			verifyStep(ProductStripPage.isStripPageLoaded("Holi"), stepInfo);
+			
+			stepInfo="Check that the following elements are present  as per the requirements:Header visible ";
+			logStep(stepInfo);
+			verifyStep(ProductList.headerVisible(),"Header is visible");
+			
+			stepInfo="Check that the following elements are present  as per the requirements:Selection Bar visible";
+			logStep(stepInfo);
+			verifyStep(ProductStripPage.selectionBarforFestival(), "Selection Bar items are visible");
+			
+			stepInfo="Check that the following elements are present  as per the requirements:Product Strips visible";
+			logStep(stepInfo);
+			verifyStep(ProductStripPage.verifyProductStrips(), stepInfo);
+			
+			stepInfo="Check whether the products are coming for particular strips.";
+			logStep(stepInfo);
+			verifyStep(ProductStripPage.productsInProductStrips(), stepInfo);
+			
+			stepInfo="Check the presence of Back To Top button.";
+			logStep(stepInfo);
+			verifyStep(ProductStripPage.verifyBackToTopbutton(), stepInfo);
+			
+			stepInfo="Check that the following elements are present  as per the requirements:Footer visible";
+			logStep(stepInfo);
+			verifyStep(ProductStripPage.verifyTopFooter(), "Top Footer is visible");
+			verifyStep(ProductList.verifyBottomFooter(), "Bottom Footer is visible");
+			verifyStep(ProductList.verifyContentInFooter(), "Footer Content is visible");
 			pause(3000);
 			
-			stepInfo="Click on 'Send Gifts Worldwide' from Homepage.";
-			logStep(stepInfo);
-			verifyStep(HomePage.sendgiftsWorldwide(),stepInfo);
-			CountriesPage.isCountriesPageLoaded();
-			
-			stepInfo="Click on any name of the City/Country gifts. ";
-			logStep(stepInfo);
-			verifyStep(CountriesPage.verifyCountryentered(),stepInfo);
-			pause(3000);
-			
-			stepInfo="Select the item. ";
-			logStep(stepInfo);
-			verifyStep(CountriesPage.freeShippingProducts(1), stepInfo);
-			
-			stepInfo="Enter USA in the textbox.";
-			logStep(stepInfo);
-			verifyStep(ProductDetailPage.enterInvalidcountry("USA"), stepInfo);
-			
-			String elementSShot=takeScreenshotWebElement(waitForVisibile(By.xpath(".//*[@id='site-wrapper']/section[1]/div[2]/div")),"Product Desc. page");
+		
+			String elementSShot=takeScreenshotWebElement(waitForVisibile(By.xpath("//div[@id='site-wrapper']")),"Product Strip page");
 			HtmlReportUtil.attachScreenshotForInfo(elementSShot);
 						 
 			//.........Script Start...........................

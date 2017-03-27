@@ -69,10 +69,11 @@ public class IGP_TC_115 extends KeywordUtil{
 			logStep(stepInfo);
 			HomePage.selectFlowersnCakes();
 			verifyStep(ProductList.isFlowersnCakesPageloaded(),stepInfo);
+			pause(3000);
 			
 			stepInfo="Select any item from Product Listing page.";
 			logStep(stepInfo);
-			ProductList.selectItem(5);
+			ProductList.selectItem(1);
 			verifyStep(ProductDetailPage.verifyShippingOptions(), stepInfo);
 			
 			

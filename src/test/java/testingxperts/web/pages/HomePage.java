@@ -3,6 +3,7 @@ package testingxperts.web.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
 import utilities.ConfigReader;
@@ -37,11 +38,13 @@ public class HomePage extends KeywordUtil {
 		
 	}
 	
-	public static boolean selectItemEditorPick(int index){
+	public static boolean selectItemEditorPick(int index) throws InterruptedException{
 		//First index is 5th So adding 4+index
 		String xpathOfItem = String.format("(//*[@id='edp-default']//img)[position()=%d]", 4+index);
 		 By item=By.xpath(xpathOfItem);
+		 pause(3000);
 		 return click(item);
+		 
 	}
 
 	public static boolean sendgiftsWorldwide() throws InterruptedException
@@ -98,6 +101,17 @@ public class HomePage extends KeywordUtil {
 		//hoverElement(By.xpath("(//ul[@id='cards-default']//div[@class='card z-depth-1 hoverable'])[position()=1]"));
 		pause(3000);
 		return click(By.xpath("//div[@class='card-name-w']/p[text()='Birthday Gifts']//p[contains(text(),'"+recipient+"')]"));
+	}
+	
+	public static boolean selectitemFromCard() throws InterruptedException
+	{
+		Actions builder = new Actions(getDriver()); 
+
+        WebElement we = getDriver().findElement(By.xpath("(//ul[@id='cards-default']/li)[position()=1]"));
+
+         builder.moveToElement(we).build().perform();
+		pause(5000);
+		return click((By.xpath("(//div[@class='card-image'])[position()=3]//p[contains(text(),'Men (20-50)')]")));
 	}
 
 }
