@@ -80,7 +80,7 @@ public class IGP_TC_103 extends KeywordUtil{
 			
 			stepInfo="Enter pin code greater than 6 digits and check this.";
 			logStep(stepInfo);
-			verifyStep(ProductDetailPage.verifypincode("gfgh@ewew"), stepInfo);
+			verifyStep(ProductDetailPage.verifypincode("134116"), stepInfo);
 			
 			
 			String elementSShot=takeScreenshotWebElement(waitForVisibile(By.xpath(".//*[@id='site-wrapper']/section[1]/div[1]")),"Product Desc. page");

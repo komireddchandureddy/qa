@@ -8,11 +8,27 @@ public class ProductList extends HomePage{
 
 	public static By flowersdisplayed=By.xpath("//span[text()='Flowers']");
 	public static By stickyheader=By.id("sticky-header");
+	
 	public static boolean selectItem(int item)
 	{
 		if(isWebElementPresent(By.xpath("(//div[@class='slick-track']/div[contains(@class,'product-grid-item col s3')])[position()=5]")))
 		{
 			click(By.xpath("(//div[@class='slick-track']/div[contains(@class,'product-grid-item col s3')])[position()='"+(item+4)+"']"));
+			return true;
+		}
+
+		else
+		{
+			return false;
+		}
+
+	}
+	
+	public static boolean selectCakeItem(int item)
+	{
+		if(isWebElementPresent(By.xpath("((//div[@class='slick-track'])[position()=2]/div[contains(@class,'product-grid-item col s3')])[position()=5]")))
+		{
+			click(By.xpath("((//div[@class='slick-track'])[position()=2]/div[contains(@class,'product-grid-item col s3')])[position()='"+(item+4)+"']"));
 			return true;
 		}
 

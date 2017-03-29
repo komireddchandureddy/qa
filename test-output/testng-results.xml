@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40406" started-at="2017-03-27T11:13:37Z" finished-at="2017-03-27T11:14:18Z">
+  <suite name="Default suite" duration-ms="48329" started-at="2017-03-29T13:47:07Z" finished-at="2017-03-29T13:47:55Z">
     <groups>
-      <group name="Card List">
-        <method signature="IGP_TC_240.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_240@3e9b1010]" name="test" class="testingxperts.web.tests.IGP_TC_240"/>
-      </group> <!-- Card List -->
+      <group name="Product Description page.">
+        <method signature="IGP_TC_252.test()[pri:0, instance:testingxperts.web.tests.IGP_TC_252@3e9b1010]" name="test" class="testingxperts.web.tests.IGP_TC_252"/>
+      </group> <!-- Product Description page. -->
     </groups>
-    <test name="Default test" duration-ms="40406" started-at="2017-03-27T11:13:37Z" finished-at="2017-03-27T11:14:18Z">
-      <class name="testingxperts.web.tests.IGP_TC_240">
-        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_240@3e9b1010]" name="test" duration-ms="32175" started-at="2017-03-27T16:43:43Z" description="Navigate to Card List page:User is able to see all the details on Card List Page for Anniversary Gifts. " finished-at="2017-03-27T16:44:15Z">
+    <test name="Default test" duration-ms="48329" started-at="2017-03-29T13:47:07Z" finished-at="2017-03-29T13:47:55Z">
+      <class name="testingxperts.web.tests.IGP_TC_252">
+        <test-method status="PASS" signature="test()[pri:0, instance:testingxperts.web.tests.IGP_TC_252@3e9b1010]" name="test" duration-ms="40453" started-at="2017-03-29T19:17:12Z" description="Buy Now: Check the functionality of Buy Now button." finished-at="2017-03-29T19:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.IGP_TC_240 -->
+      </class> <!-- testingxperts.web.tests.IGP_TC_252 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

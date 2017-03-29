@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import utilities.ConfigReader;
 import utilities.KeywordUtil;
 import utilities.LogUtil;
 
@@ -66,6 +67,15 @@ public class CartPage extends HomePage{
 				
 				executeStep(click(btnAddToCart), 
 						"Click: "+"ADD TO CART");
+	}
+	
+	public static boolean isCartPageLoaded()
+	{
+		return getDriver().
+				getCurrentUrl().
+				equalsIgnoreCase(ConfigReader.getValue("CART_URL"));
+		
+
 	}
 	
 	public static void inputPinCode(String pin) throws Exception{
