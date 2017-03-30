@@ -403,5 +403,51 @@ public class ProductDetailPage extends HomePage {
 		
 	}
 	
+	public static boolean verifyProductVariety() throws InterruptedException
+	{
+		if(isWebElementPresent(By.xpath("//div[contains(@class,'upsell-container')]")))
+		{
+			List<WebElement> varities=getListElements(By.xpath("//div[contains(@class,'upsell-container')]/a"));
+			
+			for(int i=1;i<=varities.size();i++)
+			{
+				click(By.xpath("(//div[contains(@class,'upsell-container')]/a)[position()="+i+"]"));
+				pause(3000);
+			}
+			return true;
+		}
+		else if(!isWebElementPresent(By.xpath("//div[contains(@class,'upsell-container')]")))
+		{
+			return true;
+		}
+		
+		else
+		{
+			return false;
+		}
+	}
+	
+	public static boolean chooseBaseType() throws InterruptedException
+	{
+		if(isWebElementVisible(By.xpath("//div[contains(@class,'sel-peripheral')]")))
+		{
+			List<WebElement> baseTypes=getListElements(By.xpath("//div[@class='col s3 ppl-check']"));
+			for(int i=1;i<=baseTypes.size();i++)
+			{
+				clickAndWait(By.xpath("(//div[@class='col s3 ppl-check'])[position()="+i+"]"));
+			}
+			return true;
+		}
+		
+		else if(!isWebElementVisible(By.xpath("//div[contains(@class,'sel-peripheral')]")))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
 
 }
