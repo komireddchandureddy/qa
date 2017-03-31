@@ -1,5 +1,8 @@
 package utilities;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -841,6 +844,17 @@ public static String getElementInfo(WebElement element) throws Exception{
 			result=false;
 		}
 		return result;
+	}
+	
+	public static void keyEvents() throws AWTException
+	{
+		Robot robot=new Robot();
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
 
 }//End class

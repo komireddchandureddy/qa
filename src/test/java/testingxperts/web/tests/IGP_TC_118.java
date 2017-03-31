@@ -82,7 +82,7 @@ public class IGP_TC_118 extends KeywordUtil{
 			
 			stepInfo="Enter USA in the textbox.";
 			logStep(stepInfo);
-			verifyStep(ProductDetailPage.enterInvalidcountry("USA"), stepInfo);
+			verifyStep(ProductDetailPage.notDeliverableProducts("USA"), stepInfo);
 			
 			String elementSShot=takeScreenshotWebElement(waitForVisibile(By.xpath(".//*[@id='site-wrapper']/section[1]/div[2]/div")),"Product Desc. page");
 			HtmlReportUtil.attachScreenshotForInfo(elementSShot);

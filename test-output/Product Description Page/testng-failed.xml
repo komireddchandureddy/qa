@@ -4,16 +4,16 @@
   <parameter name="Browser" value="Chrome"/>
   <test name="Product Description Page-Tests(failed)">
     <classes>
+      <class name="testingxperts.web.tests.IGP_TC_109">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.IGP_TC_109 -->
       <class name="testingxperts.web.tests.IGP_TC_118">
         <methods>
           <include name="test"/>
         </methods>
       </class> <!-- testingxperts.web.tests.IGP_TC_118 -->
-      <class name="testingxperts.web.tests.IGP_TC_115">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- testingxperts.web.tests.IGP_TC_115 -->
     </classes>
   </test> <!-- Product Description Page-Tests(failed) -->
 </suite> <!-- Failed suite [Product Description Page] -->

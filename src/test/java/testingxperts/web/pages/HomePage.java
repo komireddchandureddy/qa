@@ -113,5 +113,10 @@ public class HomePage extends KeywordUtil {
 		pause(5000);
 		return click((By.xpath("(//div[@class='card-image'])[position()=3]//p[contains(text(),'Men (20-50)')]")));
 	}
+	
+	public static  boolean selectHomeProduct()
+	{
+		return click(By.xpath("//p[text()='Home and Living']"));
+	}
 
 }

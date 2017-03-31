@@ -11,9 +11,9 @@ public class ProductList extends HomePage{
 	
 	public static boolean selectItem(int item)
 	{
-		if(isWebElementPresent(By.xpath("(//div[@class='slick-track']/div[contains(@class,'product-grid-item col s3')])[position()=5]")))
+		if(isWebElementPresent(By.xpath("(//div[@class='slick-track']/div)[position()=5]")))
 		{
-			click(By.xpath("(//div[@class='slick-track']/div[contains(@class,'product-grid-item col s3')])[position()='"+(item+4)+"']"));
+			click(By.xpath("(//div[@class='slick-track']/div)[position()='"+(item+4)+"']"));
 			return true;
 		}
 
@@ -22,6 +22,20 @@ public class ProductList extends HomePage{
 			return false;
 		}
 
+	}
+	
+	public static boolean searchList(int item)
+	{
+		if(isWebElementPresent(By.xpath("(//ul[@id='product-grid']//li[contains(@class,'product-grid')])[position()=5]")))
+		{
+			click(By.xpath("(//ul[@id='product-grid']//li[contains(@class,'product-grid')])[position()='"+(item+4)+"']"));
+			return true;
+		}
+
+		else
+		{
+			return false;
+		}
 	}
 	
 	public static boolean selectCakeItem(int item)
@@ -67,7 +81,7 @@ public class ProductList extends HomePage{
 	
 	public static boolean isUSAPageLoaded()
 	{
-		return isWebElementVisible(By.xpath("//h1[text()='USA GIFT SHOP - Free Shipping']"));
+		return isWebElementVisible(By.xpath("//h1[contains(text(),'USA')]"));
 	}
 	
 	public static boolean isWomenPageLoaded()

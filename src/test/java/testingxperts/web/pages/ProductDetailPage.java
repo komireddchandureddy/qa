@@ -83,15 +83,33 @@ public class ProductDetailPage extends HomePage {
 		pause(10000);
 		clickAndWait(By.id("countryCheck"));
 		pause(3000);
-		String errorText=getElementText(By.xpath("//div[contains(text(),'This product is not shippable to ')]"));
-		//String countryName=getElementText(By.xpath("//div[contains(text(),'This product is not shippable to ')]/span[text()='"+country+"']"));
-		if((errorText).contains("This product is not shippable to "+country))
+		
+		if(isWebElementVisible(By.xpath("//input[contains(@class,'error')]")))
 		{
 			return true;	
 		}
 		else
 			return false;
 
+	}
+	
+	public static boolean notDeliverableProducts(String country) throws InterruptedException, Exception
+	{
+		doubleClick(By.id("country"));
+		executeStep(writeInInputCharByChar(By.id("country"), country),"Input country");
+		pause(10000);
+		clickAndWait(By.id("countryCheck"));
+		pause(3000);
+		
+		if(isWebElementPresent(By.xpath("//div[contains(text(),'This product is not shippable to ')]")))
+		{
+			return true;
+		}
+		
+		else
+		{
+			return false;
+		}
 	}
 
 	public static boolean verifyCountryEntered(String country) throws InterruptedException, Exception

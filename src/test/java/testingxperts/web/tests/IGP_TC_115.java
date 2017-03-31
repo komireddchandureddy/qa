@@ -74,6 +74,7 @@ public class IGP_TC_115 extends KeywordUtil{
 			stepInfo="Select any item from Product Listing page.";
 			logStep(stepInfo);
 			ProductList.selectItem(1);
+			pause(3000);
 			verifyStep(ProductDetailPage.verifyShippingOptions(), stepInfo);
 			
 			

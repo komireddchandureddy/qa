@@ -76,7 +76,7 @@ public class IGP_TC_117 extends KeywordUtil{
 			
 			stepInfo="Enter country name in the textbox and then click on Check button.";
 			logStep(stepInfo);
-			verifyStep(ProductDetailPage.enterInvalidcountry("Japan"), stepInfo);
+			verifyStep(ProductDetailPage.enterInvalidcountry("Tokyo"), stepInfo);
 			
 			String elementSShot=takeScreenshotWebElement(waitForVisibile(By.xpath(".//*[@id='site-wrapper']/section[1]/div[2]/div")),"Product Desc. page");
 			HtmlReportUtil.attachScreenshotForInfo(elementSShot);

@@ -12,7 +12,7 @@ public class PageMenu extends HomePage {
 			verifyStep(writeInInputCharByChar(searchmenu, searchtext), "Verify search text");
 			getDriver().navigate().back();
 			pause(3000);
-			click(By.xpath("//div[contains(@class,'search-icon')]"));
+			clickAndWait(By.xpath("//div[contains(@class,'search-icon')]"));
 		}
 	}
 }
