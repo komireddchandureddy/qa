@@ -2,6 +2,8 @@ package utilities;
 
 import java.awt.AWTException;
 import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
@@ -57,7 +59,7 @@ public class KeywordUtil extends Utility {
 	public static void navigateToUrl(String url) {
 		KeywordUtil.lastAction="Navigate to: " +url;
 		LogUtil.infoLog(KeywordUtil.class, KeywordUtil.lastAction);
-		getDriver().navigate().to(url);
+		getDriver().get(url);
 	}
 	
 	public static String getCurrentUrl() {
@@ -846,17 +848,22 @@ public static String getElementInfo(WebElement element) throws Exception{
 		return result;
 	}
 	
-	public static void keyEvents() throws AWTException
+	public static void fileUpload(String fileName) throws AWTException, InterruptedException
 	{
-		Robot robot=new Robot();
-		robot.keyPress(KeyEvent.VK_CONTROL);
-		robot.keyPress(KeyEvent.VK_V);
-		robot.keyRelease(KeyEvent.VK_V);
-		robot.keyRelease(KeyEvent.VK_CONTROL);
-		robot.keyPress(KeyEvent.VK_ENTER);
-		robot.keyRelease(KeyEvent.VK_ENTER);
+		String file=System.getProperty("user.dir")+"\\"+fileName;
+		StringSelection ss = new StringSelection(file);
+	    Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+	    Robot robot = new Robot();
+	    robot.keyPress(KeyEvent.VK_ENTER);
+	    robot.keyRelease(KeyEvent.VK_ENTER);
+	    robot.keyPress(KeyEvent.VK_CONTROL);
+	    robot.keyPress(KeyEvent.VK_V);
+	    robot.keyRelease(KeyEvent.VK_V);
+	    robot.keyRelease(KeyEvent.VK_CONTROL);
+	    robot.keyPress(KeyEvent.VK_ENTER);
+	    robot.keyRelease(KeyEvent.VK_ENTER);
+	    pause(25000);
 	}
-
 }//End class
 
 class TestStepFailedException extends Exception{  

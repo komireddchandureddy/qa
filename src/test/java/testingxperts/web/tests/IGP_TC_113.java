@@ -14,6 +14,7 @@ import testingxperts.web.pages.Constants;
 import testingxperts.web.pages.CountriesPage;
 import testingxperts.web.pages.DeliveryPage;
 import testingxperts.web.pages.HomePage;
+import testingxperts.web.pages.HomePage.GiftBy;
 import testingxperts.web.pages.LoginPage;
 import testingxperts.web.pages.OrderSummaryPage;
 import testingxperts.web.pages.PageMenu;
@@ -67,7 +68,7 @@ public class IGP_TC_113 extends KeywordUtil{
 			verifyStep(PersonalizedGiftsPage.isPersonalizedGiftsPageOpened(),"Verify Personalized Gifts Page is loaded");
 			stepInfo="Select Item from personalize items for Woman";
 			logStep(stepInfo);
-			PersonalizedGiftsPage.selectItmeByRecipient(Recipient.WOMEN, 2);
+			PersonalizedGiftsPage.selectItmeByRecipient(Recipient.WOMEN, 1);
 			
 			stepInfo="Verify PERSONALIZE NOW button is present";
 			logStep(stepInfo);
@@ -83,7 +84,9 @@ public class IGP_TC_113 extends KeywordUtil{
 			
 			stepInfo="Input message";
 			logStep(stepInfo);
-			executeStep(inputText(PersonalizedGiftsPage.inputMessage, "HelloWorld"), stepInfo);
+
+			executeStep(PersonalizedGiftsPage.attachPersonalizedImage(), stepInfo);
+			executeStep(PersonalizedGiftsPage.enterPersonalizedText("Gift Hampers"), stepInfo);
 			executeStep(click(PersonalizedGiftsPage.btnDone),"Click Done");
 			
 			stepInfo="Personalized tab should be changed to 'Edit personalization'";

@@ -205,6 +205,29 @@ public static void makePaymentWithWallet(Wallets wallets) throws Exception{
 	}
 
 //Sanyam
+
+public static boolean clickonPaymentbutton(String modeOfPayment) throws Exception
+{
+	click(By.xpath("//div[@id='"+modeOfPayment+"']//button[@type='submit']"));
+	if (!getCurrentUrl().contains("https://www.igp.com/checkout#chkpayment"))
+		return true;
+
+	else
+		return false;
+}
+
+public static boolean netBankingOptions(String popularbanks) throws InterruptedException
+{
+	if(isWebElementVisible(By.xpath("//label[@for='"+popularbanks+"']")))
+	{
+		return click(By.xpath("//label[@for='"+popularbanks+"']"));
+		
+	}
+	else
+		return false;	
+}
+
+
 public static boolean verifyMakePaymentbuttonforDebit()
 {
 	

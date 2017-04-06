@@ -2,7 +2,7 @@ package testingxperts.web.pages;
 
 public class Constants {
 	
-	public static String PINCODE="134102";
+	public static String PINCODE="134116";
 	public static String MOBILE="9855171135";
 	public static String INVALID_PINCODE="001122";
 	public static String ERROR_MESSAGE_INVALID_PIN="We currently do not support delivery in this area.";

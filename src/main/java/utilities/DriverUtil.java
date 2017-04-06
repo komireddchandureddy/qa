@@ -9,6 +9,7 @@ import java.util.logging.Level;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.logging.LogEntries;
@@ -53,7 +54,12 @@ public class DriverUtil {
 			browser = drivers.get(browserName);
 			if (browser == null) {
 				DesiredCapabilities desiredCapabilities = DesiredCapabilities.chrome();
+				desiredCapabilities.setCapability (CapabilityType.ACCEPT_SSL_CERTS, true);
+				 ChromeOptions options = new ChromeOptions();
+		            options.addArguments("test-type");
 				File chromeExecutable = new File(ConfigReader.getValue("ChromeDriverPath"));
+				desiredCapabilities.setCapability("chrome.binary", ConfigReader.getValue("ChromeDriverPath"));
+	            desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
 				System.setProperty("webdriver.chrome.driver", chromeExecutable.getAbsolutePath());
 				browser = new ChromeDriver(desiredCapabilities);
 				drivers.put("Chrome", browser);
@@ -77,10 +83,10 @@ public class DriverUtil {
 			browser = drivers.get("Firefox");
 			if (browser == null) {
 				DesiredCapabilities cap = DesiredCapabilities.firefox();
-				File geckoExecutable = new File(ConfigReader.getValue("GeckoDriverPath"));
-				System.out.println(geckoExecutable.getAbsolutePath());
-				  System.setProperty("webdriver.gecko.driver",geckoExecutable.getAbsolutePath());
-				  cap.setCapability("marionette", true);
+//				File geckoExecutable = new File(ConfigReader.getValue("GeckoDriverPath"));
+//				System.out.println(geckoExecutable.getAbsolutePath());
+//				  System.setProperty("webdriver.gecko.driver",geckoExecutable.getAbsolutePath());
+//				  cap.setCapability("marionette", true);
 				browser = new FirefoxDriver(cap);
 				drivers.put("Firefox", browser);
 			}

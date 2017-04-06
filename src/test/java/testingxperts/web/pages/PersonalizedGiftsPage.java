@@ -1,6 +1,7 @@
 package testingxperts.web.pages;
 
 import java.awt.AWTException;
+import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
@@ -10,7 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class PersonalizedGiftsPage extends HomePage{
-	public static By btnDone = By.xpath("//button[contains(.,'DONE')]");
+	public static By btnDone = By.id("personalize-done");
 	public static By inputMessage = By.xpath("//input[contains(@class,'pers-input-text')]");
 	public static By btnEditPersonalize = By.xpath("//button[contains(.,'EDIT PERSONALIZATION')]");
 
@@ -63,25 +64,21 @@ public class PersonalizedGiftsPage extends HomePage{
 
 	public static boolean enterPersonalizedText(String personalizedtext) throws InterruptedException
 	{
-		if(isWebElementVisible(By.xpath("//input[contains(@class,'pers-input-text')]"))==false)
+		try
 		{
-			return true;
-		}
 
-		if(isWebElementVisible(By.xpath("//input[contains(@class,'pers-input-text')]")))
-		{
-			List<WebElement> text=getListElements(By.xpath("//input[contains(@class,'pers-input-text')]"));
-			for(int i=1;i<text.size();i++)
+			if(isWebElementPresent(By.xpath("(//input[contains(@class,'pers-input-text')])[position()=1]")))
 			{
-				inputText(By.xpath("(//input[contains(@class,'pers-input-text')])[position()="+i+"]"), personalizedtext);
-				pause(2000);
+				
+					writeInInputCharByChar(By.xpath("//input[contains(@class,'pers-input-text')]"), "C-shaped");
+
 			}
+		}
+		catch(Exception e)
+		{
 			return true;
 		}
-		else
-		{
-			return false;
-		}
+		return true;
 
 	}
 
@@ -89,23 +86,24 @@ public class PersonalizedGiftsPage extends HomePage{
 
 	public static boolean attachPersonalizedImage() throws AWTException, InterruptedException
 	{
-		StringSelection ss;
-		if(isWebElementPresent(By.xpath("(//button[text()='SELECT IMAGE'])")))
+
+		try
+		{
+			if(isWebElementPresent(By.xpath("//button[text()='SELECT IMAGE']")))
+			{
+				
+				
+					clickAndWait(By.xpath("//button[text()='SELECT IMAGE']"));
+					pause(2000);
+					fileUpload("PersonalizedImage.jpg");
+				
+			}
+		}
+		catch(Exception e)
 		{
 
-
-			click(By.xpath("(//button[text()='SELECT IMAGE'])"));
-
-			ss = new StringSelection(System.getProperty("user.dir")+"\\PersonalizedImage.jpg");
-			Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-
-			keyEvents();
-			pause(10000);
 		}
 		return true;
 	}
-	
-
-
 
 }//End class
