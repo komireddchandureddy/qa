@@ -57,6 +57,7 @@ public class DriverUtil {
 				desiredCapabilities.setCapability (CapabilityType.ACCEPT_SSL_CERTS, true);
 				 ChromeOptions options = new ChromeOptions();
 		            options.addArguments("test-type");
+		            options.addArguments("disable-infobars");
 				File chromeExecutable = new File(ConfigReader.getValue("ChromeDriverPath"));
 				desiredCapabilities.setCapability("chrome.binary", ConfigReader.getValue("ChromeDriverPath"));
 	            desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
@@ -83,11 +84,13 @@ public class DriverUtil {
 			browser = drivers.get("Firefox");
 			if (browser == null) {
 				DesiredCapabilities cap = DesiredCapabilities.firefox();
-//				File geckoExecutable = new File(ConfigReader.getValue("GeckoDriverPath"));
-//				System.out.println(geckoExecutable.getAbsolutePath());
-//				  System.setProperty("webdriver.gecko.driver",geckoExecutable.getAbsolutePath());
-//				  cap.setCapability("marionette", true);
-				browser = new FirefoxDriver(cap);
+				File geckoExecutable = new File(ConfigReader.getValue("GeckoDriverPath"));
+				cap.setCapability("firefox_binary","C:\\Program Files(x86)\\Mozilla Firefox\\firefox.exe");
+
+				//System.out.println(geckoExecutable.getAbsolutePath());
+				  System.setProperty("webdriver.gecko.driver",geckoExecutable.getAbsolutePath());
+				  cap.setCapability("marionette", true);
+				browser = new FirefoxDriver();
 				drivers.put("Firefox", browser);
 			}
 		}

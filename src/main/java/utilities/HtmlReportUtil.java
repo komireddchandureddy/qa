@@ -34,6 +34,7 @@ public class HtmlReportUtil {
 	private static ExtentReports extentPreserverHistory = null;
 	private static ExtentTest test = null;
 	private static ExtentTest testHist = null;
+	public static File screenshotFile=null;
 	private static String warninglbl = "<span class='warning label'>Error</span><span class='fatal'><b>";
 	private static String span = "</span>";
 	private static String span1 = "</b></span>";
@@ -46,7 +47,7 @@ public class HtmlReportUtil {
 
 	// Initialize reporter
 	private static synchronized void init() {
-		
+
 		if (extentNoHistory == null) {
 			extentNoHistory = new ExtentReports(ConfigReader.getValue("HtmlReport") + "\\TestReport.html", true,
 					DisplayOrder.NEWEST_FIRST);
@@ -57,6 +58,8 @@ public class HtmlReportUtil {
 					false, DisplayOrder.NEWEST_FIRST);
 			extentPreserverHistory.loadConfig(new File(ConfigReader.getValue("HtmlReportConfigFile")));
 		}
+
+
 		reportInt=true;
 	}// End init()
 
@@ -83,7 +86,7 @@ public class HtmlReportUtil {
 		init();
 
 	}
- 
+
 	/**
 	 * <H1>Test PASSED AND ENDED</h1>
 	 * <p> Use at the end of test based on pass. 
@@ -107,12 +110,12 @@ public class HtmlReportUtil {
 			// Write the information of the current test in HTML file.
 			extentNoHistory.flush();
 			extentPreserverHistory.flush();
-			
-			}else{
-				LogUtil.infoLog("StartTest", ERROR_MESSAGE +":testPass");
-			}
-		
-		
+
+		}else{
+			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":testPass");
+		}
+
+
 	}// End endReport()
 
 	/**
@@ -137,19 +140,19 @@ public class HtmlReportUtil {
 			// Write the information of the current test in HTML file.
 			extentNoHistory.flush();
 			extentPreserverHistory.flush();
-			
+
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":testFail");
 		}
-		
+
 	}// End endReport()
 
 	public static synchronized void endReport() {
-		
+
 		// Write the information of the current test in HTML file.
 		if(reportInt){
-		extentNoHistory.flush();
-		extentPreserverHistory.flush();
+			extentNoHistory.flush();
+			extentPreserverHistory.flush();
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":endReport");
 		}
@@ -160,14 +163,14 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void stepPass(String stepName) {
 		if(reportInt){
-		String html = "<span class='success label'>Success</span> <span style='color:green;margin-left: 10px'>"
-				+ stepName + span;
-		test.log(LogStatus.PASS, html);
-		testHist.log(LogStatus.PASS, html);
+			String html = "<span class='success label'>Success</span> <span style='color:green;margin-left: 10px'>"
+					+ stepName + span;
+			test.log(LogStatus.PASS, html);
+			testHist.log(LogStatus.PASS, html);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepPass");
 		}
-		
+
 	}
 
 	/**
@@ -175,10 +178,10 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void stepFail(String stepName) {
 		if(reportInt){
-		String html = "<span class='fail label'>Fail</span> <span style='color:red;margin-left: 10px'>" + stepName
-				+ span;
-		test.log(LogStatus.INFO, html);
-		testHist.log(LogStatus.INFO, html);
+			String html = "<span class='fail label'>Fail</span> <span style='color:red;margin-left: 10px'>" + stepName
+					+ span;
+			test.log(LogStatus.INFO, html);
+			testHist.log(LogStatus.INFO, html);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepFail");
 		}
@@ -190,15 +193,15 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void stepInfo(String stepName) {
 		if(reportInt){
-		test.log(LogStatus.INFO, stepName);
-		testHist.log(LogStatus.INFO, stepName);
+			test.log(LogStatus.INFO, stepName);
+			testHist.log(LogStatus.INFO, stepName);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepInfo");
 		}
 	}
 	public static synchronized void stepInfoIdented(String stepName) {
 		if(reportInt){
-			
+
 			String html = " <span style='margin-left: 20px'>" + stepName
 					+ span;
 			test.log(LogStatus.INFO, html);
@@ -207,13 +210,13 @@ public class HtmlReportUtil {
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepInfo");
 		}
 	}
-	
-	
-	
+
+
+
 	public static synchronized void stepInfo(String stepName,String stepDetail) {
 		if(reportInt){
-		test.log(LogStatus.INFO, stepName,stepDetail);
-		testHist.log(LogStatus.INFO, stepName,stepDetail);
+			test.log(LogStatus.INFO, stepName,stepDetail);
+			testHist.log(LogStatus.INFO, stepName,stepDetail);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepInfo");
 		}
@@ -224,13 +227,13 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void stepInfoWithError(String stepName) {
 		if(reportInt){
-		String html = warninglbl + stepName + span1;
-		test.log(LogStatus.INFO, html);
-		testHist.log(LogStatus.INFO, html);
+			String html = warninglbl + stepName + span1;
+			test.log(LogStatus.INFO, html);
+			testHist.log(LogStatus.INFO, html);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepInfoWithError");
 		}
-		
+
 	}
 
 	/**
@@ -238,9 +241,9 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void stepError(String stepName) {
 		if(reportInt){
-		String html = warninglbl + stepName + span1;
-		test.log(LogStatus.ERROR, html);
-		testHist.log(LogStatus.ERROR, html);
+			String html = warninglbl + stepName + span1;
+			test.log(LogStatus.ERROR, html);
+			testHist.log(LogStatus.ERROR, html);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepError");
 		}
@@ -251,9 +254,9 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void stepWarning(String stepName) {
 		if(reportInt){
-		String html = warninglbl + stepName + span1;
-		test.log(LogStatus.WARNING, html);
-		testHist.log(LogStatus.WARNING, html);
+			String html = warninglbl + stepName + span1;
+			test.log(LogStatus.WARNING, html);
+			testHist.log(LogStatus.WARNING, html);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepWarning");
 		}
@@ -265,9 +268,9 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void stepError(String stepName, Throwable t) {
 		if(reportInt){
-		String html = "<span class='warning label'>Error</span><span class='fatal'>" + stepName + span;
-		test.log(LogStatus.ERROR, html, t);
-		testHist.log(LogStatus.ERROR, html, t);
+			String html = "<span class='warning label'>Error</span><span class='fatal'>" + stepName + span;
+			test.log(LogStatus.ERROR, html, t);
+			testHist.log(LogStatus.ERROR, html, t);
 		}
 		else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":stepError");
@@ -280,20 +283,20 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void testSkipped(String stepName, Throwable t) {
 		if(reportInt){
-		
-		String html = "<span style='color:#e59127'>" + stepName + span;
-		test.log(LogStatus.SKIP, html, t);
-		testHist.log(LogStatus.SKIP, html, t);
 
-		extentNoHistory.endTest(test);
-		extentPreserverHistory.endTest(testHist);
+			String html = "<span style='color:#e59127'>" + stepName + span;
+			test.log(LogStatus.SKIP, html, t);
+			testHist.log(LogStatus.SKIP, html, t);
 
-		extentNoHistory.flush();
-		extentPreserverHistory.flush();
+			extentNoHistory.endTest(test);
+			extentPreserverHistory.endTest(testHist);
+
+			extentNoHistory.flush();
+			extentPreserverHistory.flush();
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":testSkipped");
 		}
-		
+
 	}
 
 	// Attach screenshot to the report
@@ -302,9 +305,9 @@ public class HtmlReportUtil {
 	 */
 	public static synchronized void attachScreenshot(String imagePath) {
 		if(reportInt){
-		String image = test.addScreenCapture(imagePath);
-		test.log(LogStatus.FAIL, "ScreenShot : " + GlobalUtil.getTestException(), image);
-		testHist.log(LogStatus.FAIL, "ScreenShot :" + GlobalUtil.getTestException(), image);
+			String image = test.addScreenCapture(imagePath);
+			test.log(LogStatus.FAIL, "ScreenShot : " + GlobalUtil.getTestException(), image);
+			testHist.log(LogStatus.FAIL, "ScreenShot :" + GlobalUtil.getTestException(), image);
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":attachScreenshot");
 		}
@@ -315,7 +318,7 @@ public class HtmlReportUtil {
 	 * 
 	 */
 	public static synchronized void tearDownReport() {
-		
+
 		if(reportInt){
 			extentNoHistory.flush();
 			extentPreserverHistory.flush();
@@ -323,7 +326,7 @@ public class HtmlReportUtil {
 			extentNoHistory = null;
 			extentPreserverHistory.close();
 			extentPreserverHistory = null;
-			
+
 		}else{
 			LogUtil.infoLog("StartTest", ERROR_MESSAGE +":tearDownReport");
 		}
@@ -350,15 +353,15 @@ public class HtmlReportUtil {
 		}
 
 	}
-	
-	
+
+
 	public static void attachScreenshotForInfo(String imagePath) {
 		String image = test.addScreenCapture(imagePath);
 		test.log(LogStatus.INFO,"Screen Shot below" );
 		testHist.log(LogStatus.INFO,"Screen Shot below" );
 		test.log(LogStatus.INFO, "ScreenShot: " , image);
 		testHist.log(LogStatus.INFO, "ScreenShot:", image);
-		
+
 	}
 
 
